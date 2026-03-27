@@ -224,15 +224,6 @@ export default function Home() {
               <p>The anxiety stops.</p>
               <p style={{ marginBottom: 80 }}>Not because you forced it out. Because <strong>something better took its place.</strong></p>
 
-              <h2 style={{ marginTop: 56, marginBottom: 64, textAlign: 'center' }}>What a dying tree taught me about letting go.</h2>
-
-              <p>My first bonsai died in six weeks.</p>
-              <p>I overwatered it.</p>
-              <p>But that dead tree taught me something I didn&apos;t expect.</p>
-              <p>I couldn&apos;t control it.</p>
-              <p>I couldn&apos;t force it to survive.</p>
-              <p>I had to <strong>slow down, pay attention, and let the tree show me what it needed.</strong></p>
-              <p style={{ marginBottom: 80 }}>That lesson changed how I move through the rest of my life.</p>
             </div>
           </section>
 
