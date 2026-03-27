@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PurchaseFlag from "./PurchaseFlag";
 
 export const metadata: Metadata = {
   title: "You're In! — The Bonsai Path",
@@ -7,6 +8,7 @@ export const metadata: Metadata = {
 export default function Success() {
   return (
     <main className="min-h-screen flex items-center justify-center px-6 py-20" style={{ background: '#f8f5f0' }}>
+      <PurchaseFlag />
       <div className="max-w-lg w-full text-center space-y-8">
         <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto" style={{ background: 'rgba(58,99,71,0.1)' }}>
           <svg

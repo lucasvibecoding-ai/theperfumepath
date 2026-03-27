@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 
 export default function CountdownBar() {
   const [visible, setVisible] = useState(false);
+  const [purchased, setPurchased] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -21,6 +22,10 @@ export default function CountdownBar() {
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    setPurchased(localStorage.getItem('bonsai_purchased') === 'true');
+  }, []);
+
   return (
     <div
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -34,10 +39,10 @@ export default function CountdownBar() {
             Bonsai
           </span>
           <span style={{ color: 'rgba(58,99,71,0.3)' }}>|</span>
-          <span className="hidden sm:inline text-sm" style={{ color: '#7d7568' }}>47/50 Students Signed Up</span>
+          <span className="hidden sm:inline text-sm" style={{ color: '#7d7568' }}>{purchased ? '48' : '47'}/50 Students Signed Up</span>
           <span className="hidden sm:inline" style={{ color: 'rgba(58,99,71,0.3)' }}>|</span>
-          <span className="hidden sm:inline text-sm" style={{ color: '#b44', fontWeight: 600 }}>Only 3 Spots Left</span>
-          <span className="sm:hidden text-xs" style={{ color: '#b44', fontWeight: 600 }}>3 Spots Left</span>
+          <span className="hidden sm:inline text-sm" style={{ color: '#b44', fontWeight: 600 }}>Only {purchased ? '2' : '3'} Spots Left</span>
+          <span className="sm:hidden text-xs" style={{ color: '#b44', fontWeight: 600 }}>{purchased ? '2' : '3'} Spots Left</span>
         </div>
         <button
           onClick={() => router.push('/checkout')}
