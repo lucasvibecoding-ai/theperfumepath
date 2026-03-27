@@ -38,7 +38,7 @@ export async function POST(request: Request) {
     const html = await render(OrderConfirmation({ customerEmail: toEmail }));
 
     await resend.emails.send({
-      from: 'The Bonsai Path <hello@thebonsaipath.com>',
+      from: 'Kenji Murakami - Bonsai Path <hello@thebonsaipath.com>',
       to: toEmail,
       replyTo: 'hello@thebonsaipath.com',
       subject: 'About your course purchase — important update',
