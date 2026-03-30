@@ -186,7 +186,8 @@ export default function Home() {
           #hero { width: 100% !important; margin-top: 16px; }
           .now-only { font-size: 32px !important; }
           .cta-btn { font-size: 1.5rem !important; }
-          .faq-q-text { font-weight: 500 !important; }
+          .faq-q-text { font-weight: 500 !important; font-size: 16px !important; }
+          .faq-q { font-size: 16px !important; }
           .stack-row { padding: 6px 0 !important; font-size: 15px; }
           .stack-row .val { font-size: 15px !important; }
         }
