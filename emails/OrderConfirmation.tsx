@@ -32,7 +32,7 @@ export default function OrderConfirmation({ customerEmail }: OrderConfirmationPr
           </Text>
 
           <Text style={text}>
-            Here&apos;s what&apos;s happening: the course is currently being finalized and will be ready shortly after Easter. We want to make sure what you get is worth every penny.
+            Here&apos;s what&apos;s happening: the course is currently being finalized and will be ready by mid-April. I want to make sure what you get is worth every penny.
           </Text>
 
           <Text style={text}>
@@ -44,7 +44,7 @@ export default function OrderConfirmation({ customerEmail }: OrderConfirmationPr
           </Text>
 
           <Text style={optionText}>
-            <strong>Option 2 — Wait for the full launch.</strong> It&apos;s coming shortly after Easter. It&apos;s going to be incredible. As a thank you for your patience, I&apos;ll give you a <strong>steep discount</strong> on the Bonsai Community once it opens — it&apos;s going to be a private space for serious bonsai practitioners, and you&apos;ll get in at a fraction of the price.
+            <strong>Option 2 — Wait for the full launch.</strong> It&apos;s coming mid-April. It&apos;s going to be incredible. As a thank you for your patience, I&apos;ll give you a <strong>steep discount</strong> on the Bonsai Community once it opens — it&apos;s going to be a private space for serious bonsai practitioners, and you&apos;ll get in at a fraction of the price.
           </Text>
 
           <Hr style={divider} />
@@ -54,7 +54,7 @@ export default function OrderConfirmation({ customerEmail }: OrderConfirmationPr
           </Text>
 
           <Text style={signature}>
-            — The Bonsai Path Team
+            — Kenji Murakami
           </Text>
 
           <Hr style={divider} />
