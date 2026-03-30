@@ -9,10 +9,7 @@ const stripePromise = loadStripe(
   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!
 );
 
-type PaymentMethod = 'card' | 'paypal';
-
 export default function CheckoutClient() {
-  const [method, setMethod] = useState<PaymentMethod>('card');
   const [clientSecret, setClientSecret] = useState('');
   const [email, setEmail] = useState('');
 
@@ -415,48 +412,20 @@ export default function CheckoutClient() {
           </div>
 
           <div className="checkout-form-panel">
-            <div className="section-title">Pay with</div>
+            <label className="email-label">Email</label>
+            <input
+              type="email"
+              className="email-input"
+              placeholder="you@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <div className="form-divider" />
 
-            <div className="payment-methods">
-              <button
-                onClick={() => setMethod('card')}
-                className={`payment-method-btn ${method === 'card' ? 'active' : 'inactive'}`}
-                type="button"
-              >
-                <span className="method-icon">
-                  <svg viewBox="0 0 20 14" fill="none" width="20" height="14">
-                    <rect x="0.5" y="0.5" width="19" height="13" rx="2" stroke="currentColor"/>
-                    <line x1="0.5" y1="4.5" x2="19.5" y2="4.5" stroke="currentColor"/>
-                  </svg>
-                </span>
-                Card
-              </button>
-              <button
-                onClick={() => setMethod('paypal')}
-                className={`payment-method-btn ${method === 'paypal' ? 'active' : 'inactive'}`}
-                type="button"
-              >
-                <span className="method-icon">
-                  <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor">
-                    <path d="M16.5 4.3c0-.1 0-.1 0 0C15.8 2.1 13.8 1 11.2 1H5.4c-.4 0-.8.3-.9.7L2.1 15.5c0 .3.2.5.5.5h3.6l.9-5.5v.2c.1-.4.5-.7.9-.7h1.8c3.5 0 6.3-1.4 7.1-5.6 0-.1 0-.1 0-.1z"/>
-                  </svg>
-                </span>
-                PayPal
-              </button>
-            </div>
+            <div className="section-title">Express checkout</div>
 
             <div className="payment-form-area">
-              {method === 'card' && clientSecret ? (
-                <>
-                  <label className="email-label">Email</label>
-                  <input
-                    type="email"
-                    className="email-input"
-                    placeholder="you@example.com"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                  />
-                  <div className="form-divider" />
+              {clientSecret ? (
                 <Elements
                   stripe={stripePromise}
                   options={{
@@ -471,16 +440,13 @@ export default function CheckoutClient() {
                     },
                   }}
                 >
-                  <StripeForm email={email} />
+                  <StripeForm email={email} paypalSlot={<PayPalForm />} />
                 </Elements>
-                </>
-              ) : method === 'card' ? (
+              ) : (
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '180px' }}>
                   <div style={{ width: '24px', height: '24px', border: '3px solid #e5e7eb', borderTopColor: '#635BFF', borderRadius: '50%', animation: 'spin 0.8s linear infinite' }} />
                   <style dangerouslySetInnerHTML={{ __html: '@keyframes spin { to { transform: rotate(360deg); } }' }} />
                 </div>
-              ) : (
-                <PayPalForm />
               )}
             </div>
 
