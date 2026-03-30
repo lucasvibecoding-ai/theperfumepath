@@ -42,6 +42,8 @@ export default function CountdownBar() {
           <span className="hidden sm:inline text-sm" style={{ color: '#7d7568' }}>{purchased ? '48' : '47'}/50 Students Signed Up</span>
           <span className="hidden sm:inline" style={{ color: 'rgba(58,99,71,0.3)' }}>|</span>
           <span className="hidden sm:inline text-sm" style={{ color: '#b44', fontWeight: 600 }}>Only {purchased ? '2' : '3'} Spots Left</span>
+          <span className="sm:hidden text-xs" style={{ color: '#7d7568' }}>{purchased ? '48' : '47'}/50</span>
+          <span className="sm:hidden" style={{ color: 'rgba(58,99,71,0.3)' }}>|</span>
           <span className="sm:hidden text-xs" style={{ color: '#b44', fontWeight: 600 }}>{purchased ? '2' : '3'} Spots Left</span>
         </div>
         <button
