@@ -12,14 +12,18 @@ export default function CountdownBar() {
     const target = document.getElementById('hero');
     if (!target) return;
 
+    let hasScrolled = false;
+    const onScroll = () => { hasScrolled = true; };
+    window.addEventListener('scroll', onScroll, { once: true });
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        setVisible(!entry.isIntersecting);
+        if (hasScrolled) setVisible(!entry.isIntersecting);
       },
       { threshold: 0.5 }
     );
     observer.observe(target);
-    return () => observer.disconnect();
+    return () => { observer.disconnect(); window.removeEventListener('scroll', onScroll); };
   }, []);
 
   useEffect(() => {
