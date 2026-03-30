@@ -8,7 +8,7 @@ import {
   useElements,
 } from '@stripe/react-stripe-js';
 
-export default function StripeForm({ email, paypalSlot }: { email: string; paypalSlot?: React.ReactNode }) {
+export default function StripeForm({ email, onEmailChange, paypalSlot }: { email: string; onEmailChange: (v: string) => void; paypalSlot?: React.ReactNode }) {
   const stripe = useStripe();
   const elements = useElements();
   const [isProcessing, setIsProcessing] = useState(false);
@@ -75,6 +75,26 @@ export default function StripeForm({ email, paypalSlot }: { email: string; paypa
       </div>
 
       <form onSubmit={handleSubmit}>
+        <label style={{ display: 'block', fontSize: 14, fontWeight: 500, color: '#1a2e1a', marginBottom: 6 }}>Email</label>
+        <input
+          type="email"
+          placeholder="you@example.com"
+          value={email}
+          onChange={(e) => onEmailChange(e.target.value)}
+          style={{
+            width: '100%',
+            padding: '10px 12px',
+            fontSize: 16,
+            fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
+            border: '1px solid #d1d5db',
+            borderRadius: 6,
+            outline: 'none',
+            color: '#1a2e1a',
+            background: '#fff',
+            marginBottom: 16,
+            boxSizing: 'border-box',
+          }}
+        />
         <PaymentElement
           options={{
             wallets: {

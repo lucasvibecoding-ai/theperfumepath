@@ -15,6 +15,7 @@ export default function PayPalForm() {
         clientId,
         currency: 'USD',
         intent: 'capture',
+        disableFunding: 'card,credit',
       }}
     >
       <PayPalButtons
