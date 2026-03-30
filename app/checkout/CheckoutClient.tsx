@@ -93,6 +93,13 @@ export default function CheckoutClient() {
           line-height: 1.3;
         }
 
+        .checkout-summary .mobile-title { display: none; }
+
+        @media (max-width: 768px) {
+          .checkout-summary .desktop-title { display: none; }
+          .checkout-summary .mobile-title { display: inline; }
+        }
+
         .checkout-summary .product-price {
           font-size: 36px;
           font-weight: 700;
@@ -315,16 +322,25 @@ export default function CheckoutClient() {
           .checkout-summary {
             width: 100%;
             min-width: unset;
-            padding: 24px 20px;
+            padding: 20px 20px 16px;
+          }
+
+          .checkout-summary .product-name,
+          .checkout-summary .back-link,
+          .checkout-summary .summary-divider,
+          .checkout-summary .line-item,
+          .checkout-summary .total-row {
+            display: none;
           }
 
           .checkout-summary .product-title {
             font-size: 20px;
+            margin-bottom: 4px;
           }
 
           .checkout-summary .product-price {
             font-size: 28px;
-            margin-bottom: 24px;
+            margin-bottom: 0;
           }
 
           .checkout-form-panel {
@@ -364,7 +380,7 @@ export default function CheckoutClient() {
             </a>
 
             <div className="product-name">Permanent Access</div>
-            <div className="product-title">The Bonsai Path</div>
+            <div className="product-title"><span className="desktop-title">The Bonsai Path</span><span className="mobile-title">Bonsai Class</span></div>
             <div className="product-price">
               $47.00<span className="currency">USD</span>
             </div>
