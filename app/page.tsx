@@ -5,7 +5,7 @@ import CountdownBar from "./CountdownBar";
 import FaqAccordion from "./FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Bonsai: Learn The 1,500-Year-Old Japanese Art of Sculpting Trees & Calming Your Mind",
+  title: "Bonsai: Learn the Ancient Art of Sculpting Trees & Calming Your Mind",
   description:
     "Bonsai is more than just a tree. It's a 1,500-year-old Japanese art of releasing stress, easing anxiety, and letting go of overthinking.",
 };
@@ -193,14 +193,14 @@ export default function Home() {
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <div className="badge">No prior experience required</div>
-            <h1>Bonsai: Learn the 1,500-Year-Old Japanese Art of <span className="accent">Sculpting Trees &amp; Calming Your Mind</span></h1>
+            <h1>Bonsai: Learn the Ancient Art of <span className="accent">Sculpting Trees &amp; Calming Your Mind</span></h1>
 
             <div className="split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text" style={{ textAlign: 'left', flex: '1.5' }}>
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
                   Bonsai is more than just a tree.
                   <br /><br />
-                  It&apos;s an ancient Japanese practice of releasing stress, easing anxiety, and letting go of overthinking.
+                  It&apos;s a 1,500-year-old Japanese practice of releasing stress, easing anxiety, and letting go of overthinking.
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
