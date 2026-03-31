@@ -412,6 +412,16 @@ export default function CheckoutClient() {
           </div>
 
           <div className="checkout-form-panel">
+            <label className="email-label">Email</label>
+            <input
+              type="email"
+              className="email-input"
+              placeholder="you@example.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <div className="form-divider" />
+
             <div className="section-title">Express checkout</div>
 
             <div className="payment-form-area">
