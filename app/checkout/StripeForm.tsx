@@ -121,19 +121,19 @@ export default function StripeForm({ email, onEmailChange, paypalSlot }: { email
         )}
         <button
           type="submit"
-          disabled={!stripe || isProcessing || !emailValid}
+          disabled={!stripe || isProcessing}
           style={{
             width: '100%',
             marginTop: '24px',
             padding: '12px 24px',
-            background: (isProcessing || !emailValid) ? '#a3acb9' : '#635BFF',
+            background: isProcessing ? '#a3acb9' : '#635BFF',
             border: 'none',
             borderRadius: '6px',
             color: '#ffffff',
             fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
             fontSize: '16px',
             fontWeight: 600,
-            cursor: (isProcessing || !emailValid) ? 'not-allowed' : 'pointer',
+            cursor: isProcessing ? 'not-allowed' : 'pointer',
             transition: 'all 0.15s ease',
             letterSpacing: '0.01em',
           }}
