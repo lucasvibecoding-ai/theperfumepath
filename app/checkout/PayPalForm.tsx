@@ -2,7 +2,9 @@
 
 import { PayPalScriptProvider, PayPalButtons } from '@paypal/react-paypal-js';
 
-export default function PayPalForm() {
+const isValidEmail = (e: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
+
+export default function PayPalForm({ email }: { email: string }) {
   const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
 
   if (!clientId) {
@@ -24,6 +26,13 @@ export default function PayPalForm() {
           color: 'gold',
           shape: 'rect',
           label: 'pay',
+        }}
+        onClick={(_data, actions) => {
+          if (!isValidEmail(email)) {
+            alert('Please enter your email address before paying.');
+            return actions.reject();
+          }
+          return actions.resolve();
         }}
         createOrder={async () => {
           const res = await fetch('/api/paypal/create-order', {

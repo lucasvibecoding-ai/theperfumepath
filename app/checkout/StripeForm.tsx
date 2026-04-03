@@ -8,14 +8,24 @@ import {
   useElements,
 } from '@stripe/react-stripe-js';
 
+const isValidEmail = (e: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
+
 export default function StripeForm({ email, onEmailChange, paypalSlot }: { email: string; onEmailChange: (v: string) => void; paypalSlot?: React.ReactNode }) {
   const stripe = useStripe();
   const elements = useElements();
   const [isProcessing, setIsProcessing] = useState(false);
   const [error, setError] = useState('');
+  const [emailTouched, setEmailTouched] = useState(false);
+
+  const emailValid = isValidEmail(email);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setEmailTouched(true);
+    if (!emailValid) {
+      setError('Please enter your email address above.');
+      return;
+    }
     if (!stripe || !elements) return;
 
     setIsProcessing(true);
@@ -25,7 +35,7 @@ export default function StripeForm({ email, onEmailChange, paypalSlot }: { email
       elements,
       confirmParams: {
         return_url: `${window.location.origin}/success`,
-        receipt_email: email || undefined,
+        receipt_email: email,
       },
     });
 
@@ -36,6 +46,11 @@ export default function StripeForm({ email, onEmailChange, paypalSlot }: { email
   };
 
   const onExpressCheckoutConfirm = async () => {
+    if (!emailValid) {
+      setError('Please enter your email address above before using express checkout.');
+      setEmailTouched(true);
+      return;
+    }
     if (!stripe || !elements) return;
     setIsProcessing(true);
     setError('');
@@ -44,7 +59,7 @@ export default function StripeForm({ email, onEmailChange, paypalSlot }: { email
       elements,
       confirmParams: {
         return_url: `${window.location.origin}/success`,
-        receipt_email: email || undefined,
+        receipt_email: email,
       },
     });
 
@@ -54,10 +69,26 @@ export default function StripeForm({ email, onEmailChange, paypalSlot }: { email
     }
   };
 
+  const onExpressCheckoutClick = ({ resolve }: { resolve: (value?: unknown) => void }) => {
+    if (!emailValid) {
+      setError('Please enter your email address above before using express checkout.');
+      setEmailTouched(true);
+      return;
+    }
+    resolve();
+  };
+
   return (
     <div>
+      {emailTouched && !emailValid && (
+        <p style={{ color: '#df1b41', fontSize: '14px', marginBottom: '12px' }}>
+          Please enter a valid email address above to continue.
+        </p>
+      )}
+
       <ExpressCheckoutElement
         onConfirm={onExpressCheckoutConfirm}
+        onClick={onExpressCheckoutClick}
         options={{
           buttonType: {
             applePay: 'buy',

@@ -440,7 +440,7 @@ export default function CheckoutClient() {
                     },
                   }}
                 >
-                  <StripeForm email={email} onEmailChange={setEmail} paypalSlot={<PayPalForm />} />
+                  <StripeForm email={email} onEmailChange={setEmail} paypalSlot={<PayPalForm email={email} />} />
                 </Elements>
               ) : (
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '180px' }}>
