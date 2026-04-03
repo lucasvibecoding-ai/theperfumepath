@@ -218,7 +218,7 @@ export default function Home() {
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p style={{ fontSize: 16, fontWeight: 700, letterSpacing: '2.5px', textTransform: 'uppercase', color: 'var(--ink-muted)', marginBottom: 20 }}>No prior experience required</p>
-            <h1>Bonsai: Learn the 1,500-Year-Old Japanese Art of <span className="accent">Sculpting Trees</span></h1>
+            <h1>Learn the 1,500-Year-Old Japanese Art of <span className="accent">Sculpting Trees</span></h1>
             <p style={{ fontSize: 'clamp(1rem, 2vw, 1.2rem)', color: 'var(--ink-muted)', marginTop: 8, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto', fontStyle: 'italic' }}>Without needing years of practice or expensive supplies</p>
 
             <div className="split" style={{ paddingTop: 28, paddingBottom: 0 }}>
@@ -532,7 +532,7 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 3</div><div className="bonus-value">$29 value</div></div>
-              <h3>The Bonsai Troubleshooting Guide</h3>
+              <h3>The Bonsai Aftercare Guide</h3>
               <div className="bonus-desc">Your tree is trying to talk to you. This guide teaches you to listen.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus3.jpg" alt="Bonsai Troubleshooting Guide" fill style={{ objectFit: 'cover' }} /></div>
