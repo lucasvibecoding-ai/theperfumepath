@@ -192,7 +192,7 @@ export default function Home() {
         @media (max-width: 480px) {
           .bonsai-page .container { padding: 0 24px; }
           .bonsai-page { font-size: 20px; }
-          .bonsai-page p:not(.now-only), .bonsai-page li { font-size: 20px !important; }
+          .bonsai-page p:not(.now-only):not(.no-exp), .bonsai-page li { font-size: 20px !important; }
           .module-img, .bonus-img { height: auto; aspect-ratio: 1/1; }
           .hereswhatyouget-desktop { display: none !important; }
           .hereswhatyouget-mobile { display: block !important; }
