@@ -188,8 +188,9 @@ export default function Home() {
           .course-intro { padding-top: 20px !important; }
           .hero-divider { display: none !important; }
           .price-old { font-size: 22px !important; }
-          .checkout-box { padding: 24px 16px !important; }
+          .checkout-box { padding: 24px 16px !important; padding-bottom: 16px !important; }
           .cta-btn { font-size: 1.3rem !important; }
+          .ps-note { font-size: 16px !important; margin-bottom: 0 !important; }
           .instructor-img { width: 100% !important; max-width: 400px !important; height: auto !important; padding: 0 24px; border-radius: 16px; }
           .phil-block { padding: 20px; }
           .stack-row { max-width: 100%; }
@@ -202,7 +203,7 @@ export default function Home() {
         @media (max-width: 480px) {
           .bonsai-page .container { padding: 0 24px; }
           .bonsai-page { font-size: 20px; }
-          .bonsai-page p:not(.now-only):not(.no-exp):not(.hero-sub):not(.guarantee-text), .bonsai-page li { font-size: 20px !important; }
+          .bonsai-page p:not(.now-only):not(.no-exp):not(.hero-sub):not(.guarantee-text):not(.ps-note), .bonsai-page li { font-size: 20px !important; }
           .hero-sub { font-size: 18px !important; }
           .module-img, .bonus-img { height: auto; aspect-ratio: 1/1; }
           .hereswhatyouget-desktop { display: none !important; }
