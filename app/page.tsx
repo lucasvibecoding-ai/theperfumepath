@@ -61,6 +61,8 @@ export default function Home() {
         /* Badge */
         .badge { display: inline-block; padding: 6px 16px; border: 1.5px solid var(--green); border-radius: 100px; font-size: 12px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--green); margin-bottom: 20px; }
         .no-exp { font-size: 16px; letter-spacing: 2.5px; margin-bottom: 20px; }
+        .hero-sub { font-size: clamp(1rem, 2vw, 1.2rem); }
+        .course-intro { padding: 80px 0 0; }
 
         /* Hero */
         .hero-img { width: 100%; max-width: 860px; margin: 0 auto; border-radius: 12px; overflow: hidden; aspect-ratio: 16/9; background: var(--bg-warm); border: 1px solid var(--sand); display: flex; align-items: center; justify-content: center; }
@@ -172,7 +174,7 @@ export default function Home() {
 
         @media (max-width: 768px) {
           .bonsai-page .container { padding: 0 24px; }
-          .bonsai-page section { padding-left: 20px; padding-right: 20px; }
+          .bonsai-page section { padding-left: 0; padding-right: 0; }
           .split { flex-direction: column; gap: 24px; }
           .split-img { flex: none; width: 100%; height: auto; }
           .split-text { flex: 1 !important; }
@@ -181,24 +183,29 @@ export default function Home() {
           .bonus-body { flex-direction: column; }
           .bonus-img { width: 100%; min-width: unset; height: auto; aspect-ratio: 1/1; }
           .module-card, .bonus-card { padding: 20px; }
-          .instructor { flex-direction: column; text-align: center; align-items: center; }
-          .instructor-img { width: 100% !important; max-width: 400px !important; height: auto !important; }
+          .instructor { flex-direction: column; align-items: center; }
+          .instructor-text { text-align: left; }
+          .course-intro { padding-top: 20px !important; }
+          .instructor-img { width: 100% !important; max-width: 400px !important; height: auto !important; padding: 0 24px; border-radius: 16px; }
           .phil-block { padding: 20px; }
           .stack-row { max-width: 100%; }
           .closing-quote { font-size: 1.2rem; }
           .bonus-header { flex-wrap: wrap; }
-          .no-exp { font-size: 11px !important; letter-spacing: 1.5px !important; margin-bottom: 12px !important; }
+          .no-exp { font-size: 14px !important; letter-spacing: 1.5px !important; margin-bottom: 12px !important; }
+          .hero-sub { font-size: 18px !important; }
+          .hero-split { padding-top: 12px !important; }
         }
         @media (max-width: 480px) {
           .bonsai-page .container { padding: 0 24px; }
           .bonsai-page { font-size: 20px; }
-          .bonsai-page p:not(.now-only):not(.no-exp), .bonsai-page li { font-size: 20px !important; }
+          .bonsai-page p:not(.now-only):not(.no-exp):not(.hero-sub):not(.guarantee-text), .bonsai-page li { font-size: 20px !important; }
+          .hero-sub { font-size: 18px !important; }
           .module-img, .bonus-img { height: auto; aspect-ratio: 1/1; }
           .hereswhatyouget-desktop { display: none !important; }
           .hereswhatyouget-mobile { display: block !important; }
           .hero-text-desktop { display: none !important; }
           .hero-text-mobile { display: block !important; }
-          .no-exp { font-size: 11px !important; letter-spacing: 1.5px !important; margin-bottom: 12px !important; }
+          .no-exp { font-size: 14px !important; letter-spacing: 1.5px !important; margin-bottom: 12px !important; }
           .bonus-card h3, .module-card h3 { margin-bottom: 14px !important; }
           .bonus-desc, .module-sub { margin-bottom: 22px !important; }
           .badge { font-size: 10px; letter-spacing: 1.5px; padding: 5px 12px; }
@@ -222,9 +229,9 @@ export default function Home() {
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>No prior experience required</p>
             <h1>Learn the 1,500-Year-Old Japanese Art of <span className="accent">Sculpting Trees</span></h1>
-            <p style={{ fontSize: 'clamp(1rem, 2vw, 1.2rem)', color: 'var(--ink-muted)', marginTop: 8, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto', fontStyle: 'italic' }}>Without needing years of practice or expensive supplies</p>
+            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto', fontStyle: 'italic' }}>Without needing years of practice or expensive supplies</p>
 
-            <div className="split" style={{ paddingTop: 28, paddingBottom: 0 }}>
+            <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '1.5' }}>
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
                   Bonsai is more than just a tree.
@@ -233,7 +240,7 @@ export default function Home() {
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Image id="hero" src="/hero2.jpg" alt="Beautiful bonsai tree" width={600} height={600} style={{ width: '75%', height: 'auto', borderRadius: 16, boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }} />
+                <Image id="hero" src="/hero2.jpg" alt="Beautiful bonsai tree" width={600} height={600} style={{ width: '75%', height: 'auto', borderRadius: 16, boxShadow: '0 12px 40px rgba(0,0,0,0.2), 0 4px 12px rgba(0,0,0,0.1)' }} />
               </div>
             </div>
             <div className="hero-text-mobile" style={{ textAlign: 'left', marginTop: 24 }}>
@@ -351,7 +358,7 @@ export default function Home() {
           {/* INSTRUCTOR */}
           <section className="instructor">
             <div className="instructor-img">
-              <Image src="/creator.png" alt="Keiko Murakami" width={440} height={550} style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius)' }} />
+              <Image src="/creator.png" alt="Keiko Murakami" width={440} height={550} style={{ width: '100%', height: 'auto', borderRadius: 16 }} />
             </div>
             <div className="instructor-text">
               <h2>My name is Keiko Murakami (村上恵子).</h2>
@@ -363,7 +370,7 @@ export default function Home() {
           </section>
 
           {/* COURSE INTRO */}
-          <section className="bonsai-center" style={{ padding: '80px 0 36px' }}>
+          <section className="bonsai-center course-intro">
             <h2 style={{ marginBottom: 4, fontSize: 'clamp(2.2rem, 5vw, 3.2rem)', fontWeight: 600 }}>Introducing: The Bonsai<br />Masterclass</h2>
             <p style={{ fontStyle: 'italic', color: 'var(--ink-muted)' }}>盆栽の道: the way of the tray-planted tree</p>
           </section>
@@ -468,12 +475,13 @@ export default function Home() {
               <p id="get-access" className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
               <div className="price-note">One-time payment. Lifetime access.</div>
               <div style={{ marginTop: 20 }}><CheckoutButton /></div>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, marginTop: 20 }}>
-                <Image src="/guarantee1.webp" alt="90-Day Money Back Guarantee" width={52} height={52} style={{ width: 48, height: 48, flexShrink: 0 }} />
-                <p style={{ margin: 0, fontWeight: 500 }}>90-Day Money Back Guarantee</p>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
+                <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
+                <p style={{ margin: 0, fontWeight: 500, fontSize: 16, whiteSpace: 'nowrap', color: 'var(--ink-muted)' }} className="guarantee-text">90-Day Money-Back Guarantee</p>
+                <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
               </div>
               <div style={{ width: 48, height: 1, background: 'rgba(0,0,0,0.1)', margin: '20px auto' }} />
-              <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment with Stripe 🔒</p>
+              <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment 🔒</p>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16 }}>
                 <Image src="/visa.svg" alt="Visa" width={40} height={26} style={{ height: 26, width: 'auto' }} />
                 <Image src="/mastercard.svg" alt="Mastercard" width={40} height={26} style={{ height: 26, width: 'auto' }} />
@@ -564,12 +572,13 @@ export default function Home() {
             <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
             <div className="price-note">One-time payment. Lifetime access.</div>
             <div style={{ marginTop: 20 }}><CheckoutButton /></div>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, marginTop: 20 }}>
-              <Image src="/guarantee1.webp" alt="90-Day Money Back Guarantee" width={52} height={52} style={{ width: 48, height: 48, flexShrink: 0 }} />
-              <p style={{ margin: 0, fontWeight: 500 }}>90-Day Money Back Guarantee</p>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
+              <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
+              <p style={{ margin: 0, fontWeight: 500, fontSize: 16, whiteSpace: 'nowrap', color: 'var(--ink-muted)' }} className="guarantee-text">90-Day Money-Back Guarantee</p>
+              <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
             </div>
             <div style={{ width: 48, height: 1, background: 'rgba(0,0,0,0.1)', margin: '20px auto' }} />
-            <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment with Stripe 🔒</p>
+            <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment 🔒</p>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16 }}>
               <Image src="/visa.svg" alt="Visa" width={40} height={26} style={{ height: 26, width: 'auto' }} />
               <Image src="/mastercard.svg" alt="Mastercard" width={40} height={26} style={{ height: 26, width: 'auto' }} />
@@ -588,7 +597,7 @@ export default function Home() {
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Order today and you also get:</h2>
 
             <div className="bonus-card mega">
-              <div className="bonus-header"><div className="bonus-label">Mega Bonus</div><div className="bonus-value">$79 value</div></div>
+              <div className="bonus-header"><div className="bonus-label">Extra Bonus</div><div className="bonus-value">$79 value</div></div>
               <h3>The 5 Classical Styles, Display &amp; Styling Masterclass</h3>
               <div className="bonus-desc">Master the iconic bonsai forms and turn your tree into the centerpiece of any room.</div>
               <div className="bonus-body">
@@ -632,12 +641,13 @@ export default function Home() {
             <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
             <div className="price-note">One-time payment. Lifetime access.</div>
             <div style={{ marginTop: 20 }}><CheckoutButton /></div>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, marginTop: 20 }}>
-              <Image src="/guarantee1.webp" alt="90-Day Money Back Guarantee" width={52} height={52} style={{ width: 48, height: 48, flexShrink: 0 }} />
-              <p style={{ margin: 0, fontWeight: 500 }}>90-Day Money Back Guarantee</p>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
+              <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
+              <p style={{ margin: 0, fontWeight: 500, fontSize: 16, whiteSpace: 'nowrap', color: 'var(--ink-muted)' }} className="guarantee-text">90-Day Money-Back Guarantee</p>
+              <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
             </div>
             <div style={{ width: 48, height: 1, background: 'rgba(0,0,0,0.1)', margin: '20px auto' }} />
-            <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment with Stripe 🔒</p>
+            <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment 🔒</p>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16 }}>
               <Image src="/visa.svg" alt="Visa" width={40} height={26} style={{ height: 26, width: 'auto' }} />
               <Image src="/mastercard.svg" alt="Mastercard" width={40} height={26} style={{ height: 26, width: 'auto' }} />
