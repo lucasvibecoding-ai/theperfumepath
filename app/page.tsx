@@ -80,7 +80,7 @@ export default function Home() {
 
         /* Instructor */
         .instructor { padding: 56px 0; display: flex; gap: 32px; align-items: flex-start; }
-        .instructor-img { width: 160px; height: 200px; border-radius: var(--radius); background: var(--bg-warm); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 36px; border: 1px solid var(--sand); }
+        .instructor-img { width: 420px; min-width: 420px; border-radius: var(--radius); flex-shrink: 0; overflow: hidden; }
 
         /* Students */
         .students { padding: 48px 0; text-align: center; }
@@ -347,25 +347,21 @@ export default function Home() {
 
           {/* INSTRUCTOR */}
           <section className="instructor">
-
+            <div className="instructor-img">
+              <Image src="/creator.png" alt="Keiko Murakami" width={440} height={550} style={{ width: '100%', height: 'auto', borderRadius: 'var(--radius)' }} />
+            </div>
             <div className="instructor-text">
               <h2>My name is Keiko Murakami (村上恵子).</h2>
               <p>I&apos;ve spent years studying bonsai. Not just the technique, but the philosophy behind it.</p>
               <p>I&apos;ve learned from Japanese masters whose trees have been displayed at the Imperial Palace.</p>
               <p>What struck me wasn&apos;t only the craft.</p>
               <p>It was watching people&apos;s faces when they made their first cut.</p>
-              <div className="sm-divider" style={{ margin: '32px 0' }} />
-              <p>Most people aren&apos;t able to spend thousands of dollars to travel to Japan any time soon. They&apos;ll never sit in a studio with a master. Never experience the meditative practice of doing bonsai.</p>
-              <p>People started asking me to teach them. One woman wrote:</p>
-              <blockquote style={{ borderLeft: '3px solid var(--gold)', paddingLeft: 24, margin: '32px 0', fontStyle: 'italic', color: 'var(--ink)', fontWeight: 500, fontSize: 20, lineHeight: 1.7 }}>&quot;I need to learn this. I have severe anxiety, and bonsai reminds me that I need to stay in the present.&quot;</blockquote>
-              <p>That&apos;s when I knew I had to share this. Not just the technique, but the philosophy. The meditation. The meaning.</p>
-              <p>I put everything I&apos;ve learned into this course. The exact techniques, the philosophy, the materials that cost under $30, not $200 or more. Everything you need to start your first bonsai.</p>
             </div>
           </section>
 
           {/* COURSE INTRO */}
           <section className="bonsai-center" style={{ padding: '80px 0 36px' }}>
-            <h2 style={{ marginBottom: 4, fontSize: 'clamp(2.2rem, 5vw, 3.2rem)', fontWeight: 600 }}>Introducing: The Bonsai Path</h2>
+            <h2 style={{ marginBottom: 4, fontSize: 'clamp(2.2rem, 5vw, 3.2rem)', fontWeight: 600 }}>Introducing: The Bonsai<br />Masterclass</h2>
             <p style={{ fontStyle: 'italic', color: 'var(--ink-muted)' }}>盆栽の道: the way of the tray-planted tree</p>
           </section>
 
