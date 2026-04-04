@@ -20,6 +20,10 @@ const faqs = [
     a: "Yes, with the right species. Tropical species like ficus, Chinese elm, and jade thrive indoors year-round near a bright window. The course covers both indoor and outdoor species and helps you choose based on your living situation and climate. You do not need a garden.",
   },
   {
+    q: 'Will bonsai work in my climate or country?',
+    a: "Yes. Bonsai is practiced on every continent. There are species that thrive in tropical heat, cold winters, dry climates, and everything in between. The course helps you pick the exact species that fits your specific environment — whether you're in Scandinavia, Southeast Asia, or anywhere else.",
+  },
+  {
     q: 'How much time does bonsai take daily?',
     a: "Daily care is 2-3 minutes: checking soil moisture and watering when needed. Pruning and shaping sessions happen every few weeks and take 15-30 minutes. It's one of the lowest time-commitment hobbies that still feels deeply rewarding.",
   },

@@ -233,15 +233,13 @@ export default function Home() {
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>No prior experience required</p>
-            <h1>Learn the 1,500-Year-Old Japanese Art of <span className="accent">Sculpting Trees</span></h1>
-            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto', fontStyle: 'italic' }}>Without needing years of practice or expensive supplies</p>
+            <h1>Your Brain Won&apos;t Shut Off. This 1,500-Year-Old Japanese <span className="accent">Practice Will.</span></h1>
+            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto', fontStyle: 'italic' }}>The ancient art of sculpting miniature trees. Used for centuries to release stress, ease anxiety, and find focus.</p>
 
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '1.5' }}>
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
-                  Bonsai is more than just a tree.
-                  <br /><br />
-                  It&apos;s an ancient Japanese art of releasing stress, easing anxiety, and letting go of overthinking.
+                  You don&apos;t need a garden. You don&apos;t need talent. You need a $12 tree, a pair of shears, and 20 minutes.
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -250,9 +248,7 @@ export default function Home() {
             </div>
             <div className="hero-text-mobile" style={{ textAlign: 'left', marginTop: 24 }}>
               <p style={{ marginBottom: 0 }}>
-                Bonsai is more than just a tree.
-                <br /><br />
-                It&apos;s an ancient Japanese art of releasing stress, easing anxiety, and letting go of overthinking.
+                You don&apos;t need a garden. You don&apos;t need talent. You need a $12 tree, a pair of shears, and 20 minutes.
               </p>
             </div>
           </section>
@@ -287,7 +283,7 @@ export default function Home() {
                 <p>If you&apos;ve tried meditation and your brain just gets louder, you&apos;re not broken.</p>
                 <p>You just need something for your hands to do while your mind learns to be quiet.</p>
                 <p><strong>Bonsai is meditation that doesn&apos;t feel like meditation.</strong></p>
-                <p>Your hands are busy. Your eyes are focused. And somewhere between the second and third cut, the noise stops.</p>
+                <p>Your hands are busy. Your eyes are focused. And somewhere between the second and third cut, twenty minutes gone, no phone, no noise, you realize your shoulders have dropped and your breathing has slowed.</p>
               </div>
               <div style={{ flex: '1.2', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Image src="/meditation.png" alt="Hands working on a bonsai tree" width={600} height={600} style={{ width: '100%', height: 'auto', borderRadius: 16, boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }} />
@@ -300,7 +296,7 @@ export default function Home() {
               <p>Your FIRST pruning session transforms a bushy plant into something that&apos;s clearly a bonsai.</p>
               <p>That happens in one afternoon. Not one decade.</p>
               <p>The &quot;holy shit, I made that&quot; moment? That&apos;s day one.</p>
-              <p>Every week, your tree shows you something new.</p>
+              <p>Every week, your tree shows you something new. A bud where you pruned. A branch holding the angle you wired.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
