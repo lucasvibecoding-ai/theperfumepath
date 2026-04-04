@@ -333,7 +333,7 @@ export default function Home() {
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;It takes years to see results. I&apos;m too impatient.&quot;</h2>
               <p>Your FIRST pruning session transforms a bushy plant into something that&apos;s clearly a bonsai.</p>
               <p>That happens in <strong>one afternoon</strong>. Not one decade.</p>
-              <p>The <strong>&quot;holy shit, I made that&quot;</strong> moment? That&apos;s day one.</p>
+              <p>The <strong>&quot;holy cow, I made that&quot;</strong> moment? That&apos;s day one.</p>
               <p><strong>Every week, your tree shows you something new.</strong></p>
             </div>
 

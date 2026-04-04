@@ -299,10 +299,10 @@ export default function Home() {
 
           <section style={{ padding: '80px 0 64px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;It takes years to see results. I&apos;m too impatient.&quot;</h2>
-              <p>Your FIRST pruning session transforms a bushy plant into something that&apos;s clearly a bonsai.</p>
-              <p>That happens in one afternoon. Not one decade.</p>
-              <p>The &quot;holy shit, I made that&quot; moment? That&apos;s day one.</p>
-              <p>Every week, your tree shows you something new. A bud where you pruned. A branch holding the angle you wired.</p>
+              <p>Your <strong>FIRST pruning session</strong> transforms a bushy plant into something that&apos;s clearly a bonsai.</p>
+              <p>That happens in <strong>one afternoon</strong>. Not one decade.</p>
+              <p>The &quot;holy cow, I made that&quot; moment? That&apos;s <strong>day one</strong>.</p>
+              <p><strong>Every week</strong>, your tree shows you something new. A bud where you pruned. A branch holding the angle you wired.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>

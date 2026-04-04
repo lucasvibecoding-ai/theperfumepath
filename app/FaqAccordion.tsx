@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "It takes years to see results. I'm too impatient.",
-    a: "Your FIRST pruning session transforms a bushy plant into something that's clearly a bonsai. That happens in one afternoon, not one decade. The \"holy shit, I made that\" moment? That's day one. Every week after, your tree shows you something new.",
+    a: "Your FIRST pruning session transforms a bushy plant into something that's clearly a bonsai. That happens in one afternoon, not one decade. The \"holy cow, I made that\" moment? That's day one. Every week after, your tree shows you something new.",
   },
   {
     q: 'What if my tree dies?',
