@@ -242,7 +242,7 @@ export default function Home() {
                   Bonsai is more than just a tree.
                   <br /><br />
                   You sit down. Pick up your shears.
-                  <br />
+                  <br /><br />
                   And for the next 20 minutes, the world disappears.
                 </p>
               </div>
