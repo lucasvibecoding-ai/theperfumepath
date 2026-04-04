@@ -233,8 +233,8 @@ export default function Home() {
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>No prior experience required</p>
-            <h1>Learn the 1,500-Year-Old Japanese Art of <span className="accent">Sculpting Trees</span></h1>
-            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto', fontStyle: 'italic' }}>Without needing years of practice or expensive supplies</p>
+            <h1>Bonsai: Learn the 1,500-Year-Old Japanese Practice of <span className="accent">Calming Down Your Mind</span></h1>
+            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, maxWidth: 600, marginLeft: 'auto', marginRight: 'auto', fontStyle: 'italic' }}>No garden needed. No talent required. Just a $12 tree, a pair of shears, and 20 minutes.</p>
 
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '1.5' }}>
