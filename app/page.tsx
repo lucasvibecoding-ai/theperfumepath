@@ -239,7 +239,9 @@ export default function Home() {
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '1.5' }}>
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
-                  You don&apos;t need a garden. You don&apos;t need talent. You need a $12 tree, a pair of shears, and 20 minutes.
+                  Bonsai is more than just a tree.
+                  <br /><br />
+                  You sit down. You pick up your shears. And for the next 20 minutes, the world disappears.
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -248,7 +250,9 @@ export default function Home() {
             </div>
             <div className="hero-text-mobile" style={{ textAlign: 'left', marginTop: 24 }}>
               <p style={{ marginBottom: 0 }}>
-                You don&apos;t need a garden. You don&apos;t need talent. You need a $12 tree, a pair of shears, and 20 minutes.
+                Bonsai is more than just a tree.
+                <br /><br />
+                You sit down. You pick up your shears. And for the next 20 minutes, the world disappears.
               </p>
             </div>
           </section>
