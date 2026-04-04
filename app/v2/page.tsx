@@ -241,7 +241,9 @@ export default function Home() {
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
                   Bonsai is more than just a tree.
                   <br /><br />
-                  It&apos;s an ancient Japanese art of releasing stress, easing anxiety, and letting go of overthinking.
+                  You sit down. Pick up your shears.
+                  <br /><br />
+                  And for the next 20 minutes, the world disappears.
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
