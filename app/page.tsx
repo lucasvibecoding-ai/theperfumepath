@@ -74,7 +74,7 @@ export default function Home() {
         .phil-block { margin-bottom: 32px; padding: 28px 32px; background: var(--card); border-radius: 12px; border: 1px solid var(--sand); }
         .phil-kanji { font-size: 32px; color: var(--gold); margin-bottom: 6px; }
         .phil-title { font-size: 22px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
-        .phil-rom { font-size: 13px; color: var(--ink-muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; font-weight: 600; }
+        .phil-rom { font-size: 15px; color: var(--ink-muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; font-weight: 600; }
         .phil-block p { margin-bottom: 0; }
 
         /* Transform quote */
@@ -233,16 +233,15 @@ export default function Home() {
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>No prior experience required</p>
-            <h1>Your Brain Won&apos;t Shut Off. This 1,500-Year-Old Japanese <span className="accent">Practice Will.</span></h1>
+            <h1>Turn Any Plant Into Your First <span className="accent">Bonsai</span> Without Killing It.</h1>
+            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, fontStyle: 'italic' }}>Even if you&apos;ve never cared for a plant before.</p>
 
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '1.5' }}>
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
                   Bonsai is more than just a tree.
                   <br /><br />
-                  You sit down. Pick up your shears.
-                  <br /><br />
-                  And for the next 20 minutes, the world disappears.
+                  It&apos;s a <strong>1,500-year-old</strong> Japanese art of patience, calm, and sculpting with <strong>your own hands</strong>.
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -253,50 +252,33 @@ export default function Home() {
               <p style={{ marginBottom: 0 }}>
                 Bonsai is more than just a tree.
                 <br /><br />
-                You sit down. You pick up your shears. And for the next 20 minutes, the world disappears.
+                It&apos;s an ancient Japanese art of releasing stress, easing anxiety, and letting go of overthinking.
               </p>
             </div>
           </section>
 
           <div className="bonsai-divider hero-divider" />
 
-          {/* SPLIT: CONTROL */}
-          <section className="split">
-            <div className="split-text">
-              <h2 style={{ textAlign: 'center', marginBottom: 64 }}>The Japanese secret to shutting off your brain.</h2>
-              <p>You meditate.</p>
-              <p>You journal.</p>
-              <p>You try breathing exercises.</p>
-              <p>But your brain doesn&apos;t seem to stop.</p>
-              <p>For 1,500 years, the Japanese have used a different approach.</p>
-              <p>Not emptying the mind. <strong>Filling it with a living thing that requires your calm.</strong></p>
-              <p>When you&apos;re shaping a tree, there&apos;s no room left for the noise.</p>
-              <p>The anxiety stops.</p>
-              <p style={{ marginBottom: 80 }}>Not because you forced it out. Because <strong>something better took its place.</strong></p>
-
-            </div>
+          {/* THE MOMENT IT CLICKS */}
+          <section style={{ padding: '64px 0' }}>
+            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>Difference between buying a plant and making one.</h2>
+            <p>Everyone has a plant on their shelf. Nobody remembers it.</p>
+            <p>But bonsai? <strong>People stop. They stare.</strong> They ask how you did it.</p>
+            <p>It&apos;s the kind of hobby that <strong>says something about you</strong> before you even open your mouth.</p>
+            <p><strong>Creative. Intentional. Different.</strong></p>
+            <p>Not everyone has one. That&apos;s the point.</p>
           </section>
 
-
-          {/* BUT HERE'S WHAT REALLY KEEPS YOU UP */}
-          <section style={{ padding: '0 0 56px' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 64 }}>When meditation doesn&apos;t work.</h2>
-            <div className="split" style={{ paddingTop: 0, paddingBottom: 0, gap: 64 }}>
-              <div className="split-text" style={{ flex: '1.5' }}>
-                <p>Some people can sit still and clear their mind.</p>
-                <p>Most can&apos;t.</p>
-                <p>If you&apos;ve tried meditation and your brain just gets louder, you&apos;re not broken.</p>
-                <p>You just need something for your hands to do while your mind learns to be quiet.</p>
-                <p><strong>Bonsai is meditation that doesn&apos;t feel like meditation.</strong></p>
-                <p>Your hands are busy. Your eyes are focused. And somewhere between the second and third cut, twenty minutes gone, no phone, no noise, you realize your shoulders have dropped and your breathing has slowed.</p>
-              </div>
-              <div style={{ flex: '1.2', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Image src="/meditation.png" alt="Hands working on a bonsai tree" width={600} height={600} style={{ width: '100%', height: 'auto', borderRadius: 16, boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }} />
-              </div>
-            </div>
+          <section style={{ padding: '48px 0 64px' }}>
+            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>And then there&apos;s the part no one expects.</h2>
+            <p>You sit down to shape your tree.</p>
+            <p>Ten minutes in, you realize <strong>you haven&apos;t thought</strong> about <strong>work</strong>, your <strong>phone</strong>, or anything else.</p>
+            <p>The Japanese have known this for 1,500 years.</p>
+            <p>Bonsai doesn&apos;t just look good on your shelf. <strong>It shuts off the noise in your head.</strong></p>
+            <p>Not because you&apos;re meditating. Because your hands are too busy creating something beautiful to let your brain spiral.</p>
           </section>
 
-          <section style={{ padding: '80px 0 64px' }}>
+          <section style={{ padding: '48px 0 64px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;It takes years to see results. I&apos;m too impatient.&quot;</h2>
               <p>Your <strong>FIRST pruning session</strong> transforms a bushy plant into something that&apos;s clearly a bonsai.</p>
               <p>That happens in <strong>one afternoon</strong>. Not one decade.</p>
@@ -314,12 +296,12 @@ export default function Home() {
 
           {/* ANYONE CAN LEARN */}
           <section style={{ padding: '48px 0' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can learn Bonsai.</h2>
+            <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can do Bonsai.</h2>
             <div style={{ maxWidth: 640, margin: '0 auto', fontSize: 20 }}>
-              <p><span style={{ color: '#1b4332', fontWeight: 600 }}>&rarr; Even if you&apos;ve never touched a bonsai before.</span> There&apos;s a simple step-by-step method that works on any tree, any species, any skill level. No natural talent needed.</p>
-              <p><span style={{ color: '#264432', fontWeight: 600 }}>&rarr; Even if you think bonsai is too hard.</span> A finished bonsai is the most impressive thing you can have on your desk. That&apos;s exactly why people will stare at yours.</p>
+              <p><span style={{ color: '#1a6b35', fontWeight: 700 }}>&rarr; Even if you&apos;ve never cared for a plant before.</span> A simple step-by-step method that works on any tree, any skill level.</p>
+              <p><span style={{ color: '#0d8a3e', fontWeight: 700 }}>&rarr; Even if you think bonsai is too hard.</span> People will stare at yours. That&apos;s the point.</p>
 
-              <p><span style={{ color: '#3a6347', fontWeight: 600 }}>&rarr; Even if you don&apos;t think of yourself as &quot;creative.&quot;</span> You need a tree, a pair of shears, and 20 minutes. That&apos;s it.</p>
+              <p><span style={{ color: '#28a55f', fontWeight: 700 }}>&rarr; Even if you don&apos;t think of yourself as &quot;creative.&quot;</span> A tree, a pair of shears, and 20 minutes. That&apos;s it.</p>
             </div>
           </section>
 
@@ -334,29 +316,42 @@ export default function Home() {
               <div className="phil-kanji">侘寂</div>
               <div className="phil-title">Wabi-Sabi</div>
               <div className="phil-rom">Beauty in imperfection</div>
-              <p>Your bonsai doesn&apos;t need to be perfect. The crooked trunk, the asymmetric branch, the scar where you pruned too aggressively. These aren&apos;t flaws. They&apos;re character. The tree with history looks alive. The one that looks too polished looks fake.</p>
+              <p>The crooked trunk, the asymmetric branch, the scar where you pruned too hard. These aren&apos;t flaws. They&apos;re character.</p>
             </div>
 
             <div className="phil-block">
               <div className="phil-kanji">職人</div>
               <div className="phil-title">Shokunin</div>
               <div className="phil-rom">The craftsman&apos;s lifelong pursuit</div>
-              <p>There is no &quot;finished&quot; in bonsai. Your tree will never be &quot;done.&quot; And that&apos;s the point. It grows. You grow. The practice deepens. Year after year, for as long as you choose.</p>
+              <p>There is no &quot;finished&quot; in bonsai. Your tree will never be &quot;done.&quot; It grows. You grow. That&apos;s the point.</p>
             </div>
 
             <div className="phil-block">
               <div className="phil-kanji">間</div>
               <div className="phil-title">Ma</div>
               <div className="phil-rom">The power of negative space</div>
-              <p>In bonsai, what you REMOVE matters more than what you keep. The empty space between branches gives the tree its shape. Ma teaches you that sometimes the most powerful thing you can do is take away, not add.</p>
+              <p>What you remove matters more than what you keep. The empty space between branches gives the tree its shape.</p>
             </div>
 
             <div className="phil-block">
               <div className="phil-kanji">生き甲斐</div>
               <div className="phil-title">Ikigai</div>
               <div className="phil-rom">A reason to wake up</div>
-              <p>Some mornings you&apos;ll check your tree before you check your phone. You&apos;ll notice a new bud where you pruned last month. A branch that finally set at the angle you wired. These tiny moments of progress become your morning ritual. Your ikigai.</p>
+              <p>Some mornings you&apos;ll check your tree before you check your phone. A new bud where you pruned. A branch holding the angle you wired. That&apos;s your ikigai.</p>
             </div>
+          </section>
+
+          {/* WHY I'M TEACHING THIS */}
+          <h2 className="bonsai-center" style={{ marginBottom: 0, paddingTop: 64 }}>Why I&apos;m Teaching This Online For The First Time</h2>
+          <section style={{ paddingTop: 56, paddingBottom: 64 }}>
+              <p>Most people aren&apos;t able to spend <strong>thousands of dollars</strong> to travel to Japan any time soon.</p>
+              <p>They&apos;ll never sit in a studio with a master.</p>
+              <p>Never experience the meditative practice of doing bonsai.</p>
+              <p>People started asking me to teach them. One of my first students wrote:</p>
+              <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I struggle with anxiety, and bonsai is the only thing that helps me <strong>stay in the present</strong>.&quot;</p>
+              <p>That&apos;s when I knew I had to share this.</p>
+              <p><strong>Not just the technique, but the philosophy. The meditation. The meaning.</strong></p>
+              <p>I put everything I&apos;ve learned into this course. The exact techniques, the philosophy, the materials that cost <strong>under $30</strong>, not $200 or more. <strong>Everything you need to start your first bonsai.</strong></p>
           </section>
 
           <div className="bonsai-divider" />
