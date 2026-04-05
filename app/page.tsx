@@ -363,7 +363,7 @@ export default function Home() {
             </div>
             <div className="instructor-text">
               <h2>My name is Keiko Murakami (村上恵子).</h2>
-              <p>I&apos;ve spent years studying bonsai. Not just the technique, but the philosophy behind it.</p>
+              <p>I&apos;ve spent more than 20 years studying bonsai. Not just the technique, but the philosophy behind it.</p>
               <p>I&apos;ve learned from Japanese masters whose trees have been displayed at the Imperial Palace.</p>
               <p>What struck me wasn&apos;t only the craft.</p>
               <p>It was watching people&apos;s faces when they made their first cut.</p>
