@@ -270,7 +270,7 @@ export default function Home() {
           </section>
 
           <section style={{ padding: '48px 0 64px' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>And then there&apos;s the part no one expects.</h2>
+            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>And there&apos;s the part no one expects.</h2>
             <p>You sit down to shape your tree.</p>
             <p>Ten minutes in, you realize <strong>you haven&apos;t thought</strong> about <strong>work</strong>, your <strong>phone</strong>, or anything else.</p>
             <p>The Japanese have known this for 1,500 years.</p>
