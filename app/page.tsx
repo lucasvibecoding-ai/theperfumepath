@@ -176,6 +176,7 @@ export default function Home() {
           .bonsai-page .container { padding: 0 24px; }
           .bonsai-page section { padding-left: 0; padding-right: 0; }
           .split { flex-direction: column; gap: 24px; }
+          .bonsai-gallery { grid-template-columns: repeat(2, 1fr) !important; }
           .split-img { flex: none; width: 100%; height: auto; }
           .split-text { flex: 1 !important; }
           .module-body { flex-direction: column; }
@@ -260,13 +261,22 @@ export default function Home() {
           <div className="bonsai-divider hero-divider" />
 
           {/* THE MOMENT IT CLICKS */}
-          <section style={{ padding: '64px 0' }}>
+          <section style={{ padding: '64px 0 24px' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 44 }}>Difference between buying a plant and making one.</h2>
             <p>Everyone has a plant on their shelf. Nobody remembers it.</p>
             <p>But bonsai? <strong>People stop. They stare.</strong> They ask how you did it.</p>
             <p>It&apos;s the kind of hobby that <strong>says something about you</strong> before you even open your mouth.</p>
             <p><strong>Creative. Intentional. Different.</strong></p>
             <p>Not everyone has one. That&apos;s the point.</p>
+          </section>
+
+          <section style={{ padding: '8px 0 48px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }} className="bonsai-gallery">
+              <Image src="/4images1.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
+              <Image src="/4images2.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
+              <Image src="/4images3.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
+              <Image src="/4images4.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
+            </div>
           </section>
 
           <section style={{ padding: '48px 0 64px' }}>
