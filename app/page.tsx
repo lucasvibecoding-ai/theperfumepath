@@ -270,6 +270,15 @@ export default function Home() {
             <p>Not everyone has one. That&apos;s the point.</p>
           </section>
 
+          <section style={{ padding: '48px 0 32px' }}>
+            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>And there&apos;s the part no one expects.</h2>
+            <p>You sit down to shape your tree.</p>
+            <p>Ten minutes in, you realize <strong>you haven&apos;t thought</strong> about <strong>work</strong>, your <strong>phone</strong>, or anything else.</p>
+            <p>The Japanese have known this for 1,500 years.</p>
+            <p>Bonsai doesn&apos;t just look good on your shelf. <strong>It shuts off the noise in your head.</strong></p>
+            <p>Not because you&apos;re meditating. Because your hands are too busy creating something beautiful to let your brain spiral.</p>
+          </section>
+
           <section style={{ padding: '8px 0 48px' }}>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }} className="bonsai-gallery">
               <Image src="/4images1.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
@@ -277,15 +286,6 @@ export default function Home() {
               <Image src="/4images3.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
               <Image src="/4images4.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
             </div>
-          </section>
-
-          <section style={{ padding: '48px 0 64px' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>And there&apos;s the part no one expects.</h2>
-            <p>You sit down to shape your tree.</p>
-            <p>Ten minutes in, you realize <strong>you haven&apos;t thought</strong> about <strong>work</strong>, your <strong>phone</strong>, or anything else.</p>
-            <p>The Japanese have known this for 1,500 years.</p>
-            <p>Bonsai doesn&apos;t just look good on your shelf. <strong>It shuts off the noise in your head.</strong></p>
-            <p>Not because you&apos;re meditating. Because your hands are too busy creating something beautiful to let your brain spiral.</p>
           </section>
 
           <section style={{ padding: '48px 0 64px' }}>
