@@ -5,9 +5,9 @@ import CountdownBar from "./CountdownBar";
 import FaqAccordion from "./FaqAccordion";
 
 export const metadata: Metadata = {
-  title: "Bonsai: Learn the Ancient Art of Sculpting Trees & Calming Your Mind",
+  title: "Create Your Own Perfume at Home in a Single Weekend",
   description:
-    "Bonsai is more than just a tree. It's a 1,500-year-old Japanese art of releasing stress, easing anxiety, and letting go of overthinking.",
+    "Learn to create custom fragrances at home without expensive ingredients or years of trial and error. Even if you're a complete beginner.",
 };
 
 export default function Home() {
@@ -233,28 +233,64 @@ export default function Home() {
 
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
-            <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>For the first time online</p>
-            <h1>Turn Any Plant Into Your First <span className="accent">Bonsai</span> in a Single Afternoon</h1>
-            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, fontStyle: 'italic' }}>Even if you&apos;ve never cared for a plant before.</p>
+            <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>Even if you&apos;re a complete beginner</p>
+            <h1>Create Your Own <span style={{ backgroundImage: 'linear-gradient(135deg, #b08d3a, #d4b35c, #b08d3a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent', filter: 'drop-shadow(0 0 8px rgba(212,179,92,0.4))' }}>Signature Perfumes</span> at Home in a Single Weekend</h1>
+            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, fontStyle: 'italic' }}>Without expensive ingredients or years of trial and error.</p>
 
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '1.5' }}>
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
-                  Bonsai is more than just a tree.
+                  Making your own perfume isn&apos;t just mixing scents.
                   <br /><br />
-                  It&apos;s a <strong>1,500-year-old</strong> Japanese art of patience, calm, and sculpting with <strong>your own hands</strong>.
+                  It&apos;s a <strong>centuries-old craft</strong> of self-expression, creativity, and capturing a moment <strong>in a bottle</strong>.
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Image id="hero" src="/herov7.jpg" alt="Beautiful bonsai tree" width={600} height={600} style={{ width: '75%', height: 'auto', borderRadius: 16, boxShadow: '0 12px 40px rgba(0,0,0,0.2), 0 4px 12px rgba(0,0,0,0.1)' }} />
+                <Image id="hero" src="/hero4.png" alt="Handcrafted perfume bottles" width={600} height={600} style={{ width: '75%', height: 'auto', borderRadius: 16, boxShadow: '0 12px 40px rgba(0,0,0,0.2), 0 4px 12px rgba(0,0,0,0.1)' }} />
               </div>
             </div>
             <div className="hero-text-mobile" style={{ textAlign: 'left', marginTop: 36 }}>
               <p style={{ marginBottom: 0 }}>
-                Bonsai is more than just a tree.
+                Making your own perfume isn&apos;t just mixing scents.
                 <br /><br />
-                It&apos;s a <strong>1,500-year-old</strong> Japanese art of patience, calm, and sculpting with <strong>your own hands</strong>.
+                It&apos;s a <strong>centuries-old craft</strong> of self-expression, creativity, and capturing a moment <strong>in a bottle</strong>.
               </p>
+            </div>
+          </section>
+
+          {/* IMAGINE IF YOU COULD */}
+          <section style={{ padding: '24px 0 56px' }}>
+            <div style={{ maxWidth: 672, margin: '0 auto' }}>
+              <h2 style={{ fontSize: 'clamp(1.875rem, 4vw, 2.25rem)', fontWeight: 500, marginBottom: 16 }}>
+                Imagine if you could:
+              </h2>
+
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 16, fontSize: 'clamp(1.125rem, 2vw, 1.25rem)', lineHeight: 1.75 }}>
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <p style={{ margin: 0 }}>
+                    <strong style={{ color: '#C0392B' }}>wear a scent that feels completely yours</strong> — and have people stop to ask what you&apos;re wearing (only to hear you made it yourself)
+                  </p>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <p style={{ margin: 0 }}>
+                    <strong style={{ color: '#1A8F7D' }}>sit down after a long week and create something with your hands</strong> — no screens, no noise, just a calm, focused hour of blending scents
+                  </p>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <p style={{ margin: 0 }}>
+                    <strong style={{ color: '#D4621A' }}>actually understand what makes a fragrance smell good</strong> — so you&apos;re not guessing, but confidently combining scents that work together
+                  </p>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
+                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <p style={{ margin: 0 }}>
+                    <strong style={{ color: '#7B2D8E' }}>create a perfume you can wear daily or gift</strong> — something personal, thoughtful, and impossible to buy anywhere
+                  </p>
+                </div>
+              </div>
             </div>
           </section>
 
@@ -262,209 +298,179 @@ export default function Home() {
 
           {/* THE MOMENT IT CLICKS */}
           <section style={{ padding: '64px 0 24px' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>Difference between buying a plant and making one.</h2>
-            <p>Everyone has a plant on their shelf. Nobody remembers it.</p>
-            <p>But bonsai? <strong>People stop. They stare.</strong> They ask how you did it.</p>
-            <p>It&apos;s the kind of hobby that <strong>says something about you</strong> before you even open your mouth.</p>
-            <p><strong>Creative. Intentional. Different.</strong></p>
-            <p>Not everyone has one. That&apos;s the point.</p>
+            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>You might be thinking this is impossible.</h2>
+            <p>A custom perfume that smells this good? <strong>It looks like something that takes years of training.</strong></p>
+            <p>Maybe you&apos;ve browsed essential oils before. Tried mixing a few together. It didn&apos;t smell the way you imagined, so you closed the bottle and moved on.</p>
+            <p>Maybe you&apos;ve never tried at all, but something about creating your own scent pulls you in. You just don&apos;t know where to start.</p>
           </section>
 
           <section style={{ padding: '48px 0 32px' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>And there&apos;s the part no one expects.</h2>
-            <p>You sit down to shape your tree.</p>
-            <p>Ten minutes in, you realize <strong>you haven&apos;t thought</strong> about <strong>work</strong>, your <strong>phone</strong>, or anything else.</p>
-            <p>The Japanese have known this for 1,500 years.</p>
-            <p>Bonsai doesn&apos;t just look good on your shelf. <strong>It shuts off the noise in your head.</strong></p>
-            <p>Not because you&apos;re meditating. Because your hands are too busy creating something beautiful to let your brain spiral.</p>
+            <h2 className="bonsai-center" style={{ marginBottom: 44 }}>Here&apos;s what most people don&apos;t realize.</h2>
+            <p><strong>Your perfume doesn&apos;t need to be complicated.</strong></p>
+            <p>Three notes layered well can outperform a $200 bottle with forty ingredients.</p>
+            <p>A warm vanilla base works. A bright citrus opening works. A soft woody middle works.</p>
+            <p>As long as the balance between top, middle, and base is right, <strong>your nose does the rest.</strong></p>
+            <p>You add one note. Then another. Then another. And the scent comes alive.</p>
           </section>
 
-          <section style={{ padding: '8px 0 48px' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }} className="bonsai-gallery">
-              <Image src="/4images1.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
-              <Image src="/4images2.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
-              <Image src="/4images3.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
-              <Image src="/4images4.png" alt="Bonsai tree" width={300} height={300} style={{ width: '100%', height: 'auto', borderRadius: 12 }} />
-            </div>
+          <section style={{ padding: '48px 0 24px' }}>
+              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>Why most people never try to create their own scent.</h2>
+              <p>You&apos;ve probably thought about it before. Making your own perfume sounds <strong>interesting</strong>. Creative. Different.</p>
+              <p>But then the doubts kick in — <em>where would I even begin? What if it smells terrible? Isn&apos;t this something only professionals can do?</em></p>
+              <p>So you stick to store-bought. Pick something that smells good. <strong>Wear it for a while.</strong></p>
+              <p>And then it starts to feel like everything else. Because <strong>you didn&apos;t create it</strong>. You just picked it.</p>
+              <p>And the idea of making your own? It stays exactly that. <strong>An idea.</strong></p>
           </section>
 
           <section style={{ padding: '48px 0 64px' }}>
-              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;It takes years to see results. I&apos;m too impatient.&quot;</h2>
-              <p>Your <strong>FIRST pruning session</strong> transforms a bushy plant into something that&apos;s clearly a bonsai.</p>
-              <p>That happens in <strong>one afternoon</strong>. Not one decade.</p>
-              <p>The &quot;holy cow, I made that&quot; moment? That&apos;s <strong>day one</strong>.</p>
-              <p><strong>Every week</strong>, your tree shows you something new. A bud where you pruned. A branch holding the angle you wired.</p>
+              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;I don&apos;t have a good nose. I&apos;m not a perfumer.&quot;</h2>
+              <p>You&apos;re not trying to identify 47 notes blindfolded. You&apos;re picking from a small set, following a structure, and asking yourself one question: <strong>&quot;Do I like this?&quot;</strong></p>
+              <p>That&apos;s it. Your nose is already good enough for that.</p>
+              <p>The course gives you the framework. <strong>Your instincts do the rest.</strong></p>
+              <p>And every time you blend, your nose gets sharper without you even trying.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
-              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Isn&apos;t this an expensive hobby?&quot;</h2>
-              <p><strong>Your first bonsai costs less than lunch.</strong></p>
-              <p>A starter tree is <strong>$12-15</strong>. Shears and wire cost <strong>under $20.</strong></p>
-              <p>That&apos;s it. No $200 specimen. No Japanese tool kit.</p>
-              <p>The course teaches you how to spot <strong>hidden gems</strong> at any nursery.</p>
+              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Isn&apos;t perfume-making expensive?&quot;</h2>
+              <p><strong>Your first perfume costs less than a coffee.</strong></p>
+              <p>A starter kit of essential oils is <strong>$15-20</strong>. Carrier oil and bottles cost <strong>under $15.</strong></p>
+              <p>That&apos;s it. No $300 niche ingredients. No professional lab equipment.</p>
+              <p>The course teaches you how to find <strong>affordable, high-quality ingredients</strong> anywhere.</p>
+          </section>
+
+          <section style={{ padding: '0 0 64px' }}>
+              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Will it smell as good as store-bought? Will it last on my skin?&quot;</h2>
+              <p><strong>Yes — and you&apos;ll understand exactly why.</strong></p>
+              <p>Store-bought perfumes aren&apos;t magic. They follow the same principles you&apos;ll learn in this course: <strong>balance, layering, and concentration.</strong></p>
+              <p>The difference between a scent that fades in 20 minutes and one that lasts 8 hours comes down to a few simple choices — base note selection, oil-to-alcohol ratio, and curing time.</p>
+              <p>We cover all of it. By the end, you&apos;ll be making fragrances that <strong>last just as long as anything on a department store shelf</strong> — and smell like something no one else is wearing.</p>
           </section>
 
           {/* ANYONE CAN LEARN */}
           <section style={{ padding: '48px 0' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can do Bonsai.</h2>
+            <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can make perfume.</h2>
             <div style={{ maxWidth: 640, margin: '0 auto', fontSize: 20 }}>
-              <p><span style={{ color: '#1a6b35', fontWeight: 700 }}>&rarr; Even if you&apos;ve never cared for a plant before.</span> A simple step-by-step method that works on any tree, any skill level.</p>
-              <p><span style={{ color: '#0d8a3e', fontWeight: 700 }}>&rarr; Even if you think bonsai is too hard.</span> People will stare at yours. That&apos;s the point.</p>
+              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you&apos;ve never blended anything before.</span> A simple step-by-step method that works with any ingredients, any skill level.</p>
+              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you think you don&apos;t have a &quot;good nose.&quot;</span> People will ask what you&apos;re wearing. That&apos;s the point.</p>
 
-              <p><span style={{ color: '#28a55f', fontWeight: 700 }}>&rarr; Even if you don&apos;t think of yourself as &quot;creative.&quot;</span> A tree, a pair of shears, and 20 minutes. That&apos;s it.</p>
+              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you don&apos;t think of yourself as &quot;creative.&quot;</span> A few oils, a dropper, and 20 minutes. That&apos;s it.</p>
             </div>
           </section>
 
           <div className="bonsai-divider" />
-
-          {/* PHILOSOPHY */}
-          <section style={{ padding: '48px 0' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 8, fontSize: 'clamp(2rem, 4.5vw, 3rem)' }}>The Philosophy Behind the Practice</h2>
-            <p className="bonsai-center" style={{ margin: '0 auto 28px' }}>Bonsai carries four Japanese principles that quietly change how you see the world and yourself.</p>
-
-            <div className="phil-block">
-              <div className="phil-kanji">侘寂</div>
-              <div className="phil-title">Wabi-Sabi</div>
-              <div className="phil-rom">Beauty in imperfection</div>
-              <p>The crooked trunk, the asymmetric branch, the scar where you pruned too hard. These aren&apos;t flaws. They&apos;re character.</p>
-            </div>
-
-            <div className="phil-block">
-              <div className="phil-kanji">職人</div>
-              <div className="phil-title">Shokunin</div>
-              <div className="phil-rom">The craftsman&apos;s lifelong pursuit</div>
-              <p>There is no &quot;finished&quot; in bonsai. Your tree will never be &quot;done.&quot; It grows. You grow. That&apos;s the point.</p>
-            </div>
-
-            <div className="phil-block">
-              <div className="phil-kanji">間</div>
-              <div className="phil-title">Ma</div>
-              <div className="phil-rom">The power of negative space</div>
-              <p>What you remove matters more than what you keep. The empty space between branches gives the tree its shape.</p>
-            </div>
-
-            <div className="phil-block">
-              <div className="phil-kanji">生き甲斐</div>
-              <div className="phil-title">Ikigai</div>
-              <div className="phil-rom">A reason to wake up</div>
-              <p>Some mornings you&apos;ll check your tree before you check your phone. A new bud where you pruned. A branch holding the angle you wired. That&apos;s your ikigai.</p>
-            </div>
-          </section>
 
           {/* WHY I'M TEACHING THIS */}
           <h2 className="bonsai-center" style={{ marginBottom: 0, paddingTop: 64 }}>Why I&apos;m Teaching This Online For The First Time</h2>
           <section style={{ paddingTop: 56, paddingBottom: 64 }}>
-              <p>Most people aren&apos;t able to spend <strong>thousands of dollars</strong> to travel to Japan any time soon.</p>
-              <p>They&apos;ll never sit in a studio with a master.</p>
-              <p>Never experience the meditative practice of doing bonsai.</p>
+              <p>Most people will never visit <strong>Grasse, the perfume capital of France</strong>.</p>
+              <p>They&apos;ll never apprentice with a master perfumer.</p>
+              <p>Never experience the meditative practice of blending fragrances by hand.</p>
               <p>People started asking me to teach them. One of my first students wrote:</p>
-              <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I struggle with anxiety, and bonsai is the only thing that helps me <strong>stay in the present</strong>.&quot;</p>
+              <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I&apos;ve always wanted to make my own signature scent, and now I wear something <strong>no one else in the world has</strong>.&quot;</p>
               <p>That&apos;s when I knew I had to share this.</p>
-              <p><strong>Not just the technique, but the philosophy. The meditation. The meaning.</strong></p>
-              <p>I put everything I&apos;ve learned into this course. The exact techniques, the philosophy, the materials that cost <strong>under $30</strong>, not $200 or more. <strong>Everything you need to start your first bonsai.</strong></p>
+              <p><strong>Not just the technique, but the artistry. The sensory experience. The self-expression.</strong></p>
+              <p>I put everything I&apos;ve learned into this course. The exact techniques, the formulas, the materials that cost <strong>under $30</strong>, not $200 or more. <strong>Everything you need to create your first perfume.</strong></p>
           </section>
-
-          <div className="bonsai-divider" />
 
           {/* INSTRUCTOR */}
           <section className="instructor">
             <div className="instructor-img">
-              <Image src="/creator.png" alt="Keiko Murakami" width={440} height={550} style={{ width: '100%', height: 'auto', borderRadius: 16 }} />
+              <Image src="/hero2.jpg" alt="Claire Beaumont" width={440} height={550} sizes="(max-width: 768px) 400px, 420px" style={{ width: '100%', height: 'auto', borderRadius: 16 }} />
             </div>
             <div className="instructor-text">
-              <h2>My name is Keiko Murakami (村上恵子).</h2>
-              <p>I&apos;ve spent more than 20 years studying bonsai. Not just the technique, but the philosophy behind it.</p>
-              <p>I&apos;ve learned from Japanese masters whose trees have been displayed at the Imperial Palace.</p>
+              <h2>My name is Claire Beaumont.</h2>
+              <p>I&apos;ve spent more than 15 years studying fragrance. Not just the chemistry, but the art behind it.</p>
+              <p>I&apos;ve trained with master perfumers in Grasse, France — the birthplace of modern perfumery.</p>
               <p>What struck me wasn&apos;t only the craft.</p>
-              <p>It was watching people&apos;s faces when they made their first cut.</p>
+              <p>It was watching people&apos;s faces when they smelled their first creation.</p>
             </div>
           </section>
 
           {/* COURSE INTRO */}
           <section className="bonsai-center course-intro">
-            <h2 style={{ marginBottom: 4, fontSize: 'clamp(2.2rem, 5vw, 3.2rem)', fontWeight: 600 }}>Introducing: The Bonsai<br />Masterclass</h2>
-            <p style={{ fontStyle: 'italic', color: 'var(--ink-muted)' }}>盆栽の道: the way of the tray-planted tree</p>
+            <h2 style={{ marginBottom: 4, fontSize: 'clamp(2.2rem, 5vw, 3.2rem)', fontWeight: 600 }}>Introducing: The Perfume<br />Masterclass</h2>
+            <p style={{ fontStyle: 'italic', color: 'var(--ink-muted)' }}>L&apos;art du parfum: the art of fragrance</p>
           </section>
 
           {/* MODULES */}
           <section style={{ padding: '20px 0 40px' }}>
             <div className="bonsai-center" style={{ marginBottom: 24 }}>
-              <Image className="hereswhatyouget-desktop" src="/hereiswhatyouget.png" alt="Here's what you get" width={800} height={400} style={{ width: '100%', maxWidth: 700, height: 'auto', margin: '0 auto 24px' }} />
-              <Image className="hereswhatyouget-mobile" src="/hereiswhatyouget_mobile.png" alt="Here's what you get" width={400} height={400} style={{ width: '100%', maxWidth: 400, height: 'auto', margin: '0 auto 24px' }} />
+              <Image className="hereswhatyouget-desktop" src="/hereiswhatyouget.jpg" alt="Here's what you get" width={800} height={400} sizes="700px" style={{ width: '100%', maxWidth: 700, height: 'auto', margin: '0 auto 24px' }} />
+              <Image className="hereswhatyouget-mobile" src="/hereiswhatyouget_mobile.jpg" alt="Here's what you get" width={400} height={400} sizes="400px" style={{ width: '100%', maxWidth: 400, height: 'auto', margin: '0 auto 24px' }} />
             </div>
             <h2 className="bonsai-center" style={{ marginTop: 86, marginBottom: 24 }}>&#10022; What&apos;s Inside &#10022;</h2>
 
             <div className="module-card">
               <div className="module-label">Module 1</div>
-              <h3>Introduction to the Bonsai Philosophy</h3>
-              <div className="module-sub">The ancient principles behind the practice — and why bonsai changes the way you think.</div>
+              <h3>Introduction to the World of Fragrance</h3>
+              <div className="module-sub">The science and art behind scent — and why perfume-making changes the way you experience the world.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module1.jpg" alt="Bonsai Philosophy" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module1.jpg" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; The <strong>four Japanese philosophies</strong> (Wabi-Sabi, Shokunin, Ma, Ikigai) that turn bonsai from a hobby into a lifelong practice</li>
-                  <li>&#10022; Why bonsai is <strong>the most effective stress-relief practice</strong> you&apos;ve never tried — and the science behind it</li>
-                  <li>&#10022; How to <strong>approach your first tree with the right mindset</strong> so you enjoy the process instead of stressing over perfection</li>
-                  <li>&#10022; The <strong>history of bonsai</strong> — from 1,500-year-old Japanese monasteries to your living room</li>
+                  <li>&#10022; The <strong>fragrance pyramid</strong> (top, middle, base notes) and why understanding it is the key to every great perfume</li>
+                  <li>&#10022; Why making your own scent is <strong>the most immersive creative practice</strong> you&apos;ve never tried — and the science behind it</li>
+                  <li>&#10022; How to <strong>approach your first blend with the right mindset</strong> so you enjoy the process instead of chasing perfection</li>
+                  <li>&#10022; The <strong>history of perfumery</strong> — from ancient Egypt and medieval France to your kitchen table</li>
                 </ul>
               </div>
             </div>
 
             <div className="module-card">
               <div className="module-label">Module 2</div>
-              <h3>Tree Selection and Supplies</h3>
-              <div className="module-sub">Choose Your First Tree, Get the Right Tools &amp; Keep It Alive</div>
+              <h3>Ingredients &amp; Supplies</h3>
+              <div className="module-sub">Choose Your First Ingredients, Get the Right Tools &amp; Set Up Your Workspace</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module2.jpg" alt="Choose Your First Tree" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module2.jpg" alt="Perfume ingredients and supplies" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; The <strong>exact tools you need to start</strong> (and the ones you don&apos;t) — what to buy, where to buy it, and what&apos;s a waste of money. Plus <strong>exactly which tree to get and where to find it</strong></li>
-                  <li>&#10022; The <strong>3 species that are nearly impossible to kill</strong> and the 2 &quot;beginner&quot; species that actually aren&apos;t (one is the most commonly recommended tree on the internet)</li>
-                  <li>&#10022; The <strong>watering test that takes 2 seconds</strong> that prevents 90% of bonsai deaths</li>
-                  <li>&#10022; <strong>Indoor vs outdoor: the decision that determines everything.</strong> Get this wrong and your tree is dead in 3 months no matter what else you do</li>
+                  <li>&#10022; The <strong>exact supplies you need to start</strong> (and the ones you don&apos;t) — what to buy, where to buy it, and what&apos;s a waste of money</li>
+                  <li>&#10022; The <strong>5 essential oils every beginner should have</strong> and the 3 &quot;beginner&quot; ingredients that actually aren&apos;t (one is the most commonly recommended oil on the internet)</li>
+                  <li>&#10022; The <strong>drop-by-drop method</strong> that prevents ruining an entire batch</li>
+                  <li>&#10022; <strong>Natural vs synthetic: the decision that determines everything.</strong> Get this wrong and your perfume fades in 30 minutes no matter what else you do</li>
                 </ul>
               </div>
             </div>
 
             <div className="module-card">
               <div className="module-label">Module 3</div>
-              <h3>Pruning &amp; Shaping: Your First Transformation</h3>
-              <div className="module-sub">This is where a nursery plant starts becoming a bonsai. The moment that hooks you.</div>
+              <h3>Blending Your First Signature Scent</h3>
+              <div className="module-sub">This is where raw ingredients become YOUR perfume. The moment that hooks you.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module3.jpg" alt="Pruning and Shaping" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module3.jpg" alt="Blending perfume" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; How to <strong>see the &quot;tree inside the bush&quot;</strong> and visualize the finished tree before you make a single cut</li>
-                  <li>&#10022; Your first <strong>before-and-after transformation</strong> with 3-5 cuts that turn overgrown nursery stock into something people recognize as a bonsai</li>
-                  <li>&#10022; The <strong>one pruning mistake 80% of beginners make</strong> that stunts growth for an entire season (and the simple fix)</li>
-                  <li>&#10022; <strong>Maintenance pruning in 2 minutes flat</strong> to keep your bonsai looking intentional, not wild</li>
+                  <li>&#10022; How to <strong>&quot;hear&quot; a fragrance before you blend it</strong> — visualizing the finished scent before you add a single drop</li>
+                  <li>&#10022; Your first <strong>before-and-after transformation</strong> with 3-5 ingredients that turn basic oils into something people ask about</li>
+                  <li>&#10022; The <strong>one blending mistake 80% of beginners make</strong> that kills the top notes entirely (and the simple fix)</li>
+                  <li>&#10022; <strong>Quick adjustments in 2 minutes flat</strong> to refine your blend from good to &quot;I can&apos;t believe I made this&quot;</li>
                 </ul>
               </div>
             </div>
 
             <div className="module-card">
               <div className="module-label">Module 4</div>
-              <h3>Wiring: The Art of Bending Branches</h3>
-              <div className="module-sub">The technique that gives bonsai their iconic shapes. Easier than it looks.</div>
+              <h3>Advanced Layering &amp; Complexity</h3>
+              <div className="module-sub">The technique that gives perfumes their depth and longevity. Easier than it sounds.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module4.jpg" alt="Wiring" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module4.jpg" alt="Layering techniques" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; How to <strong>bend a branch without snapping it</strong> using the pressure-and-patience technique</li>
-                  <li>&#10022; Choosing the right <strong>wire gauge</strong> for each branch (too thin = useless, too thick = permanent scars)</li>
-                  <li>&#10022; The <strong>wire-scar mistake that permanently damages bark</strong> and the exact timeline for when to remove wire</li>
-                  <li>&#10022; Create the <strong>illusion of 100 years of wind and weather</strong> on a tree that&apos;s 3 years old</li>
+                  <li>&#10022; How to <strong>layer notes without muddying the scent</strong> using the bridge-note technique</li>
+                  <li>&#10022; Choosing the right <strong>concentration</strong> for each note (too much = overpowering, too little = invisible)</li>
+                  <li>&#10022; The <strong>over-blending mistake that turns a complex fragrance into a flat one</strong> and the exact timing for when to stop</li>
+                  <li>&#10022; Create a scent that <strong>evolves over 8 hours on your skin</strong> from a formula that takes 20 minutes to make</li>
                 </ul>
               </div>
             </div>
 
             <div className="module-card">
               <div className="module-label">Module 5</div>
-              <h3>Repotting, Soil &amp; Root Health</h3>
-              <div className="module-sub">The hidden half of bonsai. What happens below the soil determines everything above it.</div>
+              <h3>Curing, Bottling &amp; Sharing Your Creations</h3>
+              <div className="module-sub">The final step that separates amateurs from artisans. What happens during curing determines everything.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module5.jpg" alt="Repotting and Soil" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module5.jpg" alt="Bottling perfume" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; Why <strong>regular potting soil will kill your bonsai</strong> within a year and the $5 soil mix that professionals use</li>
-                  <li>&#10022; <strong>Root pruning demystified</strong>: the technique that sounds terrifying but is actually the secret to keeping trees small AND healthy for decades</li>
-                  <li>&#10022; The <strong>signs your tree is screaming for a repot</strong> that most beginners miss until it&apos;s too late</li>
-                  <li>&#10022; Choosing the right <strong>pot size and style</strong> with the proportion rules that make everything click</li>
+                  <li>&#10022; Why <strong>a freshly blended perfume smells nothing like the finished product</strong> and the 48-hour curing process that transforms it</li>
+                  <li>&#10022; <strong>Bottling demystified</strong>: the technique that sounds fussy but is actually the secret to preserving your fragrance for months</li>
+                  <li>&#10022; The <strong>signs your blend needs more curing time</strong> that most beginners miss until it&apos;s too late</li>
+                  <li>&#10022; Choosing the right <strong>bottle size and style</strong> with the presentation tips that make everything feel professional</li>
                 </ul>
               </div>
             </div>
@@ -474,7 +480,7 @@ export default function Home() {
           {/* CTA after modules */}
           <section style={{ padding: '56px 0' }}>
             <div className="bonsai-center" style={{ marginBottom: 32 }}>
-              <p style={{ maxWidth: 720, textAlign: 'left', fontSize: 24, margin: '0 auto 20px' }}>You&apos;ve seen what&apos;s inside. Five modules. A complete system for choosing, styling, and caring for bonsai trees at home.</p>
+              <p style={{ maxWidth: 720, textAlign: 'left', fontSize: 24, margin: '0 auto 20px' }}>You&apos;ve seen what&apos;s inside. Five modules. A complete system for choosing, blending, and perfecting custom fragrances at home.</p>
               <p style={{ maxWidth: 720, textAlign: 'left', fontSize: 24, margin: '0 auto 20px' }}>The full price for this course is <strong><s>$97</s></strong>.</p>
               <p style={{ maxWidth: 720, textAlign: 'left', fontSize: 24, margin: '0 auto 20px' }}>You&apos;re not going to pay that today. And the reason is simple.</p>
               <p style={{ maxWidth: 720, textAlign: 'left', fontSize: 24, margin: '0 auto 20px' }}>This is the first time I&apos;ve offered this course to the public. I want <strong>50 people</strong> to go through it. I want to read your emails, answer your questions, see where you get stuck and where you surprise yourself.</p>
@@ -491,8 +497,7 @@ export default function Home() {
                 <p style={{ margin: 0, fontWeight: 500, fontSize: 16, whiteSpace: 'nowrap', color: 'var(--ink-muted)' }} className="guarantee-text">90-Day Money-Back Guarantee</p>
                 <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
               </div>
-              <div style={{ width: 48, height: 1, background: 'rgba(0,0,0,0.1)', margin: '20px auto' }} />
-              <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment 🔒</p>
+              <p style={{ color: 'var(--ink-muted)', marginBottom: 12, marginTop: 20 }}>🔒 Secure payment 🔒</p>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16 }}>
                 <Image src="/visa.svg" alt="Visa" width={40} height={26} style={{ height: 26, width: 'auto' }} />
                 <Image src="/mastercard.svg" alt="Mastercard" width={40} height={26} style={{ height: 26, width: 'auto' }} />
@@ -512,8 +517,8 @@ export default function Home() {
             <Image src="/guarantee1.webp" alt="90-Day Money Back Guarantee" width={160} height={160} style={{ width: 130, height: 130, marginBottom: 16, margin: '0 auto 16px', display: 'block' }} />
             <h2 style={{ textAlign: 'center' }}>Try it risk-free</h2>
             <p style={{ fontSize: 20 }}><strong>You don&apos;t have to make the final decision now.</strong></p>
-            <p style={{ textAlign: 'left', fontSize: 20 }}>Get access to the full course. Pick your first tree. Learn how to water it properly. Make your first pruning cuts. Watch new growth emerge exactly where you guided it.</p>
-            <p style={{ textAlign: 'left', fontSize: 20 }}>If you don&apos;t love it, email hello@thebonsaipath.com within 90 days for a full refund. Within 24 hours. <strong>No questions asked.</strong></p>
+            <p style={{ textAlign: 'left', fontSize: 20 }}>Get access to the full course. Choose your first ingredients. Learn how to blend properly. Create your first signature scent. Watch your skills sharpen with every new batch.</p>
+            <p style={{ textAlign: 'left', fontSize: 20 }}>If you don&apos;t love it, email hello@theperfumepath.com within 90 days for a full refund. Within 24 hours. <strong>No questions asked.</strong></p>
           </section>
 
           <div className="bonsai-divider" />
@@ -525,45 +530,45 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 1</div><div className="bonus-value">$47 value</div></div>
-              <h3>Mindfulness Through Bonsai</h3>
-              <div className="bonus-desc">The practice behind the practice. Where craft becomes calm.</div>
+              <h3>The Signature Scent Blueprint</h3>
+              <div className="bonus-desc">A guided process to discover your scent personality and build a fragrance that becomes unmistakably yours.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus1.jpg" alt="Mindfulness Through Bonsai" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus1.jpg" alt="The Signature Scent Blueprint" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>Breathwork while pruning</strong> the 5-minute meditation that happens naturally while you work</li>
-                  <li>&#10022; How to <strong>use your bonsai as a morning ritual</strong> to replace the phone check with a tree check</li>
-                  <li>&#10022; <strong>Sitting meditation with your tree</strong> the Japanese practice of contemplating your bonsai from all angles</li>
-                  <li>&#10022; Why bonsai growers report <strong>38% greater stress reduction</strong> than other hobby practitioners</li>
+                  <li>&#10022; <strong>The scent personality quiz</strong> that narrows hundreds of possible directions down to your 3 ideal fragrance families</li>
+                  <li>&#10022; How to <strong>build a &quot;scent DNA&quot; profile</strong> based on the smells you&apos;re naturally drawn to in everyday life</li>
+                  <li>&#10022; The <strong>signature scent formula framework</strong> — a repeatable method for creating one fragrance that feels like &quot;you&quot;</li>
+                  <li>&#10022; How to <strong>evolve your signature over time</strong> so it grows with you instead of feeling stale after a few months</li>
                 </ul>
               </div>
             </div>
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 2</div><div className="bonus-value">$37 value</div></div>
-              <h3>The Seasonal Care Calendar</h3>
-              <div className="bonus-desc">Know exactly what to do to your bonsai, every week of every season.</div>
+              <h3>The Troubleshooting &amp; Rescue Guide</h3>
+              <div className="bonus-desc">Your blend is trying to tell you something. This guide teaches you to listen — and fix it.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus2.jpg" alt="Seasonal Care Calendar" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus2.jpg" alt="Troubleshooting and Rescue Guide" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>Spring:</strong> When to repot, fertilize, and let your tree explode with new growth</li>
-                  <li>&#10022; <strong>Summer:</strong> Watering adjustments, sun protection, and the best window for wiring</li>
-                  <li>&#10022; <strong>Autumn:</strong> Reducing fertilizer, preparing for dormancy, enjoying fall color on deciduous species</li>
-                  <li>&#10022; <strong>Winter:</strong> Cold protection, dormancy care, and indoor overwintering for tender species</li>
+                  <li>&#10022; <strong>Scent fades in an hour?</strong> It&apos;s not always the ingredients — the 4 possible causes and the fix for each one</li>
+                  <li>&#10022; <strong>Smells different on skin vs paper?</strong> Body chemistry, temperature, or formulation — how to tell the difference in 30 seconds</li>
+                  <li>&#10022; <strong>Top notes disappeared?</strong> The concentration and timing adjustment that restores the opening</li>
+                  <li>&#10022; <strong>15+ common problems</strong> with clear diagnosis and step-by-step solutions so no blend goes to waste</li>
                 </ul>
               </div>
             </div>
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 3</div><div className="bonus-value">$29 value</div></div>
-              <h3>The Bonsai Aftercare Guide</h3>
-              <div className="bonus-desc">Your tree is trying to talk to you. This guide teaches you to listen.</div>
+              <h3>The Perfumer&apos;s Muse</h3>
+              <div className="bonus-desc">How professional perfumers find inspiration — and how you can use the same methods at your kitchen table.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus3.jpg" alt="Bonsai Aftercare Guide" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus3.jpg" alt="The Perfumer's Muse" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>Yellowing leaves?</strong> It&apos;s not always overwatering: the 4 possible causes and fixes</li>
-                  <li>&#10022; <strong>Dropping leaves suddenly?</strong> Seasonal, stress, or dying: how to tell the difference in 30 seconds</li>
-                  <li>&#10022; <strong>Leggy, stretched growth?</strong> The light and pruning adjustment that restores compact shape</li>
-                  <li>&#10022; <strong>15+ photo-matched symptoms</strong> with clear diagnosis and step-by-step solutions</li>
+                  <li>&#10022; <strong>The memory method</strong> — how master perfumers translate a feeling, a place, or a moment into a fragrance you can actually smell</li>
+                  <li>&#10022; <strong>5 creative exercises from Grasse</strong> used by professional noses to break through creative blocks and discover unexpected combinations</li>
+                  <li>&#10022; How to <strong>build a personal scent library</strong> — a curated collection of reference notes that becomes your creative palette</li>
+                  <li>&#10022; The <strong>&quot;mood board to bottle&quot; technique</strong> — turn images, textures, and emotions into a concrete fragrance formula</li>
                 </ul>
               </div>
             </div>
@@ -573,9 +578,9 @@ export default function Home() {
           <section style={{ padding: '36px 0' }} id="pricing">
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; Mindfulness Through Bonsai</span><span className="val">$47</span></div>
-            <div className="stack-row"><span className="label">&#10003; Seasonal Care Calendar</span><span className="val">$37</span></div>
-            <div className="stack-row"><span className="label">&#10003; Bonsai Aftercare Guide</span><span className="val">$29</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; Troubleshooting &amp; Rescue Guide</span><span className="val">$37</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Perfumer&apos;s Muse</span><span className="val">$29</span></div>
             <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$252</span></div>
           </section>
 
@@ -589,8 +594,7 @@ export default function Home() {
               <p style={{ margin: 0, fontWeight: 500, fontSize: 16, whiteSpace: 'nowrap', color: 'var(--ink-muted)' }} className="guarantee-text">90-Day Money-Back Guarantee</p>
               <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
             </div>
-            <div style={{ width: 48, height: 1, background: 'rgba(0,0,0,0.1)', margin: '20px auto' }} />
-            <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment 🔒</p>
+            <p style={{ color: 'var(--ink-muted)', marginBottom: 12, marginTop: 20 }}>🔒 Secure payment 🔒</p>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16 }}>
               <Image src="/visa.svg" alt="Visa" width={40} height={26} style={{ height: 26, width: 'auto' }} />
               <Image src="/mastercard.svg" alt="Mastercard" width={40} height={26} style={{ height: 26, width: 'auto' }} />
@@ -611,15 +615,15 @@ export default function Home() {
 
             <div className="bonus-card mega">
               <div className="bonus-header"><div className="bonus-label">Mega Bonus</div><div className="bonus-value">$79 value</div></div>
-              <h3>Bonsai Styles &amp; Display Guide</h3>
-              <div className="bonus-desc">Master the iconic bonsai forms and turn your tree into the centerpiece of any room.</div>
+              <h3>The Dupe Lab: Recreate 10 Iconic Perfumes at Home</h3>
+              <div className="bonus-desc">The exact formulas to recreate the world&apos;s most popular fragrances — for under $10 a bottle.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/megabonus.jpg" alt="Bonsai Styles and Display Guide" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/megabonus.jpg" alt="The Dupe Lab" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>Formal Upright (Chokkan)</strong> the classic straight trunk, perfect symmetry. The most forgiving style for first-timers</li>
-                  <li>&#10022; <strong>Informal Upright (Moyogi)</strong> gentle S-curves that mimic how real trees grow in nature</li>
-                  <li>&#10022; <strong>Slanting, Cascade &amp; Semi-Cascade</strong> dramatic styles that add movement and depth to any display</li>
-                  <li>&#10022; How to choose <strong>the perfect pot</strong> glazed vs unglazed, proportion rules, and color theory</li>
+                  <li>&#10022; <strong>5 iconic women&apos;s fragrances</strong> — step-by-step formulas inspired by Baccarat Rouge 540, Miss Dior, Chanel No. 5, YSL Libre, and more</li>
+                  <li>&#10022; <strong>5 iconic men&apos;s fragrances</strong> — recreate the scent profiles behind Dior Sauvage, Bleu de Chanel, Tom Ford Oud Wood, Acqua di Gio, and more</li>
+                  <li>&#10022; <strong>Full ingredient lists and cost breakdowns</strong> for each formula — see exactly how a $150+ bottle becomes a $5-10 DIY project</li>
+                  <li>&#10022; How to <strong>tweak each recipe to make it your own</strong> — adjust longevity, sweetness, or intensity so it&apos;s not just a copy, it&apos;s <em>yours</em></li>
                 </ul>
               </div>
             </div>
@@ -639,10 +643,10 @@ export default function Home() {
           <section style={{ padding: '36px 0' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; Mindfulness Through Bonsai</span><span className="val">$47</span></div>
-            <div className="stack-row"><span className="label">&#10003; Seasonal Care Calendar</span><span className="val">$37</span></div>
-            <div className="stack-row"><span className="label">&#10003; Bonsai Aftercare Guide</span><span className="val">$29</span></div>
-            <div className="stack-row"><span className="label">&#10003; Bonsai Styles &amp; Display Guide</span><span className="val">$79</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; Troubleshooting &amp; Rescue Guide</span><span className="val">$37</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Perfumer&apos;s Muse</span><span className="val">$29</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Dupe Lab: 10 Iconic Perfume Formulas</span><span className="val">$79</span></div>
             <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$331</span></div>
           </section>
 
@@ -656,8 +660,7 @@ export default function Home() {
               <p style={{ margin: 0, fontWeight: 500, fontSize: 16, whiteSpace: 'nowrap', color: 'var(--ink-muted)' }} className="guarantee-text">90-Day Money-Back Guarantee</p>
               <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
             </div>
-            <div style={{ width: 48, height: 1, background: 'rgba(0,0,0,0.1)', margin: '20px auto' }} />
-            <p style={{ color: 'var(--ink-muted)', marginBottom: 12 }}>🔒 Secure payment 🔒</p>
+            <p style={{ color: 'var(--ink-muted)', marginBottom: 12, marginTop: 20 }}>🔒 Secure payment 🔒</p>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 16 }}>
               <Image src="/visa.svg" alt="Visa" width={40} height={26} style={{ height: 26, width: 'auto' }} />
               <Image src="/mastercard.svg" alt="Mastercard" width={40} height={26} style={{ height: 26, width: 'auto' }} />
@@ -671,19 +674,13 @@ export default function Home() {
 
           <div className="bonsai-divider" />
 
-          {/* CLOSING */}
-          <section className="closing">
-            <div className="sm-divider" style={{ marginBottom: 20 }} />
-            <p className="closing-quote">&quot;In a world that demands speed, bonsai asks you to slow down. And in that slowness, you find something you forgot you had.&quot;</p>
-            <p style={{ color: 'var(--ink-muted)', marginBottom: 0 }}>— Keiko Murakami, founder of The Bonsai Path</p>
-          </section>
 
         </div>
       </div>
 
       {/* FOOTER */}
       <footer className="bonsai-footer" style={{ paddingBottom: 100 }}>
-        <p>&copy; 2026 The Bonsai Path. All rights reserved.</p>
+        <p>&copy; 2026 The Perfume Path. All rights reserved.</p>
         <p style={{ marginTop: 5 }}><a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></p>
         <p style={{ marginTop: 16, fontSize: 11, color: '#8a7f72', maxWidth: 600, margin: '16px auto 0', lineHeight: 1.5 }}>This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>
       </footer>

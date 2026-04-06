@@ -15,9 +15,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Bonsai: Learn The 1,500-Year-Old Japanese Practice of Calming Down Your Mind",
+  title: "Create Your Own Perfume at Home in a Single Weekend",
   description:
-    "Bonsai is more than just a tree. It's a 1,500-year-old Japanese art of releasing stress, easing anxiety, and letting go of overthinking.",
+    "Learn to create custom fragrances at home without expensive ingredients or years of trial and error. Even if you're a complete beginner.",
   icons: {
     icon: "/favicon.png",
   },

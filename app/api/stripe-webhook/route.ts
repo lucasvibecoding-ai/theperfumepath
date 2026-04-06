@@ -44,14 +44,14 @@ export async function POST(request: Request) {
       customerEmail = charge.billing_details?.email || null;
     }
 
-    const toEmail = customerEmail || 'hello@thebonsaipath.com';
+    const toEmail = customerEmail || 'hello@theperfumepath.com';
     console.log(`Sending confirmation email to: ${toEmail} (receipt_email was: ${paymentIntent.receipt_email})`);
     const html = await render(OrderConfirmation({ customerEmail: toEmail }));
 
     await resend.emails.send({
-      from: 'Keiko Murakami - Bonsai Path <hello@thebonsaipath.com>',
+      from: 'Claire Beaumont - The Perfume Path <hello@theperfumepath.com>',
       to: toEmail,
-      replyTo: 'hello@thebonsaipath.com',
+      replyTo: 'hello@theperfumepath.com',
       subject: 'About your course purchase — important update',
       html,
     });

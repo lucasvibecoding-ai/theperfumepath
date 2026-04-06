@@ -21,7 +21,7 @@ export default function OrderConfirmation({ customerEmail }: OrderConfirmationPr
       <Body style={body}>
         <Container style={container}>
 
-          <Heading style={heading}>Thank you for your purchase 🌳</Heading>
+          <Heading style={heading}>Thank you for your purchase 🌸</Heading>
 
           <Text style={text}>
             Hi there,
@@ -44,17 +44,17 @@ export default function OrderConfirmation({ customerEmail }: OrderConfirmationPr
           </Text>
 
           <Text style={optionText}>
-            <strong>Option 2 — Wait for v2.</strong> It&apos;s coming mid-April. It&apos;s going to be incredible. As a thank you for your patience, I&apos;ll give you a <strong>steep discount</strong> on the Bonsai Community once it opens — it&apos;s going to be a private space for serious bonsai practitioners, and you&apos;ll get in at a fraction of the price.
+            <strong>Option 2 — Wait for the updated version.</strong> It&apos;s coming end of April. It&apos;s going to be incredible. As a thank you for your patience, I&apos;ll give you a <strong>steep discount</strong> on the Perfume Path Community once it opens — it&apos;s going to be a private space for fragrance enthusiasts, and you&apos;ll get in at a fraction of the price.
           </Text>
 
           <Hr style={divider} />
 
           <Text style={text}>
-            Just reply to this email and let me know which you&apos;d prefer. If I don&apos;t hear back, I&apos;ll assume you&apos;re happy to wait and I&apos;ll send you access as soon as v2 is live.
+            Just reply to this email and let me know which you&apos;d prefer. If I don&apos;t hear back, I&apos;ll assume you&apos;re happy to wait and I&apos;ll send you access as soon as the updated version is live.
           </Text>
 
           <Text style={signature}>
-            — Keiko Murakami
+            — Claire Beaumont
           </Text>
 
           <Hr style={divider} />
@@ -72,7 +72,7 @@ export default function OrderConfirmation({ customerEmail }: OrderConfirmationPr
           </Text>
 
           <Text style={spamStep}>
-            <strong>2. Add me to your contacts.</strong> Save <strong>hello@thebonsaipath.com</strong> as a contact and future emails will go straight to your inbox.
+            <strong>2. Add me to your contacts.</strong> Save <strong>hello@theperfumepath.com</strong> as a contact and future emails will go straight to your inbox.
           </Text>
 
           <Text style={spamStep}>

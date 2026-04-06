@@ -241,7 +241,7 @@ export default function Home() {
                 <p>Your hands are busy. Your eyes are focused. And somewhere between the second and third cut, <strong>the noise stops.</strong></p>
               </div>
               <div style={{ flex: '1.2', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Image src="/meditation.png" alt="Hands working on a bonsai tree" width={600} height={600} style={{ width: '100%', height: 'auto', borderRadius: 16, boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }} />
+                <Image src="/meditation.jpg" alt="Hands working on a bonsai tree" width={600} height={600} style={{ width: '100%', height: 'auto', borderRadius: 16, boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }} />
               </div>
             </div>
           </section>

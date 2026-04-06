@@ -376,7 +376,7 @@ export default function CheckoutClient() {
             </a>
 
             <div className="product-name">Permanent Access</div>
-            <div className="product-title"><span className="desktop-title">The Bonsai Path</span><span className="mobile-title">Bonsai Class</span></div>
+            <div className="product-title"><span className="desktop-title">The Perfume Path</span><span className="mobile-title">Perfume Class</span></div>
             <div className="product-price">
               $47.00<span className="currency">USD</span>
             </div>
@@ -384,23 +384,23 @@ export default function CheckoutClient() {
             <div className="summary-divider" />
 
             <div className="line-item">
-              <span className="item-name">The Bonsai Path (5 Modules)</span>
+              <span className="item-name">The Perfume Path (5 Modules)</span>
               <span className="item-price">$47.00</span>
             </div>
             <div className="line-item">
-              <span className="item-name">Seasonal Care Calendar</span>
+              <span className="item-name">Seasonal Fragrance Calendar</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
-              <span className="item-name">Bonsai Aftercare Guide</span>
+              <span className="item-name">Fragrance Troubleshooting Guide</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
-              <span className="item-name">Mindfulness Through Bonsai</span>
+              <span className="item-name">The Scent Journal</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
-              <span className="item-name">Bonsai Styles &amp; Display Guide</span>
+              <span className="item-name">Perfume as Gifts &amp; Special Occasions Guide</span>
               <span className="item-price">FREE</span>
             </div>
 

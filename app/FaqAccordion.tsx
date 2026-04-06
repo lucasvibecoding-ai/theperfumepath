@@ -4,44 +4,44 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    q: 'Do I need any experience with plants or bonsai?',
-    a: "None at all. This course is built for complete beginners, including people who've killed every houseplant they've owned. Module 1 starts by matching you with the right tree for your specific environment and teaches you the exact care routine to keep it alive from day one.",
+    q: 'Do I need any experience with perfume or fragrance?',
+    a: "None at all. This course is built for complete beginners, including people who've never smelled an essential oil outside of a candle store. Module 1 starts by teaching you how scent works and walks you through your very first blend step by step.",
   },
   {
     q: 'How much does everything cost to get started?',
-    a: "Under $35 total. A starter tree ($12-15 from any nursery or online), a pair of shears ($8-12), and some aluminum bonsai wire ($5-10). The course includes a complete shopping guide with links. You do NOT need expensive Japanese tools or a premium specimen tree.",
+    a: "Under $35 total. A starter set of essential oils ($15-20), carrier oil ($5-8), and a few small bottles ($5-7). The course includes a complete shopping guide with links. You do NOT need expensive niche ingredients or professional lab equipment.",
   },
   {
-    q: 'Will you tell me which tree to buy and where to get it?',
-    a: "Yes. Module 1 walks you through exactly which species to pick based on your climate, light, and whether you're growing indoors or outdoors. It also includes a shopping guide with specific links so you know exactly where to buy your first tree and what to look for.",
+    q: 'Will you tell me which ingredients to buy and where to get them?',
+    a: "Yes. Module 2 walks you through exactly which oils to start with based on the scent profiles you're drawn to. It also includes a shopping guide with specific links so you know exactly where to buy everything and what to avoid.",
   },
   {
-    q: 'Can I grow bonsai indoors?',
-    a: "Yes, with the right species. Tropical species like ficus, Chinese elm, and jade thrive indoors year-round near a bright window. The course covers both indoor and outdoor species and helps you choose based on your living situation and climate. You do not need a garden.",
+    q: 'Can I make perfume in a small apartment with no special setup?',
+    a: "Yes. All you need is a table, good ventilation (an open window works), and the ingredients. No lab, no special room, no expensive equipment. Most of our students blend at their kitchen table or desk.",
   },
   {
-    q: 'Will bonsai work in my climate or country?',
-    a: "Yes. Bonsai is practiced on every continent. There are species that thrive in tropical heat, cold winters, dry climates, and everything in between. The course helps you pick the exact species that fits your specific environment — whether you're in Scandinavia, Southeast Asia, or anywhere else.",
+    q: 'Will this work with ingredients available in my country?',
+    a: "Yes. The essential oils and carrier oils used in this course are available worldwide through online retailers. The course covers both natural and synthetic options, and the shopping guide includes international suppliers. If you can order online, you can get everything you need.",
   },
   {
-    q: 'How much time does bonsai take daily?',
-    a: "Daily care is 2-3 minutes: checking soil moisture and watering when needed. Pruning and shaping sessions happen every few weeks and take 15-30 minutes. It's one of the lowest time-commitment hobbies that still feels deeply rewarding.",
+    q: 'How much time does each blending session take?',
+    a: "Your first blend takes about 30-45 minutes including setup. After that, most sessions are 15-20 minutes. Curing happens on its own over 48 hours — you just let it sit. It's one of the most rewarding creative hobbies for the time invested.",
   },
   {
-    q: 'How long until my bonsai actually looks good?',
-    a: 'Your first pruning session creates a dramatic transformation, often within the first weekend. Going from "overgrown nursery plant" to "that\'s clearly a bonsai" can happen in one afternoon with the right cuts. Deeper refinement builds over months and years, but the initial "wow" moment is immediate.',
+    q: 'How long until my perfume actually smells professional?',
+    a: 'Your first blending session produces something you\'ll want to wear. That happens in one afternoon, not one year. Going from "random mix of oils" to "people ask what I\'m wearing" can happen on day one with the right formula. Depth and complexity build with practice, but the initial "wow" moment is immediate.',
   },
   {
-    q: "It takes years to see results. I'm too impatient.",
-    a: "Your FIRST pruning session transforms a bushy plant into something that's clearly a bonsai. That happens in one afternoon, not one decade. The \"holy cow, I made that\" moment? That's day one. Every week after, your tree shows you something new.",
+    q: "I have a terrible sense of smell. Can I still do this?",
+    a: "Unless you have a medical condition affecting your smell, your nose is far more capable than you think. Most people simply haven't trained it. The Scent Journal bonus includes daily exercises that sharpen your ability to detect and distinguish notes. Within a week, you'll notice scents you never picked up before.",
   },
   {
-    q: 'What if my tree dies?',
-    a: "The Troubleshooting Guide covers every warning sign so you can intervene before it's too late. But honestly, even masters lose trees. It's part of learning. That's exactly why we start you with affordable nursery stock ($12-15). A dead $12 tree is a lesson, not a disaster. And the next one will be better because of what you learned.",
+    q: 'What if my blend turns out terrible?',
+    a: "The Troubleshooting Guide covers every common mistake so you can fix or salvage almost any blend. But honestly, even experienced perfumers create duds. It's part of the process. That's exactly why we start you with affordable ingredients. A failed $3 experiment is a lesson, not a disaster. And the next one will be better because of what you learned.",
   },
   {
     q: "What's the refund policy?",
-    a: "90-day money-back guarantee. Try the entire course. Pick your tree. Make your first cuts. If you don't love it, email us within 90 days and we'll refund you in full. No questions asked. No hoops.",
+    a: "90-day money-back guarantee. Try the entire course. Choose your ingredients. Make your first blends. If you don't love it, email us within 90 days and we'll refund you in full. No questions asked. No hoops.",
   },
   {
     q: 'How is the content delivered?',
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: 'Have a specific question?',
-    a: "Email us at hello@thebonsaipath.com and we'll get back to you as soon as possible.",
+    a: "Email us at hello@theperfumepath.com and we'll get back to you as soon as possible.",
   },
 ];
 

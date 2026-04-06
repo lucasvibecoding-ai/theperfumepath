@@ -291,7 +291,7 @@ export default function Home() {
                 <p>Your hands are busy. Your eyes are focused. And somewhere between the second and third cut, twenty minutes gone, no phone, no noise, you realize your shoulders have dropped and your breathing has slowed.</p>
               </div>
               <div style={{ flex: '1.2', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Image src="/meditation.png" alt="Hands working on a bonsai tree" width={600} height={600} style={{ width: '100%', height: 'auto', borderRadius: 16, boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }} />
+                <Image src="/meditation.jpg" alt="Hands working on a bonsai tree" width={600} height={600} style={{ width: '100%', height: 'auto', borderRadius: 16, boxShadow: '0 8px 30px rgba(0,0,0,0.12)' }} />
               </div>
             </div>
           </section>
@@ -364,7 +364,7 @@ export default function Home() {
           {/* INSTRUCTOR */}
           <section className="instructor">
             <div className="instructor-img">
-              <Image src="/creator.png" alt="Keiko Murakami" width={440} height={550} style={{ width: '100%', height: 'auto', borderRadius: 16 }} />
+              <Image src="/creator.jpg" alt="Keiko Murakami" width={440} height={550} style={{ width: '100%', height: 'auto', borderRadius: 16 }} />
             </div>
             <div className="instructor-text">
               <h2>My name is Keiko Murakami (村上恵子).</h2>
@@ -384,8 +384,8 @@ export default function Home() {
           {/* MODULES */}
           <section style={{ padding: '20px 0 40px' }}>
             <div className="bonsai-center" style={{ marginBottom: 24 }}>
-              <Image className="hereswhatyouget-desktop" src="/hereiswhatyouget.png" alt="Here's what you get" width={800} height={400} style={{ width: '100%', maxWidth: 700, height: 'auto', margin: '0 auto 24px' }} />
-              <Image className="hereswhatyouget-mobile" src="/hereiswhatyouget_mobile.png" alt="Here's what you get" width={400} height={400} style={{ width: '100%', maxWidth: 400, height: 'auto', margin: '0 auto 24px' }} />
+              <Image className="hereswhatyouget-desktop" src="/hereiswhatyouget.jpg" alt="Here's what you get" width={800} height={400} style={{ width: '100%', maxWidth: 700, height: 'auto', margin: '0 auto 24px' }} />
+              <Image className="hereswhatyouget-mobile" src="/hereiswhatyouget_mobile.jpg" alt="Here's what you get" width={400} height={400} style={{ width: '100%', maxWidth: 400, height: 'auto', margin: '0 auto 24px' }} />
             </div>
             <h2 className="bonsai-center" style={{ marginTop: 86, marginBottom: 24 }}>&#10022; What&apos;s Inside &#10022;</h2>
 
