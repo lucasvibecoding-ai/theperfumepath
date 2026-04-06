@@ -38,13 +38,13 @@ export async function POST(request: Request) {
     const data = await res.json();
 
     if (data.status === 'COMPLETED') {
-      const customerEmail = data.payer?.email_address || 'hello@theperfumepath.com';
+      const customerEmail = data.payer?.email_address || 'hello@clairedoesperfumes.com';
       const html = await render(OrderConfirmation({ customerEmail }));
 
       await resend.emails.send({
-        from: 'Claire Beaumont - The Perfume Path <hello@theperfumepath.com>',
+        from: 'Claire Beaumont - The Perfume Path <hello@clairedoesperfumes.com>',
         to: customerEmail,
-        replyTo: 'hello@theperfumepath.com',
+        replyTo: 'hello@clairedoesperfumes.com',
         subject: 'About your course purchase — important update',
         html,
       });

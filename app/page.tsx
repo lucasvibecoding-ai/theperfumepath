@@ -518,7 +518,7 @@ export default function Home() {
             <h2 style={{ textAlign: 'center' }}>Try it risk-free</h2>
             <p style={{ fontSize: 20 }}><strong>You don&apos;t have to make the final decision now.</strong></p>
             <p style={{ textAlign: 'left', fontSize: 20 }}>Get access to the full course. Choose your first ingredients. Learn how to blend properly. Create your first signature scent. Watch your skills sharpen with every new batch.</p>
-            <p style={{ textAlign: 'left', fontSize: 20 }}>If you don&apos;t love it, email hello@theperfumepath.com within 90 days for a full refund. Within 24 hours. <strong>No questions asked.</strong></p>
+            <p style={{ textAlign: 'left', fontSize: 20 }}>If you don&apos;t love it, email hello@clairedoesperfumes.com within 90 days for a full refund. Within 24 hours. <strong>No questions asked.</strong></p>
           </section>
 
           <div className="bonsai-divider" />

@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: 'Have a specific question?',
-    a: "Email us at hello@theperfumepath.com and we'll get back to you as soon as possible.",
+    a: "Email us at hello@clairedoesperfumes.com and we'll get back to you as soon as possible.",
   },
 ];
 
