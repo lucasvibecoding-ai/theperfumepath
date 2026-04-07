@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import CheckoutClient from './CheckoutClient';
 
 export const metadata: Metadata = {
-  title: 'Checkout — The Perfume Path',
+  title: 'Checkout — Claire Does Perfumes',
   description: 'Complete your purchase',
 };
 

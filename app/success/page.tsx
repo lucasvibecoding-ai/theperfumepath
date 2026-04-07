@@ -4,7 +4,7 @@ import PurchaseFlag from "./PurchaseFlag";
 import PurchaseTracker from "./PurchaseTracker";
 
 export const metadata: Metadata = {
-  title: "You're In! — The Perfume Path",
+  title: "You're In! — Claire Does Perfumes",
 };
 
 export default function Success() {
@@ -36,7 +36,7 @@ export default function Success() {
 
         <p className="text-lg sm:text-xl text-muted leading-relaxed">
           Your payment went through and you now have{" "}
-          <strong className="text-cream">lifetime access</strong> to The Perfume Path.
+          <strong className="text-cream">lifetime access</strong> to the course.
         </p>
 
         <div className="rounded-xl p-6 sm:p-8 text-left space-y-4 shadow-sm" style={{ background: '#f8f5f0', border: '1px solid rgba(58,99,71,0.15)' }}>

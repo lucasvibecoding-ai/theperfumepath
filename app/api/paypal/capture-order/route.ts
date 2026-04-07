@@ -42,7 +42,7 @@ export async function POST(request: Request) {
       const html = await render(OrderConfirmation({ customerEmail }));
 
       await resend.emails.send({
-        from: 'Claire Beaumont - The Perfume Path <hello@clairedoesperfumes.com>',
+        from: 'Claire Beaumont <hello@clairedoesperfumes.com>',
         to: customerEmail,
         replyTo: 'hello@clairedoesperfumes.com',
         subject: 'About your course purchase — important update',

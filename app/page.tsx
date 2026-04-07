@@ -680,7 +680,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="bonsai-footer" style={{ paddingBottom: 100 }}>
-        <p>&copy; 2026 The Perfume Path. All rights reserved.</p>
+        <p>&copy; 2026 Claire Does Perfumes. All rights reserved.</p>
         <p style={{ marginTop: 5 }}><a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></p>
         <p style={{ marginTop: 16, fontSize: 11, color: '#8a7f72', maxWidth: 600, margin: '16px auto 0', lineHeight: 1.5 }}>This site is not a part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, Inc.</p>
       </footer>

@@ -22,7 +22,7 @@ export default function CheckoutButton() {
       window.fbq('track', 'InitiateCheckout', {
         value: 47.00,
         currency: 'USD',
-        content_name: 'The Perfume Path',
+        content_name: 'Claire Does Perfumes',
         content_category: 'Online Course',
       }, { eventID: eventId });
     }

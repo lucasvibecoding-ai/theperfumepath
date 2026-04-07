@@ -33,7 +33,7 @@ export async function POST(request: Request) {
               custom_data: {
                 value: 47.0,
                 currency: 'USD',
-                content_name: 'The Perfume Path',
+                content_name: 'Claire Does Perfumes',
                 content_category: 'Online Course',
               },
             },
