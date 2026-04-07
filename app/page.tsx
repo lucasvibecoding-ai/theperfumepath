@@ -234,26 +234,34 @@ export default function Home() {
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>Even if you&apos;re a complete beginner</p>
-            <h1>Create Your Own <span style={{ backgroundImage: 'linear-gradient(135deg, #b08d3a, #d4b35c, #b08d3a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent', filter: 'drop-shadow(0 0 8px rgba(212,179,92,0.4))' }}>Signature Perfumes</span> at Home in a Single Weekend</h1>
+            <h1>Create Your Own <span style={{ backgroundImage: 'linear-gradient(135deg, #b08d3a, #d4b35c, #b08d3a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent', filter: 'drop-shadow(0 0 8px rgba(212,179,92,0.4))' }}>Custom Perfume</span> at Home in a Single Weekend</h1>
             <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, fontStyle: 'italic' }}>Without expensive ingredients or years of trial and error.</p>
 
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
-              <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '1.5' }}>
+              <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '2' }}>
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
-                  Making your own perfume isn&apos;t just mixing scents.
+                  Once you create your own scent, <strong>you&apos;ll use it everywhere.</strong>
                   <br /><br />
-                  It&apos;s a <strong>centuries-old craft</strong> of self-expression, creativity, and capturing a moment <strong>in a bottle</strong>.
+                  On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even in <strong>the bathroom</strong>.
+                  <br /><br />
+                  And then… <strong>you&apos;ll want to create another one.</strong>
+                  <br /><br />
+                  Trust me. <strong>Everyone does.</strong>
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Image id="hero" src="/hero4.png" alt="Handcrafted perfume bottles" width={600} height={600} style={{ width: '75%', height: 'auto', borderRadius: 16, boxShadow: '0 12px 40px rgba(0,0,0,0.2), 0 4px 12px rgba(0,0,0,0.1)' }} />
+                <Image id="hero" src="/heronew2.jpg" alt="Handcrafted perfume bottles" width={600} height={600} style={{ width: '75%', height: 'auto', borderRadius: 16, boxShadow: '0 12px 40px rgba(0,0,0,0.2), 0 4px 12px rgba(0,0,0,0.1)' }} />
               </div>
             </div>
             <div className="hero-text-mobile" style={{ textAlign: 'left', marginTop: 36 }}>
               <p style={{ marginBottom: 0 }}>
-                Making your own perfume isn&apos;t just mixing scents.
-                <br /><br />
-                It&apos;s a <strong>centuries-old craft</strong> of self-expression, creativity, and capturing a moment <strong>in a bottle</strong>.
+                  Once you create your own scent, <strong>you&apos;ll use it everywhere.</strong>
+                  <br /><br />
+                  On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even in <strong>the bathroom</strong>.
+                  <br /><br />
+                  And then… <strong>you&apos;ll want to create another one.</strong>
+                  <br /><br />
+                  Trust me. <strong>Everyone does.</strong>
               </p>
             </div>
           </section>
@@ -267,27 +275,27 @@ export default function Home() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16, fontSize: 'clamp(1.125rem, 2vw, 1.25rem)', lineHeight: 1.75 }}>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <span style={{ color: '#C0392B', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#C0392B' }}>wear a scent that feels completely yours</strong> — and have people stop to ask what you&apos;re wearing (only to hear you made it yourself)
+                    <strong style={{ color: '#C0392B' }}>wear a scent that feels completely yours.</strong> Have people stop to ask what you&apos;re wearing (only to hear you made it yourself)
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <span style={{ color: '#1A8F7D', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#1A8F7D' }}>sit down after a long week and create something with your hands</strong> — no screens, no noise, just a calm, focused hour of blending scents
+                    <strong style={{ color: '#1A8F7D' }}>make your home, car, or office smell exactly how you want.</strong> Not &quot;close enough.&quot; Exactly.
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <span style={{ color: '#D4621A', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#D4621A' }}>actually understand what makes a fragrance smell good</strong> — so you&apos;re not guessing, but confidently combining scents that work together
+                    <strong style={{ color: '#D4621A' }}>actually understand what makes a fragrance smell good.</strong> No more guessing. Just confidently combining scents that work together.
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                  <span style={{ color: '#E07A5F', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <span style={{ color: '#7B2D8E', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#7B2D8E' }}>create a perfume you can wear daily or gift</strong> — something personal, thoughtful, and impossible to buy anywhere
+                    <strong style={{ color: '#7B2D8E' }}>have the best smelling hobby in the world.</strong> Creative, calming, and without any screens. (Plus, it makes one hell of a gift 🎁)
                   </p>
                 </div>
               </div>

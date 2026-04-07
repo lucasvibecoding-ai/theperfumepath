@@ -68,7 +68,7 @@ export default function Success() {
 
         <div className="pt-4">
           <p className="text-muted text-lg font-medium">
-            Welcome to the craft
+            Welcome to the best smelling hobby
           </p>
         </div>
 
