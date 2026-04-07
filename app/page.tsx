@@ -308,8 +308,8 @@ export default function Home() {
           {/* THE MOMENT IT CLICKS */}
           <section style={{ padding: '64px 0 24px' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 44 }}>You might be thinking this is impossible.</h2>
-            <p>A custom perfume that smells this good? <strong>It looks like something that takes years of training.</strong></p>
-            <p>Maybe you&apos;ve browsed essential oils before. Tried mixing a few together. It didn&apos;t smell the way you imagined, so you closed the bottle and moved on.</p>
+            <p>Your own perfume? It sounds like something <strong>only professionals can pull off.</strong></p>
+            <p>Maybe you&apos;ve tried mixing scents before. It didn&apos;t smell the way you imagined, so you closed the bottle and moved on.</p>
             <p>Maybe you&apos;ve never tried at all, but something about creating your own scent pulls you in. You just don&apos;t know where to start.</p>
           </section>
 
@@ -317,7 +317,6 @@ export default function Home() {
             <h2 className="bonsai-center" style={{ marginBottom: 44 }}>Here&apos;s what most people don&apos;t realize.</h2>
             <p><strong>Your perfume doesn&apos;t need to be complicated.</strong></p>
             <p>Three notes layered well can outperform a $200 bottle with forty ingredients.</p>
-            <p>A warm vanilla base works. A bright citrus opening works. A soft woody middle works.</p>
             <p>As long as the balance between top, middle, and base is right, <strong>your nose does the rest.</strong></p>
             <p>You add one note. Then another. Then another. And the scent comes alive.</p>
           </section>
@@ -325,15 +324,6 @@ export default function Home() {
           <div style={{ maxWidth: 860, margin: '0 auto', paddingTop: 48 }}>
             <Image className="perfume-pic" src="/perfume_pic.jpg" alt="Perfume crafting" width={1024} height={1024} style={{ width: '60%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)', display: 'block', margin: '0 auto' }} />
           </div>
-
-          <section style={{ padding: '48px 0 24px' }}>
-              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>Why most people never try to create their own scent.</h2>
-              <p>You&apos;ve probably thought about it before. Making your own perfume sounds <strong>interesting</strong>. Creative. Different.</p>
-              <p>But then the doubts kick in — <em>where would I even begin? What if it smells terrible? Isn&apos;t this something only professionals can do?</em></p>
-              <p>So you stick to store-bought. Pick something that smells good. <strong>Wear it for a while.</strong></p>
-              <p>And then it starts to feel like everything else. Because <strong>you didn&apos;t create it</strong>. You just picked it.</p>
-              <p>And the idea of making your own? It stays exactly that. <strong>An idea.</strong></p>
-          </section>
 
           <section style={{ padding: '48px 0 64px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;I don&apos;t have a good nose. I&apos;m not a perfumer.&quot;</h2>
@@ -355,8 +345,7 @@ export default function Home() {
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Will it smell as good as store-bought? Will it last on my skin?&quot;</h2>
               <p><strong>Yes — and you&apos;ll understand exactly why.</strong></p>
               <p>Store-bought perfumes aren&apos;t magic. They follow the same principles you&apos;ll learn in this course: <strong>balance, layering, and concentration.</strong></p>
-              <p>The difference between a scent that fades in 20 minutes and one that lasts 8 hours comes down to a few simple choices — base note selection, oil-to-alcohol ratio, and curing time.</p>
-              <p>We cover all of it. By the end, you&apos;ll be making fragrances that <strong>last just as long as anything on a department store shelf</strong> — and smell like something no one else is wearing.</p>
+              <p>The difference between a scent that fades in 20 minutes and one that lasts 8 hours comes down to a few simple choices: base note selection, oil-to-alcohol ratio, and curing time.</p>
           </section>
 
           {/* ANYONE CAN LEARN */}
@@ -375,14 +364,12 @@ export default function Home() {
           {/* WHY I'M TEACHING THIS */}
           <h2 className="bonsai-center" style={{ marginBottom: 0, paddingTop: 64 }}>Why I&apos;m Teaching This Online For The First Time</h2>
           <section style={{ paddingTop: 56, paddingBottom: 64 }}>
-              <p>Most people will never visit <strong>Grasse, the perfume capital of France</strong>.</p>
-              <p>They&apos;ll never apprentice with a master perfumer.</p>
-              <p>Never experience the meditative practice of blending fragrances by hand.</p>
-              <p>People started asking me to teach them. One of my first students wrote:</p>
+              <p>It started when friends asked me to make them perfumes. Then their friends. Then total strangers. After a while, there weren&apos;t enough hours in the day, so I had to put it in a course.</p>
+              <p>And after one of my first students wrote…</p>
               <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I&apos;ve always wanted to make my own signature scent, and now I wear something <strong>no one else in the world has</strong>.&quot;</p>
-              <p>That&apos;s when I knew I had to share this.</p>
+              <p>…I knew I had to share this.</p>
               <p><strong>Not just the technique, but the artistry. The sensory experience. The self-expression.</strong></p>
-              <p>I put everything I&apos;ve learned into this course. The exact techniques, the formulas, the materials that cost <strong>under $30</strong>, not $200 or more. <strong>Everything you need to create your first perfume.</strong></p>
+              <p>I put everything I&apos;ve learned into this course. The exact techniques, formulas and secrets from top perfumers. <strong>Everything you need to create your first perfume.</strong></p>
           </section>
 
           {/* INSTRUCTOR */}
