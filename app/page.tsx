@@ -217,6 +217,7 @@ export default function Home() {
           .badge { font-size: 10px; letter-spacing: 1.5px; padding: 5px 12px; }
           .payment-method-btn { font-size: 13px; padding: 10px 12px; }
           #hero { width: 100% !important; margin-top: 16px; }
+          .perfume-pic { width: 100% !important; }
           .now-only { font-size: 36px !important; }
           .price-old { font-size: 22px !important; }
           .cta-btn { font-size: 1.3rem !important; }
@@ -322,7 +323,7 @@ export default function Home() {
           </section>
 
           <div style={{ maxWidth: 860, margin: '0 auto', paddingTop: 48 }}>
-            <Image src="/perfume_pic.jpg" alt="Perfume crafting" width={1024} height={1024} style={{ width: '60%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)', display: 'block', margin: '0 auto' }} />
+            <Image className="perfume-pic" src="/perfume_pic.jpg" alt="Perfume crafting" width={1024} height={1024} style={{ width: '60%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)', display: 'block', margin: '0 auto' }} />
           </div>
 
           <section style={{ padding: '48px 0 24px' }}>
