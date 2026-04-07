@@ -322,7 +322,7 @@ export default function Home() {
           </section>
 
           <div style={{ maxWidth: 860, margin: '0 auto', paddingTop: 48 }}>
-            <Image src="/perfume_pic.jpg" alt="Perfume crafting" width={860} height={480} style={{ width: '100%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)' }} />
+            <Image src="/perfume_pic.jpg" alt="Perfume crafting" width={1024} height={1024} style={{ width: '60%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)', display: 'block', margin: '0 auto' }} />
           </div>
 
           <section style={{ padding: '48px 0 24px' }}>
