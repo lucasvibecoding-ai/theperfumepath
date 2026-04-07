@@ -352,7 +352,9 @@ export default function Home() {
             <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can make perfume.</h2>
             <div style={{ maxWidth: 640, margin: '0 auto', fontSize: 20 }}>
               <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you&apos;ve never blended anything before.</span> A simple step-by-step method that works with any ingredients, any skill level.</p>
-              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you think you don&apos;t have a &quot;good nose.&quot;</span> People will ask what you&apos;re wearing. That&apos;s the point.</p>
+              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you think perfume-making is too hard.</span> It&apos;s not. You just never had the right method.</p>
+
+              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if perfectionism usually stops you.</span> The best scents come from experimenting, not overthinking.</p>
 
               <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you don&apos;t think of yourself as &quot;creative.&quot;</span> A few oils, a dropper, and 20 minutes. That&apos;s it.</p>
             </div>
