@@ -321,6 +321,10 @@ export default function Home() {
             <p>You add one note. Then another. Then another. And the scent comes alive.</p>
           </section>
 
+          <div style={{ maxWidth: 860, margin: '0 auto', paddingTop: 48 }}>
+            <Image src="/perfume_pic.jpg" alt="Perfume crafting" width={860} height={480} style={{ width: '100%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)' }} />
+          </div>
+
           <section style={{ padding: '48px 0 24px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>Why most people never try to create their own scent.</h2>
               <p>You&apos;ve probably thought about it before. Making your own perfume sounds <strong>interesting</strong>. Creative. Different.</p>
