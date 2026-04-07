@@ -338,7 +338,6 @@ export default function Home() {
               <p><strong>Your first perfume costs less than a coffee.</strong></p>
               <p>A starter kit of essential oils is <strong>$15-20</strong>. Carrier oil and bottles cost <strong>under $15.</strong></p>
               <p>That&apos;s it. No $300 niche ingredients. No professional lab equipment.</p>
-              <p>The course teaches you how to find <strong>affordable, high-quality ingredients</strong> anywhere.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
