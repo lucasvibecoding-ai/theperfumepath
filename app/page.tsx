@@ -321,7 +321,7 @@ export default function Home() {
             <p>You add one note. Then another. Then another. And the scent comes alive.</p>
           </section>
 
-          <div style={{ maxWidth: 860, margin: '0 auto', paddingTop: 48 }}>
+          <div style={{ maxWidth: 860, margin: '0 auto', paddingTop: 16 }}>
             <Image className="perfume-pic" src="/perfume_pic.jpg" alt="Perfume crafting" width={1024} height={1024} style={{ width: '60%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)', display: 'block', margin: '0 auto' }} />
           </div>
 
