@@ -549,7 +549,7 @@ export default function Home() {
               <h3>The Troubleshooting &amp; Rescue Guide</h3>
               <div className="bonus-desc">Diagnose and fix any blend that isn&apos;t working.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus2.jpg" alt="Troubleshooting and Rescue Guide" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus2_new.jpg" alt="Troubleshooting and Rescue Guide" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
                   <li>&#10022; <strong>Scent fades in an hour?</strong> The 4 possible causes and fixes</li>
                   <li>&#10022; <strong>Smells different on skin vs paper?</strong> How to tell why in 30 seconds</li>
