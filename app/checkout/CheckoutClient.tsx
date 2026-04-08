@@ -392,11 +392,11 @@ export default function CheckoutClient() {
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
-              <span className="item-name">Troubleshooting &amp; Rescue Guide</span>
+              <span className="item-name">The Blend Perfector</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
-              <span className="item-name">The Perfumer&apos;s Muse</span>
+              <span className="item-name">10 Iconic Scent Profiles</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">

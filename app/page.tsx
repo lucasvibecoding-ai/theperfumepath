@@ -519,25 +519,23 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 1</div><div className="bonus-value">$47 value</div></div>
-              <h3>The Signature Scent Blueprint</h3>
-              <div className="bonus-desc">Discover your scent personality and build a fragrance that&apos;s unmistakably yours.</div>
+              <h3>10 Iconic Scent Profiles</h3>
+              <div className="bonus-desc">Perfume recipes inspired by the most iconic characters and personalities.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus1.jpg" alt="The Signature Scent Blueprint" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus1_new_new.jpg" alt="10 Iconic Scent Profiles" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>The scent personality quiz</strong> to find your 3 ideal fragrance families</li>
-                  <li>&#10022; How to <strong>build your &quot;scent DNA&quot; profile</strong> from everyday smells</li>
-                  <li>&#10022; The <strong>signature scent formula</strong>, a repeatable method that feels like &quot;you&quot;</li>
-                  <li>&#10022; How to <strong>evolve your signature</strong> so it never feels stale</li>
+                  <li>&#10022; <strong>10 character-inspired formulas</strong>: James Bond, Barbie, Cleopatra, Gatsby, Wednesday Addams, Tony Montana, Catwoman, and Batman</li>
+                  <li>&#10022; <strong>Full recipes with ingredient lists</strong> for each scent profile</li>
                 </ul>
               </div>
             </div>
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 2</div><div className="bonus-value">$37 value</div></div>
-              <h3>The Troubleshooting &amp; Rescue Guide</h3>
-              <div className="bonus-desc">Diagnose and fix any blend that isn&apos;t working.</div>
+              <h3>The Blend Perfector</h3>
+              <div className="bonus-desc">Fine-tune any scent until it&apos;s exactly right.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus2_new.jpg" alt="Troubleshooting and Rescue Guide" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus2_new.jpg" alt="The Blend Perfector" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
                   <li>&#10022; <strong>Scent fades in an hour?</strong> The 4 possible causes and fixes</li>
                   <li>&#10022; <strong>Smells different on skin vs paper?</strong> How to tell why in 30 seconds</li>
@@ -548,16 +546,16 @@ export default function Home() {
             </div>
 
             <div className="bonus-card">
-              <div className="bonus-header"><div className="bonus-label">Bonus 3</div><div className="bonus-value">$29 value</div></div>
-              <h3>The Perfumer&apos;s Muse</h3>
-              <div className="bonus-desc">How professional perfumers find inspiration.</div>
+              <div className="bonus-header"><div className="bonus-label">Bonus 3</div><div className="bonus-value">$27 value</div></div>
+              <h3>The Signature Scent Blueprint</h3>
+              <div className="bonus-desc">Discover your scent personality and build a fragrance that&apos;s unmistakably yours.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus3.jpg" alt="The Perfumer's Muse" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus3-new-.jpg" alt="The Signature Scent Blueprint" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>The memory method</strong>: turn a feeling or moment into a fragrance</li>
-                  <li>&#10022; <strong>5 creative exercises from Grasse</strong> used by professional perfumers</li>
-                  <li>&#10022; How to <strong>build a personal scent library</strong> as your creative palette</li>
-                  <li>&#10022; The <strong>&quot;mood board to bottle&quot; technique</strong>: from emotion to formula</li>
+                  <li>&#10022; <strong>The scent personality quiz</strong> to find your 3 ideal fragrance families</li>
+                  <li>&#10022; How to <strong>build your &quot;scent DNA&quot; profile</strong> from everyday smells</li>
+                  <li>&#10022; The <strong>signature scent formula</strong>, a repeatable method that feels like &quot;you&quot;</li>
+                  <li>&#10022; How to <strong>evolve your signature</strong> so it never feels stale</li>
                 </ul>
               </div>
             </div>
@@ -567,10 +565,10 @@ export default function Home() {
           <section style={{ padding: '36px 0' }} id="pricing">
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$47</span></div>
-            <div className="stack-row"><span className="label">&#10003; Troubleshooting &amp; Rescue Guide</span><span className="val">$37</span></div>
-            <div className="stack-row"><span className="label">&#10003; The Perfumer&apos;s Muse</span><span className="val">$29</span></div>
-            <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$252</span></div>
+            <div className="stack-row"><span className="label">&#10003; 10 Iconic Scent Profiles</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$27</span></div>
+            <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$250</span></div>
           </section>
 
           <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
@@ -632,11 +630,11 @@ export default function Home() {
           <section style={{ padding: '36px 0' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$47</span></div>
-            <div className="stack-row"><span className="label">&#10003; Troubleshooting &amp; Rescue Guide</span><span className="val">$37</span></div>
-            <div className="stack-row"><span className="label">&#10003; The Perfumer&apos;s Muse</span><span className="val">$29</span></div>
+            <div className="stack-row"><span className="label">&#10003; 10 Iconic Scent Profiles</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
+            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$27</span></div>
             <div className="stack-row"><span className="label">&#10003; The Dupe Lab: 10 Iconic Perfume Formulas</span><span className="val">$79</span></div>
-            <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$331</span></div>
+            <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$329</span></div>
           </section>
 
           <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
