@@ -238,7 +238,7 @@ export default function Home() {
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>Even if you&apos;re a complete beginner</p>
             <h1>Create <span style={{ backgroundImage: 'linear-gradient(135deg, #b08d3a, #d4b35c, #b08d3a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent', filter: 'drop-shadow(0 0 8px rgba(212,179,92,0.4))' }}>Your Own Perfume</span> at Home in a Single Weekend</h1>
-            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, fontStyle: 'italic' }}>Without expensive ingredients or years of trial and error.</p>
+            <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, fontStyle: 'italic' }}>That smells just as good as a $150 bottle and lasts just as long.</p>
 
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
               <div className="split-text hero-text-desktop" style={{ textAlign: 'left', flex: '2' }}>
