@@ -519,12 +519,12 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 1</div><div className="bonus-value">$47 value</div></div>
-              <h3>10 Iconic Scent Profiles</h3>
+              <h3>8 Iconic Scent Profiles</h3>
               <div className="bonus-desc">Perfume recipes inspired by the most iconic characters and personalities.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus1_new_new.jpg" alt="10 Iconic Scent Profiles" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>10 character-inspired formulas</strong>: James Bond, Barbie, Cleopatra, Gatsby, Wednesday Addams, Tony Montana, Catwoman, and Batman</li>
+                  <li>&#10022; <strong>8 character-inspired formulas</strong>: James Bond, Barbie, Cleopatra, Gatsby, Wednesday Addams, Tony Montana, Catwoman, and Batman</li>
                   <li>&#10022; <strong>Full recipes with ingredient lists</strong> for each scent profile</li>
                 </ul>
               </div>
@@ -565,7 +565,7 @@ export default function Home() {
           <section style={{ padding: '36px 0' }} id="pricing">
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; 10 Iconic Scent Profiles</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; 8 Iconic Scent Profiles</span><span className="val">$47</span></div>
             <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
             <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$27</span></div>
             <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$250</span></div>
@@ -630,7 +630,7 @@ export default function Home() {
           <section style={{ padding: '36px 0' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; 10 Iconic Scent Profiles</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; 8 Iconic Scent Profiles</span><span className="val">$47</span></div>
             <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
             <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$27</span></div>
             <div className="stack-row"><span className="label">&#10003; The Dupe Lab: 10 Iconic Perfume Formulas</span><span className="val">$79</span></div>
