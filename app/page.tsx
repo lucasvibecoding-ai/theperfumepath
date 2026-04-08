@@ -110,6 +110,7 @@ export default function Home() {
         .price-old { font-size: 26px; color: var(--ink-muted); text-decoration: line-through; margin-bottom: 4px; }
         .price { font-size: 56px; color: var(--green-deep); margin-bottom: 4px; font-weight: 700; }
         .price-note { font-size: 20px; color: var(--ink-muted); margin-bottom: 24px; font-weight: 400; }
+        .lifetime-break { display: none; }
         .guarantee-badge { display: flex; align-items: center; gap: 10px; justify-content: center; margin-top: 20px; font-size: 15px; color: var(--ink-muted); }
         .guarantee-icon { width: 40px; height: 40px; border-radius: 50%; background: var(--cream); border: 1.5px solid var(--gold); display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; }
         .payment-icons { display: flex; gap: 6px; justify-content: center; margin-top: 14px; opacity: 0.4; }
@@ -202,6 +203,7 @@ export default function Home() {
           .hero-split { padding-top: 12px !important; }
         }
         @media (max-width: 480px) {
+          .lifetime-break { display: block; }
           .bonsai-page .container { padding: 0 24px; }
           .bonsai-page { font-size: 20px; }
           .bonsai-page p:not(.now-only):not(.no-exp):not(.hero-sub):not(.guarantee-text):not(.ps-note), .bonsai-page li { font-size: 20px !important; }
@@ -404,14 +406,14 @@ export default function Home() {
             <div className="module-card">
               <div className="module-label">Module 1</div>
               <h3>Introduction to the World of Fragrance</h3>
-              <div className="module-sub">The science and art behind scent — and why perfume-making changes the way you experience the world.</div>
+              <div className="module-sub">The science and art behind scent.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module1.jpg" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; The <strong>fragrance pyramid</strong> (top, middle, base notes) and why understanding it is the key to every great perfume</li>
-                  <li>&#10022; Why making your own scent is <strong>the most immersive creative practice</strong> you&apos;ve never tried — and the science behind it</li>
-                  <li>&#10022; How to <strong>approach your first blend with the right mindset</strong> so you enjoy the process instead of chasing perfection</li>
-                  <li>&#10022; The <strong>history of perfumery</strong> — from ancient Egypt and medieval France to your kitchen table</li>
+                  <li>&#10022; The <strong>fragrance pyramid</strong>: top, middle, and base notes explained</li>
+                  <li>&#10022; Why perfume-making is <strong>the most immersive creative practice</strong> you&apos;ve never tried</li>
+                  <li>&#10022; How to <strong>approach your first blend</strong> with the right mindset</li>
+                  <li>&#10022; The <strong>history of perfumery</strong>, from ancient Egypt to your kitchen table</li>
                 </ul>
               </div>
             </div>
@@ -423,10 +425,10 @@ export default function Home() {
               <div className="module-body">
                 <div className="module-img"><Image src="/module2.jpg" alt="Perfume ingredients and supplies" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; The <strong>exact supplies you need to start</strong> (and the ones you don&apos;t) — what to buy, where to buy it, and what&apos;s a waste of money</li>
-                  <li>&#10022; The <strong>5 essential oils every beginner should have</strong> and the 3 &quot;beginner&quot; ingredients that actually aren&apos;t (one is the most commonly recommended oil on the internet)</li>
-                  <li>&#10022; The <strong>drop-by-drop method</strong> that prevents ruining an entire batch</li>
-                  <li>&#10022; <strong>Natural vs synthetic: the decision that determines everything.</strong> Get this wrong and your perfume fades in 30 minutes no matter what else you do</li>
+                  <li>&#10022; The <strong>exact supplies you need</strong> and what&apos;s a waste of money</li>
+                  <li>&#10022; The <strong>5 essential oils every beginner should have</strong></li>
+                  <li>&#10022; The <strong>drop-by-drop method</strong> that prevents ruining a batch</li>
+                  <li>&#10022; <strong>Natural vs synthetic</strong>, the decision that determines everything</li>
                 </ul>
               </div>
             </div>
@@ -438,10 +440,10 @@ export default function Home() {
               <div className="module-body">
                 <div className="module-img"><Image src="/module3.jpg" alt="Blending perfume" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; How to <strong>&quot;hear&quot; a fragrance before you blend it</strong> — visualizing the finished scent before you add a single drop</li>
-                  <li>&#10022; Your first <strong>before-and-after transformation</strong> with 3-5 ingredients that turn basic oils into something people ask about</li>
-                  <li>&#10022; The <strong>one blending mistake 80% of beginners make</strong> that kills the top notes entirely (and the simple fix)</li>
-                  <li>&#10022; <strong>Quick adjustments in 2 minutes flat</strong> to refine your blend from good to &quot;I can&apos;t believe I made this&quot;</li>
+                  <li>&#10022; How to <strong>visualize a fragrance</strong> before you add a single drop</li>
+                  <li>&#10022; Your first <strong>before-and-after transformation</strong> with 3-5 ingredients</li>
+                  <li>&#10022; The <strong>one blending mistake 80% of beginners make</strong> (and the fix)</li>
+                  <li>&#10022; <strong>Quick adjustments</strong> to refine your blend from good to &quot;I can&apos;t believe I made this&quot;</li>
                 </ul>
               </div>
             </div>
@@ -453,10 +455,10 @@ export default function Home() {
               <div className="module-body">
                 <div className="module-img"><Image src="/module4.jpg" alt="Layering techniques" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; How to <strong>layer notes without muddying the scent</strong> using the bridge-note technique</li>
-                  <li>&#10022; Choosing the right <strong>concentration</strong> for each note (too much = overpowering, too little = invisible)</li>
-                  <li>&#10022; The <strong>over-blending mistake that turns a complex fragrance into a flat one</strong> and the exact timing for when to stop</li>
-                  <li>&#10022; Create a scent that <strong>evolves over 8 hours on your skin</strong> from a formula that takes 20 minutes to make</li>
+                  <li>&#10022; How to <strong>layer notes without muddying the scent</strong></li>
+                  <li>&#10022; The right <strong>concentration</strong> for each note</li>
+                  <li>&#10022; The <strong>over-blending mistake</strong> and exactly when to stop</li>
+                  <li>&#10022; Create a scent that <strong>evolves over 8 hours</strong> from a 20-minute formula</li>
                 </ul>
               </div>
             </div>
@@ -464,14 +466,14 @@ export default function Home() {
             <div className="module-card">
               <div className="module-label">Module 5</div>
               <h3>Curing, Bottling &amp; Sharing Your Creations</h3>
-              <div className="module-sub">The final step that separates amateurs from artisans. What happens during curing determines everything.</div>
+              <div className="module-sub">The final step that separates amateurs from artisans.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module5.jpg" alt="Bottling perfume" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; Why <strong>a freshly blended perfume smells nothing like the finished product</strong> and the 48-hour curing process that transforms it</li>
-                  <li>&#10022; <strong>Bottling demystified</strong>: the technique that sounds fussy but is actually the secret to preserving your fragrance for months</li>
-                  <li>&#10022; The <strong>signs your blend needs more curing time</strong> that most beginners miss until it&apos;s too late</li>
-                  <li>&#10022; Choosing the right <strong>bottle size and style</strong> with the presentation tips that make everything feel professional</li>
+                  <li>&#10022; Why <strong>a fresh blend smells nothing like the finished product</strong></li>
+                  <li>&#10022; <strong>Bottling demystified</strong>: preserving your fragrance for months</li>
+                  <li>&#10022; The <strong>signs your blend needs more curing time</strong></li>
+                  <li>&#10022; Choosing the right <strong>bottle and presentation</strong> for a professional finish</li>
                 </ul>
               </div>
             </div>
@@ -491,7 +493,7 @@ export default function Home() {
             <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
               <div className="price-old">Normally $97</div>
               <p id="get-access" className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
-              <div className="price-note">One-time payment. Lifetime access.</div>
+              <div className="price-note">One-time payment. <span className="lifetime-break" />Lifetime access.</div>
               <div style={{ marginTop: 20 }}><CheckoutButton /></div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
                 <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
@@ -532,14 +534,14 @@ export default function Home() {
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 1</div><div className="bonus-value">$47 value</div></div>
               <h3>The Signature Scent Blueprint</h3>
-              <div className="bonus-desc">A guided process to discover your scent personality and build a fragrance that becomes unmistakably yours.</div>
+              <div className="bonus-desc">Discover your scent personality and build a fragrance that&apos;s unmistakably yours.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus1.jpg" alt="The Signature Scent Blueprint" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>The scent personality quiz</strong> that narrows hundreds of possible directions down to your 3 ideal fragrance families</li>
-                  <li>&#10022; How to <strong>build a &quot;scent DNA&quot; profile</strong> based on the smells you&apos;re naturally drawn to in everyday life</li>
-                  <li>&#10022; The <strong>signature scent formula framework</strong> — a repeatable method for creating one fragrance that feels like &quot;you&quot;</li>
-                  <li>&#10022; How to <strong>evolve your signature over time</strong> so it grows with you instead of feeling stale after a few months</li>
+                  <li>&#10022; <strong>The scent personality quiz</strong> to find your 3 ideal fragrance families</li>
+                  <li>&#10022; How to <strong>build your &quot;scent DNA&quot; profile</strong> from everyday smells</li>
+                  <li>&#10022; The <strong>signature scent formula</strong>, a repeatable method that feels like &quot;you&quot;</li>
+                  <li>&#10022; How to <strong>evolve your signature</strong> so it never feels stale</li>
                 </ul>
               </div>
             </div>
@@ -547,14 +549,14 @@ export default function Home() {
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 2</div><div className="bonus-value">$37 value</div></div>
               <h3>The Troubleshooting &amp; Rescue Guide</h3>
-              <div className="bonus-desc">Your blend is trying to tell you something. This guide teaches you to listen — and fix it.</div>
+              <div className="bonus-desc">Diagnose and fix any blend that isn&apos;t working.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus2.jpg" alt="Troubleshooting and Rescue Guide" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>Scent fades in an hour?</strong> It&apos;s not always the ingredients — the 4 possible causes and the fix for each one</li>
-                  <li>&#10022; <strong>Smells different on skin vs paper?</strong> Body chemistry, temperature, or formulation — how to tell the difference in 30 seconds</li>
-                  <li>&#10022; <strong>Top notes disappeared?</strong> The concentration and timing adjustment that restores the opening</li>
-                  <li>&#10022; <strong>15+ common problems</strong> with clear diagnosis and step-by-step solutions so no blend goes to waste</li>
+                  <li>&#10022; <strong>Scent fades in an hour?</strong> The 4 possible causes and fixes</li>
+                  <li>&#10022; <strong>Smells different on skin vs paper?</strong> How to tell why in 30 seconds</li>
+                  <li>&#10022; <strong>Top notes disappeared?</strong> The adjustment that restores them</li>
+                  <li>&#10022; <strong>15+ common problems</strong> with step-by-step solutions</li>
                 </ul>
               </div>
             </div>
@@ -562,14 +564,14 @@ export default function Home() {
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 3</div><div className="bonus-value">$29 value</div></div>
               <h3>The Perfumer&apos;s Muse</h3>
-              <div className="bonus-desc">How professional perfumers find inspiration — and how you can use the same methods at your kitchen table.</div>
+              <div className="bonus-desc">How professional perfumers find inspiration.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus3.jpg" alt="The Perfumer's Muse" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>The memory method</strong> — how master perfumers translate a feeling, a place, or a moment into a fragrance you can actually smell</li>
-                  <li>&#10022; <strong>5 creative exercises from Grasse</strong> used by professional noses to break through creative blocks and discover unexpected combinations</li>
-                  <li>&#10022; How to <strong>build a personal scent library</strong> — a curated collection of reference notes that becomes your creative palette</li>
-                  <li>&#10022; The <strong>&quot;mood board to bottle&quot; technique</strong> — turn images, textures, and emotions into a concrete fragrance formula</li>
+                  <li>&#10022; <strong>The memory method</strong>: turn a feeling or moment into a fragrance</li>
+                  <li>&#10022; <strong>5 creative exercises from Grasse</strong> used by professional perfumers</li>
+                  <li>&#10022; How to <strong>build a personal scent library</strong> as your creative palette</li>
+                  <li>&#10022; The <strong>&quot;mood board to bottle&quot; technique</strong>: from emotion to formula</li>
                 </ul>
               </div>
             </div>
@@ -588,7 +590,7 @@ export default function Home() {
           <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
             <div className="price-old">Normally $97</div>
             <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
-            <div className="price-note">One-time payment. Lifetime access.</div>
+            <div className="price-note">One-time payment. <span className="lifetime-break" />Lifetime access.</div>
             <div style={{ marginTop: 20 }}><CheckoutButton /></div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
               <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
@@ -617,14 +619,14 @@ export default function Home() {
             <div className="bonus-card mega">
               <div className="bonus-header"><div className="bonus-label">Mega Bonus</div><div className="bonus-value">$79 value</div></div>
               <h3>The Dupe Lab: Recreate 10 Iconic Perfumes at Home</h3>
-              <div className="bonus-desc">The exact formulas to recreate the world&apos;s most popular fragrances — for under $10 a bottle.</div>
+              <div className="bonus-desc">The exact formulas to recreate the world&apos;s most popular fragrances for under $10 a bottle.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/megabonus.jpg" alt="The Dupe Lab" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>5 iconic women&apos;s fragrances</strong> — step-by-step formulas inspired by Baccarat Rouge 540, Miss Dior, Chanel No. 5, YSL Libre, and more</li>
-                  <li>&#10022; <strong>5 iconic men&apos;s fragrances</strong> — recreate the scent profiles behind Dior Sauvage, Bleu de Chanel, Tom Ford Oud Wood, Acqua di Gio, and more</li>
-                  <li>&#10022; <strong>Full ingredient lists and cost breakdowns</strong> for each formula — see exactly how a $150+ bottle becomes a $5-10 DIY project</li>
-                  <li>&#10022; How to <strong>tweak each recipe to make it your own</strong> — adjust longevity, sweetness, or intensity so it&apos;s not just a copy, it&apos;s <em>yours</em></li>
+                  <li>&#10022; <strong>5 iconic women&apos;s fragrances</strong> inspired by Baccarat Rouge 540, Miss Dior, Chanel No. 5, and more</li>
+                  <li>&#10022; <strong>5 iconic men&apos;s fragrances</strong> inspired by Dior Sauvage, Bleu de Chanel, Tom Ford Oud Wood, and more</li>
+                  <li>&#10022; <strong>Full ingredient lists and cost breakdowns</strong> for each formula</li>
+                  <li>&#10022; How to <strong>tweak each recipe to make it your own</strong></li>
                 </ul>
               </div>
             </div>
@@ -654,7 +656,7 @@ export default function Home() {
           <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
             <div className="price-old">Normally $97</div>
             <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
-            <div className="price-note">One-time payment. Lifetime access.</div>
+            <div className="price-note">One-time payment. <span className="lifetime-break" />Lifetime access.</div>
             <div style={{ marginTop: 20 }}><CheckoutButton /></div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
               <div style={{ flex: 1, height: 1, background: 'rgba(0,0,0,0.12)' }} />
