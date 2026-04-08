@@ -369,7 +369,7 @@ export default function Home() {
           <section style={{ paddingTop: 56, paddingBottom: 64 }}>
               <p>It started when friends asked me to make them perfumes. Then their friends. Then total strangers. After a while, there weren&apos;t enough hours in the day, so I had to put it in a course.</p>
               <p>And after one of my first students wrote…</p>
-              <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I&apos;ve always wanted to make my own signature scent, and now I wear something <strong>no one else in the world has</strong>.&quot;</p>
+              <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I&apos;ve spent hundreds on perfumes. Nothing has ever felt as good as wearing one <strong>I created myself</strong>.&quot;</p>
               <p>…I knew I had to share this.</p>
               <p><strong>Not just the technique, but the artistry. The sensory experience. The self-expression.</strong></p>
               <p>I put everything I&apos;ve learned into this course. The exact techniques, formulas and secrets from top perfumers. <strong>Everything you need to create your first perfume.</strong></p>
