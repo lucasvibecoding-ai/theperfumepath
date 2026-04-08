@@ -362,18 +362,6 @@ export default function Home() {
             </div>
           </section>
 
-          <div className="bonsai-divider" />
-
-          {/* WHY I'M TEACHING THIS */}
-          <h2 className="bonsai-center" style={{ marginBottom: 0, paddingTop: 64 }}>Why I&apos;m Teaching This Online For The First Time</h2>
-          <section style={{ paddingTop: 56, paddingBottom: 64 }}>
-              <p>It started when friends asked me to make them perfumes. Then their friends. Then total strangers. After a while, there weren&apos;t enough hours in the day, so I had to put it in a course.</p>
-              <p>And after one of my first students wrote…</p>
-              <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I&apos;ve spent hundreds on perfumes. Nothing has ever felt as good as wearing one <strong>I created myself</strong>.&quot;</p>
-              <p>…I knew I had to share this.</p>
-              <p>I put everything I&apos;ve learned into this course. The exact techniques, formulas and secrets from top perfumers. <strong>Everything you need to create your first perfume.</strong></p>
-          </section>
-
           {/* INSTRUCTOR */}
           <section className="instructor">
             <div className="instructor-img">
@@ -403,7 +391,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 1</div>
-              <h3>Introduction to the World of Fragrance</h3>
+              <h3>How Scent Actually Works</h3>
               <div className="module-sub">The science and art behind scent.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module1.jpg" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
@@ -433,7 +421,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 3</div>
-              <h3>Blending Your First Signature Scent</h3>
+              <h3>Make Your First Perfume</h3>
               <div className="module-sub">This is where raw ingredients become YOUR perfume. The moment that hooks you.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module3.jpg" alt="Blending perfume" fill style={{ objectFit: 'cover' }} /></div>
@@ -448,7 +436,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 4</div>
-              <h3>Advanced Layering &amp; Complexity</h3>
+              <h3>Make It Last 8+ Hours</h3>
               <div className="module-sub">The technique that gives perfumes their depth and longevity. Easier than it sounds.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module4.jpg" alt="Layering techniques" fill style={{ objectFit: 'cover' }} /></div>
@@ -463,7 +451,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 5</div>
-              <h3>Curing, Bottling &amp; Sharing Your Creations</h3>
+              <h3>Bottle It Like a Pro</h3>
               <div className="module-sub">The final step that separates amateurs from artisans.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module5.jpg" alt="Bottling perfume" fill style={{ objectFit: 'cover' }} /></div>
