@@ -107,7 +107,7 @@ export default function Home() {
 
         /* CTA */
         .cta-block { text-align: center; padding: 56px 0; }
-        .price-old { font-size: 26px; color: var(--ink-muted); text-decoration: line-through; margin-bottom: 4px; }
+        .price-old { font-size: 34px; color: var(--ink-muted); text-decoration: line-through; margin-bottom: 4px; }
         .price { font-size: 56px; color: var(--green-deep); margin-bottom: 4px; font-weight: 700; }
         .price-note { font-size: 20px; color: var(--ink-muted); margin-bottom: 24px; font-weight: 400; }
         .lifetime-break { display: none; }
@@ -189,7 +189,7 @@ export default function Home() {
           .instructor-text { text-align: left; }
           .course-intro { padding-top: 20px !important; }
           .hero-divider { display: none !important; }
-          .price-old { font-size: 22px !important; }
+          .price-old { font-size: 28px !important; }
           .checkout-box { padding: 24px 16px !important; padding-bottom: 16px !important; }
           .cta-btn { font-size: 1.3rem !important; }
           .ps-note { font-size: 16px !important; margin-bottom: 0 !important; }
@@ -221,7 +221,7 @@ export default function Home() {
           #hero { width: 100% !important; margin-top: 16px; }
           .perfume-pic { width: 100% !important; }
           .now-only { font-size: 36px !important; }
-          .price-old { font-size: 22px !important; }
+          .price-old { font-size: 28px !important; }
           .cta-btn { font-size: 1.3rem !important; }
           .faq-q-text { font-weight: 500 !important; font-size: 18px !important; }
           .faq-q { font-size: 18px !important; }
@@ -369,9 +369,9 @@ export default function Home() {
             </div>
             <div className="instructor-text">
               <h2>My name is Claire Beaumont.</h2>
-              <p>I&apos;ve spent more than 15 years studying fragrance. Not just the chemistry, but the art behind it.</p>
-              <p>I&apos;ve trained with master perfumers in Grasse, France — the birthplace of modern perfumery.</p>
-              <p>Best part about being a perfumer? Watching someone smell something they made themselves for the first time.</p>
+              <p><strong>15+ years in fragrance.</strong> Trained with master perfumers in Grasse, France. Over <strong>200 original formulas</strong> created. Taught <strong>500+ students</strong> in real-life workshops to make their first perfume from scratch.</p>
+              <p>I&apos;ve spent years learning the chemistry, the art, and the shortcuts that make perfume-making accessible to anyone.</p>
+              <p>Best part about being a perfumer? Watching someone smell something they made themselves for the first time. <strong>That never gets old.</strong></p>
             </div>
           </section>
 
@@ -498,8 +498,6 @@ export default function Home() {
               <p className="ps-note">P.S. If the next page doesn&apos;t load... I&apos;m sorry, but the deal has ended!</p>
             </div>
           </section>
-
-          <div className="bonsai-divider" />
 
           {/* GUARANTEE */}
           <section className="guarantee-section">
