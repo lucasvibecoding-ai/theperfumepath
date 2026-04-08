@@ -339,7 +339,6 @@ export default function Home() {
               <p>You&apos;re not trying to identify 47 notes blindfolded. You&apos;re picking from a small set, following a structure, and asking yourself one question: <strong>&quot;Do I like this?&quot;</strong></p>
               <p>That&apos;s it. Your nose is already good enough for that.</p>
               <p>The course gives you the framework. <strong>Your instincts do the rest.</strong></p>
-              <p>And every time you blend, your nose gets sharper without you even trying.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
@@ -371,7 +370,6 @@ export default function Home() {
               <p>And after one of my first students wrote…</p>
               <p style={{ paddingLeft: 16, borderLeft: '3px solid var(--green)', fontStyle: 'italic' }}>&quot;I&apos;ve spent hundreds on perfumes. Nothing has ever felt as good as wearing one <strong>I created myself</strong>.&quot;</p>
               <p>…I knew I had to share this.</p>
-              <p><strong>Not just the technique, but the artistry. The sensory experience. The self-expression.</strong></p>
               <p>I put everything I&apos;ve learned into this course. The exact techniques, formulas and secrets from top perfumers. <strong>Everything you need to create your first perfume.</strong></p>
           </section>
 
@@ -384,8 +382,7 @@ export default function Home() {
               <h2>My name is Claire Beaumont.</h2>
               <p>I&apos;ve spent more than 15 years studying fragrance. Not just the chemistry, but the art behind it.</p>
               <p>I&apos;ve trained with master perfumers in Grasse, France — the birthplace of modern perfumery.</p>
-              <p>What struck me wasn&apos;t only the craft.</p>
-              <p>It was watching people&apos;s faces when they smelled their first creation.</p>
+              <p>Best part about being a perfumer? Watching someone smell something they made themselves for the first time.</p>
             </div>
           </section>
 
