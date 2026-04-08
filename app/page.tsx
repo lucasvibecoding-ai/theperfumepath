@@ -249,7 +249,7 @@ export default function Home() {
                   <br /><br />
                   And then… <strong>you&apos;ll want to create another one.</strong>
                   <br /><br />
-                  Trust me. <strong>Everyone does.</strong>
+                  <strong>Everyone does.</strong>
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -264,7 +264,7 @@ export default function Home() {
                   <br /><br />
                   And then… <strong>you&apos;ll want to create another one.</strong>
                   <br /><br />
-                  Trust me. <strong>Everyone does.</strong>
+                  <strong>Everyone does.</strong>
               </p>
             </div>
           </section>
@@ -311,8 +311,9 @@ export default function Home() {
           <section style={{ padding: '64px 0 24px' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 44 }}>You might be thinking this is impossible.</h2>
             <p>Your own perfume? It sounds like something <strong>only professionals can pull off.</strong></p>
-            <p>Maybe you&apos;ve tried mixing scents before. It didn&apos;t smell the way you imagined, so you closed the bottle and moved on.</p>
-            <p>Maybe you&apos;ve never tried at all, but something about creating your own scent pulls you in. You just don&apos;t know where to start.</p>
+            <p>But what if I told you that <strong>you don&apos;t need lab equipment, expensive ingredients or years of practice.</strong></p>
+            <p>Maybe you&apos;ve tried mixing scents before, or maybe you&apos;ve never tried at all.</p>
+            <p>But something about creating your own scent pulls you in. You just don&apos;t know where to start.</p>
           </section>
 
           <section style={{ padding: '48px 0 32px' }}>
