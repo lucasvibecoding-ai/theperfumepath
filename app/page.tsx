@@ -328,18 +328,18 @@ export default function Home() {
           </div>
 
           <section style={{ padding: '48px 0 64px' }}>
+              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Isn&apos;t perfume-making expensive?&quot;</h2>
+              <p><strong>Your first perfume costs less than a coffee.</strong></p>
+              <p>A starter kit of essential oils is <strong>$15-20</strong>. Carrier oil and bottles cost <strong>under $15.</strong></p>
+              <p>That&apos;s it. No $300 niche ingredients. No professional lab equipment.</p>
+          </section>
+
+          <section style={{ padding: '0 0 64px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;I don&apos;t have a good nose. I&apos;m not a perfumer.&quot;</h2>
               <p>You&apos;re not trying to identify 47 notes blindfolded. You&apos;re picking from a small set, following a structure, and asking yourself one question: <strong>&quot;Do I like this?&quot;</strong></p>
               <p>That&apos;s it. Your nose is already good enough for that.</p>
               <p>The course gives you the framework. <strong>Your instincts do the rest.</strong></p>
               <p>And every time you blend, your nose gets sharper without you even trying.</p>
-          </section>
-
-          <section style={{ padding: '0 0 64px' }}>
-              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Isn&apos;t perfume-making expensive?&quot;</h2>
-              <p><strong>Your first perfume costs less than a coffee.</strong></p>
-              <p>A starter kit of essential oils is <strong>$15-20</strong>. Carrier oil and bottles cost <strong>under $15.</strong></p>
-              <p>That&apos;s it. No $300 niche ingredients. No professional lab equipment.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
