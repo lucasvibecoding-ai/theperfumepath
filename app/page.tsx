@@ -129,8 +129,8 @@ export default function Home() {
         .bonus-header { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
         .bonus-label { font-size: 12px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #E8762B; }
         .bonus-value { font-size: 12px; color: var(--green); font-weight: 700; background: rgba(58,99,71,0.1); padding: 2px 10px; border-radius: 100px; letter-spacing: 0.5px; }
-        .bonus-card h3 { font-size: 30px; color: #E8762B; margin-bottom: 4px; }
-        .module-card h3 { color: #E8762B; }
+        .bonus-card h3 { font-size: 30px; color: var(--ink); margin-bottom: 4px; }
+        .module-card h3 { color: var(--ink); }
         .bonus-desc { font-size: 18px; color: var(--ink-muted); margin-bottom: 14px; }
         .bonus-card ul { list-style: none; padding: 0; }
         .bonus-card li { padding: 6px 0; font-size: 18px; line-height: 1.6; }
@@ -386,7 +386,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 1</div>
-              <h3>Why $200 Perfumes Smell So Good (And How Yours Will Too)</h3>
+              <h3><span style={{ color: '#E8762B' }}>Why $200 Perfumes Smell So Good</span> (And How Yours Will Too)</h3>
               <div className="module-sub">The principles behind every great fragrance, broken down for beginners.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module1_new4.jpg" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
@@ -401,7 +401,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 2</div>
-              <h3>What Ingredients to Buy (And What&apos;s a Waste of Money)</h3>
+              <h3><span style={{ color: '#E8762B' }}>What Ingredients to Buy</span> (And What&apos;s a Waste of Money)</h3>
               <div className="module-sub">Your complete shopping list and workspace setup.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module2_brandnew.png" alt="Perfume ingredients and supplies" fill style={{ objectFit: 'cover' }} /></div>
@@ -416,7 +416,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 3</div>
-              <h3>Your First Perfume: The Method Behind Every $200 Bottle</h3>
+              <h3><span style={{ color: '#E8762B' }}>Your First Perfume:</span> The Method Behind Every $200 Bottle</h3>
               <div className="module-sub">This is where raw ingredients become YOUR perfume. The moment that hooks you.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module3_fresh.png" alt="Blending perfume" fill style={{ objectFit: 'cover' }} /></div>
@@ -431,7 +431,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 4</div>
-              <h3>The 8-Hour Scent: How To Make Your Perfume Last</h3>
+              <h3><span style={{ color: '#E8762B' }}>The 8-Hour Scent:</span> How To Make Your Perfume Last</h3>
               <div className="module-sub">The technique that gives perfumes their depth and longevity. Easier than it sounds.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module4_fresh.png" alt="Layering techniques" fill style={{ objectFit: 'cover' }} /></div>
@@ -446,7 +446,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 5</div>
-              <h3>18 Iconic Scent Profiles: From James Bond to Unicorn Farts</h3>
+              <h3><span style={{ color: '#E8762B' }}>18 Iconic Scent Profiles:</span> From James Bond to Unicorn Farts</h3>
               <div className="module-sub">Perfume recipes inspired by iconic characters, personalities, and vibes.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module5_newnew.jpg" alt="18 Iconic Scent Profiles" fill style={{ objectFit: 'cover' }} /></div>
@@ -510,7 +510,7 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 1</div><div className="bonus-value">$47 value</div></div>
-              <h3>Bottle, Label, Gift: Make It Look Boutique</h3>
+              <h3><span style={{ color: '#E8762B' }}>Bottle, Label, Gift:</span> Make It Look Boutique</h3>
               <div className="bonus-desc">The final step that separates amateurs from artisans.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/module5_fresh.png" alt="Bottling perfume" fill style={{ objectFit: 'cover' }} /></div>
@@ -525,7 +525,7 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 2</div><div className="bonus-value">$37 value</div></div>
-              <h3>The Blend Perfector</h3>
+              <h3>The <span style={{ color: '#E8762B' }}>Blend</span> Perfector</h3>
               <div className="bonus-desc">Fine-tune any scent until it&apos;s exactly right.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus2_fresh.jpg" alt="The Blend Perfector" fill style={{ objectFit: 'cover' }} /></div>
@@ -540,7 +540,7 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 3</div><div className="bonus-value">$27 value</div></div>
-              <h3>Your Scent DNA Profile</h3>
+              <h3>Your <span style={{ color: '#E8762B' }}>Scent DNA</span> Profile</h3>
               <div className="bonus-desc">Discover your scent personality and build a fragrance that&apos;s unmistakably yours.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus3_newnew.png" alt="Your Scent DNA Profile" fill style={{ objectFit: 'cover' }} /></div>
@@ -593,7 +593,7 @@ export default function Home() {
 
             <div className="bonus-card mega">
               <div className="bonus-header"><div className="bonus-label">Mega Bonus</div><div className="bonus-value">$79 value</div></div>
-              <h3>The Dupe Lab: Recreate 10 Iconic Perfumes at Home</h3>
+              <h3><span style={{ color: '#E8762B' }}>The Dupe Lab:</span> Recreate 10 Iconic Perfumes at Home</h3>
               <div className="bonus-desc">The exact formulas to recreate the world&apos;s most popular fragrances for under $10 a bottle.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/megabonus.jpg" alt="The Dupe Lab" fill style={{ objectFit: 'cover' }} /></div>
