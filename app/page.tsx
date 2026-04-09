@@ -95,7 +95,7 @@ export default function Home() {
         /* Module cards */
         .modules-grid { display: flex; flex-direction: column; gap: 16px; }
         .module-card { background: var(--card); border-radius: 12px; padding: 28px; margin-bottom: 16px; border: 1px solid var(--sand); }
-        .module-label { font-size: 12px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+        .module-label { font-size: 12px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #E8762B; margin-bottom: 6px; }
         .module-sub { font-size: 18px; color: var(--ink); margin-bottom: 14px; }
         .module-body { display: flex; gap: 28px; align-items: flex-start; }
         .module-card ul { list-style: none; padding: 0; flex: 1; }
@@ -127,10 +127,10 @@ export default function Home() {
         .bonus-img { width: 280px; min-width: 280px; height: 260px; border-radius: 8px; background: linear-gradient(135deg, var(--bg-warm), var(--sand)); display: flex; align-items: center; justify-content: center; font-size: 28px; border: 1px solid var(--sand); overflow: hidden; position: relative; }
         .bonus-card ul { flex: 1; }
         .bonus-header { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
-        .bonus-label { font-size: 12px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); }
+        .bonus-label { font-size: 12px; font-weight: 800; letter-spacing: 2.5px; text-transform: uppercase; color: #E8762B; }
         .bonus-value { font-size: 12px; color: var(--green); font-weight: 700; background: rgba(58,99,71,0.1); padding: 2px 10px; border-radius: 100px; letter-spacing: 0.5px; }
-        .bonus-card h3 { font-size: 30px; color: var(--gold); margin-bottom: 4px; }
-        .module-card h3 { color: var(--gold); }
+        .bonus-card h3 { font-size: 30px; color: #E8762B; margin-bottom: 4px; }
+        .module-card h3 { color: #E8762B; }
         .bonus-desc { font-size: 18px; color: var(--ink-muted); margin-bottom: 14px; }
         .bonus-card ul { list-style: none; padding: 0; }
         .bonus-card li { padding: 6px 0; font-size: 18px; line-height: 1.6; }
@@ -237,7 +237,7 @@ export default function Home() {
           {/* HERO */}
           <section style={{ paddingTop: 64, paddingBottom: 48, textAlign: 'center' }}>
             <p className="no-exp" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--ink-muted)' }}>Even if you&apos;re a complete beginner</p>
-            <h1>Create Your Own <span style={{ backgroundImage: 'linear-gradient(135deg, #b08d3a, #d4b35c, #b08d3a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', color: 'transparent', filter: 'drop-shadow(0 0 8px rgba(212,179,92,0.4))' }}>Signature Perfume</span> at Home in a Single Weekend</h1>
+            <h1>Create Your Own <span style={{ color: '#E8762B', filter: 'drop-shadow(0 0 4px rgba(232,118,43,0.2))' }}>Signature Perfume</span> at Home in a Single Weekend</h1>
             <p className="hero-sub" style={{ color: 'var(--ink-muted)', marginTop: 8, fontStyle: 'italic' }}>That smells just as good as a $150 bottle and lasts just as long.</p>
 
             <div className="split hero-split" style={{ paddingTop: 28, paddingBottom: 0 }}>
@@ -248,8 +248,6 @@ export default function Home() {
                   On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even at <strong>the gym</strong>.
                   <br /><br />
                   And then… <strong>you&apos;ll want to create another one.</strong>
-                  <br /><br />
-                  <strong>Everyone does.</strong>
                 </p>
               </div>
               <div style={{ flex: '1 1 50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -263,8 +261,6 @@ export default function Home() {
                   On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even at <strong>the gym</strong>.
                   <br /><br />
                   And then… <strong>you&apos;ll want to create another one.</strong>
-                  <br /><br />
-                  <strong>Everyone does.</strong>
               </p>
             </div>
           </section>
@@ -278,15 +274,15 @@ export default function Home() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16, fontSize: 'clamp(1.125rem, 2vw, 1.25rem)', lineHeight: 1.75 }}>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                  <span style={{ color: '#C0392B', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <span style={{ color: '#D4621A', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#C0392B' }}>wear a scent that feels completely yours.</strong>
+                    <strong style={{ color: '#D4621A' }}>wear a scent that feels completely yours.</strong> And have the best smelling hobby in the world.
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                  <span style={{ color: '#1A8F7D', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <span style={{ color: '#D4621A', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#1A8F7D' }}>make your home, car, or office smell exactly how you want.</strong> Not &quot;close enough.&quot; Exactly.
+                    <strong style={{ color: '#D4621A' }}>make your home, car, or office smell exactly how you want.</strong> Not &quot;close enough.&quot; Exactly.
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
@@ -296,9 +292,9 @@ export default function Home() {
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
-                  <span style={{ color: '#7B2D8E', marginTop: 4, flexShrink: 0 }}>→</span>
+                  <span style={{ color: '#D4621A', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#7B2D8E' }}>have the best smelling hobby in the world.</strong> Creative, calming, and without any screens. (Plus, it makes one hell of a gift 🎁)
+                    <strong style={{ color: '#D4621A' }}>give it to someone you love</strong> and watch their face when they realize you made it yourself.
                   </p>
                 </div>
               </div>
@@ -325,35 +321,35 @@ export default function Home() {
           </div>
 
           <section style={{ padding: '48px 0 64px' }}>
-              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Isn&apos;t perfume-making expensive?&quot;</h2>
+              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Isn&apos;t <span style={{ color: '#E8762B' }}>perfume-making</span> expensive?&quot;</h2>
               <p><strong>Your first perfume costs less than a coffee.</strong></p>
               <p>A starter kit of essential oils is <strong>$15-20</strong>. Carrier oil and bottles cost <strong>under $15.</strong></p>
               <p>That&apos;s it. No $300 niche ingredients. No professional lab equipment.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
-              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;I don&apos;t have a good nose. I&apos;m not a perfumer.&quot;</h2>
+              <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;I don&apos;t have a good nose. I&apos;m not a <span style={{ color: '#E8762B' }}>perfumer</span>.&quot;</h2>
               <p>You&apos;re not trying to identify 47 notes blindfolded. You&apos;re picking from a small set, following a structure, and asking yourself one question: <strong>&quot;Do I like this?&quot;</strong></p>
               <p>That&apos;s it. Your nose is already good enough for that.</p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Will it smell as good as store-bought? Will it last on my skin?&quot;</h2>
-              <p><strong>Yes — and you&apos;ll understand exactly why.</strong></p>
+              <p><strong>Yes, and you&apos;ll understand exactly why.</strong></p>
               <p>Store-bought perfumes aren&apos;t magic. They follow the same principles you&apos;ll learn in this course: <strong>balance, layering, and concentration.</strong></p>
               <p>The difference between a scent that fades in 20 minutes and one that lasts 8 hours comes down to three things: base notes, ratios, and curing time.</p>
           </section>
 
           {/* ANYONE CAN LEARN */}
           <section style={{ padding: '48px 0' }}>
-            <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can make perfume.</h2>
+            <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can make <span style={{ color: '#E8762B' }}>perfume</span>.</h2>
             <div style={{ maxWidth: 640, margin: '0 auto', fontSize: 20 }}>
-              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you&apos;ve never blended anything before.</span> A simple step-by-step method that works with any ingredients, any skill level.</p>
-              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you think perfume-making is too hard.</span> It&apos;s not. You just never had the right method.</p>
+              <p><span style={{ color: '#D4621A', fontWeight: 700 }}>&rarr; Even if you&apos;ve never blended anything before.</span> A simple step-by-step method that works with any ingredients, any skill level.</p>
+              <p><span style={{ color: '#D4621A', fontWeight: 700 }}>&rarr; Even if you think perfume-making is too hard.</span> It&apos;s not. You just never had the right method.</p>
 
-              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if perfectionism usually stops you.</span> The best scents come from experimenting, not overthinking.</p>
+              <p><span style={{ color: '#D4621A', fontWeight: 700 }}>&rarr; Even if perfectionism usually stops you.</span> The best scents come from experimenting, not overthinking.</p>
 
-              <p><span style={{ color: 'var(--gold)', fontWeight: 700 }}>&rarr; Even if you don&apos;t think of yourself as &quot;creative.&quot;</span> A few oils, a dropper, and 20 minutes. That&apos;s it.</p>
+              <p><span style={{ color: '#D4621A', fontWeight: 700 }}>&rarr; Even if you don&apos;t think of yourself as &quot;creative.&quot;</span> A few oils, a dropper, and 20 minutes. That&apos;s it.</p>
             </div>
           </section>
 
@@ -472,7 +468,7 @@ export default function Home() {
             </div>
             <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
               <div className="price-old">Normally $97</div>
-              <p id="get-access" className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
+              <p id="get-access" className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: '#E8762B' }}>$47</span></p>
               <div className="price-note">One-time payment. <span className="lifetime-break" />Lifetime access.</div>
               <div style={{ marginTop: 20 }}><CheckoutButton /></div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
@@ -502,8 +498,6 @@ export default function Home() {
             <p style={{ textAlign: 'left', fontSize: 20 }}>If you don&apos;t love it, email hello@clairedoesperfumes.com within 90 days for a full refund. Within 24 hours. <strong>No questions asked.</strong></p>
           </section>
 
-          <div className="bonsai-divider" />
-
           {/* BONUSES */}
           <section style={{ padding: '36px 0' }}>
             <p className="bonsai-center" style={{ color: 'var(--ink-muted)', marginBottom: 8 }}>But wait, there&apos;s more</p>
@@ -511,7 +505,7 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 1</div><div className="bonus-value">$47 value</div></div>
-              <h3>Bottle, Label, Gift: Make It Look Like It Came From a Boutique</h3>
+              <h3>Bottle, Label, Gift: Make It Look Boutique</h3>
               <div className="bonus-desc">The final step that separates amateurs from artisans.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/module5_fresh.png" alt="Bottling perfume" fill style={{ objectFit: 'cover' }} /></div>
@@ -567,7 +561,7 @@ export default function Home() {
 
           <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
             <div className="price-old">Normally $97</div>
-            <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
+            <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: '#E8762B' }}>$47</span></p>
             <div className="price-note">One-time payment. <span className="lifetime-break" />Lifetime access.</div>
             <div style={{ marginTop: 20 }}><CheckoutButton /></div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
@@ -587,10 +581,8 @@ export default function Home() {
             <p className="ps-note">P.S. If the next page doesn&apos;t load... I&apos;m sorry, but the deal has ended!</p>
           </div>
 
-          <div className="bonsai-divider" />
-
           {/* MEGA BONUS */}
-          <section style={{ padding: '192px 0 64px' }}>
+          <section style={{ padding: '64px 0 64px' }}>
             <p className="bonsai-center" style={{ color: 'var(--ink-muted)', marginBottom: 8 }}>One last thing...</p>
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Order today and you also get:</h2>
 
@@ -633,7 +625,7 @@ export default function Home() {
 
           <div className="checkout-box" style={{ maxWidth: 520, margin: '0 auto', padding: '40px 44px', borderRadius: 14, border: '2px solid rgba(58,99,71,0.25)', background: '#ffffff', boxShadow: '0 4px 24px rgba(0,0,0,0.06)', textAlign: 'center' }}>
             <div className="price-old">Normally $97</div>
-            <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: 'var(--gold)' }}>$47</span></p>
+            <p className="now-only" style={{ fontSize: 44, color: 'var(--ink)', fontWeight: 700, marginBottom: 8 }}>Now Only <span style={{ color: '#E8762B' }}>$47</span></p>
             <div className="price-note">One-time payment. <span className="lifetime-break" />Lifetime access.</div>
             <div style={{ marginTop: 20 }}><CheckoutButton /></div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 20 }}>
