@@ -388,7 +388,7 @@ export default function CheckoutClient() {
               <span className="item-price">$47.00</span>
             </div>
             <div className="line-item">
-              <span className="item-name">The Signature Scent Blueprint</span>
+              <span className="item-name">Your Scent DNA Profile</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">

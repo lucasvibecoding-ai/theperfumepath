@@ -391,8 +391,8 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 1</div>
-              <h3>How Scent Actually Works</h3>
-              <div className="module-sub">The science and art behind scent.</div>
+              <h3>Why $200 Perfumes Smell So Good (And How Yours Will Too)</h3>
+              <div className="module-sub">The principles behind every great fragrance, broken down for beginners.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module1.jpg" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
@@ -406,8 +406,8 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 2</div>
-              <h3>Ingredients &amp; Supplies</h3>
-              <div className="module-sub">Choose Your First Ingredients, Get the Right Tools &amp; Set Up Your Workspace</div>
+              <h3>What Ingredients to Buy (And What&apos;s a Waste of Money)</h3>
+              <div className="module-sub">Your complete shopping list and workspace setup.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module2.jpg" alt="Perfume ingredients and supplies" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
@@ -436,7 +436,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 4</div>
-              <h3>Make It Last 8+ Hours</h3>
+              <h3>Make Your Perfume Last 8+ Hours</h3>
               <div className="module-sub">The technique that gives perfumes their depth and longevity. Easier than it sounds.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module4.jpg" alt="Layering techniques" fill style={{ objectFit: 'cover' }} /></div>
@@ -545,7 +545,7 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 3</div><div className="bonus-value">$27 value</div></div>
-              <h3>The Signature Scent Blueprint</h3>
+              <h3>Your Scent DNA Profile</h3>
               <div className="bonus-desc">Discover your scent personality and build a fragrance that&apos;s unmistakably yours.</div>
               <div className="bonus-body">
                 <div className="bonus-img"><Image src="/bonus3-new-.jpg" alt="The Signature Scent Blueprint" fill style={{ objectFit: 'cover' }} /></div>
@@ -565,7 +565,7 @@ export default function Home() {
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
             <div className="stack-row"><span className="label">&#10003; 8 Iconic Scent Profiles</span><span className="val">$47</span></div>
             <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
-            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$27</span></div>
+            <div className="stack-row"><span className="label">&#10003; Your Scent DNA Profile</span><span className="val">$27</span></div>
             <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$250</span></div>
           </section>
 
@@ -630,7 +630,7 @@ export default function Home() {
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
             <div className="stack-row"><span className="label">&#10003; 8 Iconic Scent Profiles</span><span className="val">$47</span></div>
             <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
-            <div className="stack-row"><span className="label">&#10003; The Signature Scent Blueprint</span><span className="val">$27</span></div>
+            <div className="stack-row"><span className="label">&#10003; Your Scent DNA Profile</span><span className="val">$27</span></div>
             <div className="stack-row"><span className="label">&#10003; The Dupe Lab: 10 Iconic Perfume Formulas</span><span className="val">$79</span></div>
             <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$329</span></div>
           </section>
