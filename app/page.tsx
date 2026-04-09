@@ -388,7 +388,7 @@ export default function Home() {
               <h3>Why $200 Perfumes Smell So Good (And How Yours Will Too)</h3>
               <div className="module-sub">The principles behind every great fragrance, broken down for beginners.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module1_fresh2.png" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/bonus3_fresh.png" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
                   <li>&#10022; What makes a <strong>$200 perfume smell expensive</strong> and how to replicate it</li>
                   <li>&#10022; The <strong>fragrance pyramid</strong>: the structure behind every great scent</li>
@@ -403,7 +403,7 @@ export default function Home() {
               <h3>What Ingredients to Buy (And What&apos;s a Waste of Money)</h3>
               <div className="module-sub">Your complete shopping list and workspace setup.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module2_fresh.png" alt="Perfume ingredients and supplies" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module2_brandnew.png" alt="Perfume ingredients and supplies" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
                   <li>&#10022; The <strong>$30 shopping list</strong> that replaces a $300 collection</li>
                   <li>&#10022; The <strong>5 essential oils every beginner should have</strong></li>
@@ -544,7 +544,7 @@ export default function Home() {
               <h3>Your Scent DNA Profile</h3>
               <div className="bonus-desc">Discover your scent personality and build a fragrance that&apos;s unmistakably yours.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus3_fresh.png" alt="Your Scent DNA Profile" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/bonus3_newnew.png" alt="Your Scent DNA Profile" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
                   <li>&#10022; <strong>The scent personality quiz</strong> to find your 3 ideal fragrance families</li>
                   <li>&#10022; How to <strong>build your &quot;scent DNA&quot; profile</strong> from everyday smells</li>
