@@ -120,6 +120,7 @@ export default function CheckoutClient() {
           display: flex;
           justify-content: space-between;
           align-items: center;
+          gap: 16px;
           margin-bottom: 16px;
         }
 
@@ -388,7 +389,7 @@ export default function CheckoutClient() {
               <span className="item-price">$47.00</span>
             </div>
             <div className="line-item">
-              <span className="item-name">Your Scent DNA Profile</span>
+              <span className="item-name">Bottle, Label, Gift</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
@@ -396,7 +397,7 @@ export default function CheckoutClient() {
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
-              <span className="item-name">Bottle, Label, Gift</span>
+              <span className="item-name">Your Scent DNA Profile</span>
               <span className="item-price">FREE</span>
             </div>
             <div className="line-item">
