@@ -280,7 +280,7 @@ export default function Home() {
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
                   <span style={{ color: '#C0392B', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#C0392B' }}>wear a scent that feels completely yours.</strong> Have people stop to ask what you&apos;re wearing (only to hear you made it yourself)
+                    <strong style={{ color: '#C0392B' }}>wear a scent that feels completely yours.</strong>
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
@@ -292,7 +292,7 @@ export default function Home() {
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
                   <span style={{ color: '#D4621A', marginTop: 4, flexShrink: 0 }}>→</span>
                   <p style={{ margin: 0 }}>
-                    <strong style={{ color: '#D4621A' }}>actually understand what makes a fragrance smell good.</strong> No more guessing. Just confidently combining scents that work together.
+                    <strong style={{ color: '#D4621A' }}>know what makes a $200 bottle smell expensive</strong> and replicate it for under $3.
                   </p>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: 16 }}>
@@ -310,8 +310,6 @@ export default function Home() {
             <h2 className="bonsai-center" style={{ marginBottom: 44 }}>You might be thinking this is impossible.</h2>
             <p>Your own perfume? It sounds like something <strong>only professionals can pull off.</strong></p>
             <p>But what if I told you that <strong>you don&apos;t need lab equipment, expensive ingredients or years of practice.</strong></p>
-            <p>Maybe you&apos;ve tried mixing scents before, or maybe you&apos;ve never tried at all.</p>
-            <p>But something about creating your own scent pulls you in. You just don&apos;t know where to start.</p>
           </section>
 
           <section style={{ padding: '48px 0 32px' }}>
@@ -337,14 +335,13 @@ export default function Home() {
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;I don&apos;t have a good nose. I&apos;m not a perfumer.&quot;</h2>
               <p>You&apos;re not trying to identify 47 notes blindfolded. You&apos;re picking from a small set, following a structure, and asking yourself one question: <strong>&quot;Do I like this?&quot;</strong></p>
               <p>That&apos;s it. Your nose is already good enough for that.</p>
-              <p>The course gives you the framework. <strong>Your instincts do the rest.</strong></p>
           </section>
 
           <section style={{ padding: '0 0 64px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Will it smell as good as store-bought? Will it last on my skin?&quot;</h2>
               <p><strong>Yes — and you&apos;ll understand exactly why.</strong></p>
               <p>Store-bought perfumes aren&apos;t magic. They follow the same principles you&apos;ll learn in this course: <strong>balance, layering, and concentration.</strong></p>
-              <p>The difference between a scent that fades in 20 minutes and one that lasts 8 hours comes down to a few simple choices: base note selection, oil-to-alcohol ratio, and curing time.</p>
+              <p>The difference between a scent that fades in 20 minutes and one that lasts 8 hours comes down to three things: base notes, ratios, and curing time.</p>
           </section>
 
           {/* ANYONE CAN LEARN */}
@@ -367,8 +364,7 @@ export default function Home() {
             </div>
             <div className="instructor-text">
               <h2>My name is Claire Beaumont.</h2>
-              <p><strong>15+ years in fragrance.</strong> Trained with master perfumers in Grasse, France. Over <strong>200 original formulas</strong> created. Taught <strong>500+ students</strong> in real-life workshops to make their first perfume from scratch.</p>
-              <p>I&apos;ve spent years learning the chemistry, the art, and the shortcuts that make perfume-making accessible to anyone.</p>
+              <p><strong>15+ years in fragrance.</strong> Trained with master perfumers in Grasse, France.<br /><br />Over <strong>200 original formulas</strong> created. Taught <strong>500+ students</strong> in real-life workshops to make their first perfume from scratch.</p>
               <p>Best part about being a perfumer? Watching someone smell something they made themselves for the first time. <strong>That never gets old.</strong></p>
             </div>
           </section>
