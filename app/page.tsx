@@ -325,7 +325,7 @@ export default function Home() {
             <Image className="perfume-pic" src="/perfume_pic.jpg" alt="Perfume crafting" width={1024} height={1024} style={{ width: '60%', height: 'auto', borderRadius: 12, border: '1px solid var(--sand)', display: 'block', margin: '0 auto' }} />
           </div>
 
-          <section style={{ padding: '48px 0 64px' }}>
+          <section style={{ padding: '48px 0 64px', marginTop: 32 }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Isn&apos;t <span style={{ color: '#E8762B' }}>perfume-making</span> expensive?&quot;</h2>
               <p><strong>Your first perfume costs less than a coffee.</strong></p>
               <p>A starter kit of essential oils is <strong>$15-20</strong>. Carrier oil and bottles cost <strong>under $15.</strong></p>
