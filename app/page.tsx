@@ -245,7 +245,7 @@ export default function Home() {
                 <p style={{ marginBottom: 0, textAlign: 'left' }}>
                   Once you create your own scent, <strong>you&apos;ll use it everywhere.</strong>
                   <br /><br />
-                  On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even in <strong>the bathroom</strong>.
+                  On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even at <strong>the gym</strong>.
                   <br /><br />
                   And then… <strong>you&apos;ll want to create another one.</strong>
                   <br /><br />
@@ -260,7 +260,7 @@ export default function Home() {
               <p style={{ marginBottom: 0 }}>
                   Once you create your own scent, <strong>you&apos;ll use it everywhere.</strong>
                   <br /><br />
-                  On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even in <strong>the bathroom</strong>.
+                  On a <strong>date night</strong>. Around the house. In <strong>your car</strong>. Even at <strong>the gym</strong>.
                   <br /><br />
                   And then… <strong>you&apos;ll want to create another one.</strong>
                   <br /><br />
