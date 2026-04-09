@@ -449,14 +449,14 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 5</div>
-              <h3>8 Iconic Scent Profiles</h3>
-              <div className="module-sub">Perfume recipes inspired by the most iconic characters and personalities.</div>
+              <h3>18 Iconic Scent Profiles: From James Bond to Unicorn Farts</h3>
+              <div className="module-sub">Perfume recipes inspired by iconic characters, personalities, and vibes.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/bonus1_fresh.jpg" alt="8 Iconic Scent Profiles" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module5_newnew.jpg" alt="18 Iconic Scent Profiles" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
                   <li>&#10022; <strong>8 character-inspired formulas</strong>: James Bond, Barbie, Cleopatra, Gatsby, Wednesday Addams, Tony Montana, Catwoman, and Batman</li>
-                  <li>&#10022; <strong>Full recipes with ingredient lists</strong> for each scent profile</li>
-                  <li>&#10022; Match any <strong>character&apos;s vibe</strong> to a real wearable scent</li>
+                  <li>&#10022; <strong>10 fun &amp; creative recipes</strong>: Unicorn Farts, Low Battery, Sugar Daddy, Old Money, Pillow Talk, Late Night Drive, Do Not Disturb, Stolen Kiss, Whiskey &amp; Wildflowers, and Heaven</li>
+                  <li>&#10022; <strong>Full recipes with ingredient lists</strong> for every scent</li>
                   <li>&#10022; <strong>Tweak any formula</strong> to make it your own version</li>
                 </ul>
               </div>
