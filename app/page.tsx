@@ -305,8 +305,6 @@ export default function Home() {
             </div>
           </section>
 
-          <div className="bonsai-divider hero-divider" />
-
           {/* THE MOMENT IT CLICKS */}
           <section style={{ padding: '64px 0 24px' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 44 }}>You might be thinking this is impossible.</h2>
