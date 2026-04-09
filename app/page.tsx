@@ -411,7 +411,7 @@ export default function Home() {
               <div className="module-body">
                 <div className="module-img"><Image src="/module2_fresh.png" alt="Perfume ingredients and supplies" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; The <strong>exact supplies you need</strong> and what&apos;s a waste of money</li>
+                  <li>&#10022; The <strong>$30 shopping list</strong> that replaces a $300 collection</li>
                   <li>&#10022; The <strong>5 essential oils every beginner should have</strong></li>
                   <li>&#10022; The <strong>drop-by-drop method</strong> that prevents ruining a batch</li>
                   <li>&#10022; <strong>Natural vs synthetic</strong>, the decision that determines everything</li>
@@ -421,7 +421,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 3</div>
-              <h3>Make Your First Perfume</h3>
+              <h3>Your First Perfume: The Method Behind Every $200 Bottle</h3>
               <div className="module-sub">This is where raw ingredients become YOUR perfume. The moment that hooks you.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module3_fresh.png" alt="Blending perfume" fill style={{ objectFit: 'cover' }} /></div>
@@ -436,7 +436,7 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 4</div>
-              <h3>Make Your Perfume Last 8+ Hours</h3>
+              <h3>The 8-Hour Scent: How To Make Your Perfume Last</h3>
               <div className="module-sub">The technique that gives perfumes their depth and longevity. Easier than it sounds.</div>
               <div className="module-body">
                 <div className="module-img"><Image src="/module4_fresh.png" alt="Layering techniques" fill style={{ objectFit: 'cover' }} /></div>
@@ -451,15 +451,15 @@ export default function Home() {
 
             <div className="module-card">
               <div className="module-label">Module 5</div>
-              <h3>Bottle It Like a Pro</h3>
-              <div className="module-sub">The final step that separates amateurs from artisans.</div>
+              <h3>8 Iconic Scent Profiles</h3>
+              <div className="module-sub">Perfume recipes inspired by the most iconic characters and personalities.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/module5_fresh.png" alt="Bottling perfume" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/bonus1_fresh.jpg" alt="8 Iconic Scent Profiles" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; Why <strong>a fresh blend smells nothing like the finished product</strong></li>
-                  <li>&#10022; <strong>Bottling demystified</strong>: preserving your fragrance for months</li>
-                  <li>&#10022; The <strong>signs your blend needs more curing time</strong></li>
-                  <li>&#10022; Choosing the right <strong>bottle and presentation</strong> for a professional finish</li>
+                  <li>&#10022; <strong>8 character-inspired formulas</strong>: James Bond, Barbie, Cleopatra, Gatsby, Wednesday Addams, Tony Montana, Catwoman, and Batman</li>
+                  <li>&#10022; <strong>Full recipes with ingredient lists</strong> for each scent profile</li>
+                  <li>&#10022; Match any <strong>character&apos;s vibe</strong> to a real wearable scent</li>
+                  <li>&#10022; <strong>Tweak any formula</strong> to make it your own version</li>
                 </ul>
               </div>
             </div>
@@ -517,15 +517,15 @@ export default function Home() {
 
             <div className="bonus-card">
               <div className="bonus-header"><div className="bonus-label">Bonus 1</div><div className="bonus-value">$47 value</div></div>
-              <h3>8 Iconic Scent Profiles</h3>
-              <div className="bonus-desc">Perfume recipes inspired by the most iconic characters and personalities.</div>
+              <h3>Bottle, Label, Gift: Make It Look Like It Came From a Boutique</h3>
+              <div className="bonus-desc">The final step that separates amateurs from artisans.</div>
               <div className="bonus-body">
-                <div className="bonus-img"><Image src="/bonus1_fresh.jpg" alt="8 Iconic Scent Profiles" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="bonus-img"><Image src="/module5_fresh.png" alt="Bottling perfume" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
-                  <li>&#10022; <strong>8 character-inspired formulas</strong>: James Bond, Barbie, Cleopatra, Gatsby, Wednesday Addams, Tony Montana, Catwoman, and Batman</li>
-                  <li>&#10022; <strong>Full recipes with ingredient lists</strong> for each scent profile</li>
-                  <li>&#10022; Match any <strong>character&apos;s vibe</strong> to a real wearable scent</li>
-                  <li>&#10022; <strong>Tweak any formula</strong> to make it your own version</li>
+                  <li>&#10022; Why <strong>a fresh blend smells nothing like the finished product</strong></li>
+                  <li>&#10022; <strong>Bottling demystified</strong>: preserving your fragrance for months</li>
+                  <li>&#10022; The <strong>signs your blend needs more curing time</strong></li>
+                  <li>&#10022; Choosing the right <strong>bottle and presentation</strong> for a professional finish</li>
                 </ul>
               </div>
             </div>
@@ -565,7 +565,7 @@ export default function Home() {
           <section style={{ padding: '36px 0' }} id="pricing">
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; 8 Iconic Scent Profiles</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; Bottle, Label, Gift</span><span className="val">$47</span></div>
             <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
             <div className="stack-row"><span className="label">&#10003; Your Scent DNA Profile</span><span className="val">$27</span></div>
             <div className="stack-row" style={{ borderBottom: 'none' }}><span className="label" style={{ fontWeight: 700, color: 'var(--ink)' }}>Total Value</span><span className="val" style={{ fontSize: 16 }}>$250</span></div>
@@ -630,7 +630,7 @@ export default function Home() {
           <section style={{ padding: '36px 0' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 18 }}>Here&apos;s everything you get:</h2>
             <div className="stack-row stack-total"><span className="label">&#10003; 5 Core Modules</span><span className="val">$139</span></div>
-            <div className="stack-row"><span className="label">&#10003; 8 Iconic Scent Profiles</span><span className="val">$47</span></div>
+            <div className="stack-row"><span className="label">&#10003; Bottle, Label, Gift</span><span className="val">$47</span></div>
             <div className="stack-row"><span className="label">&#10003; The Blend Perfector</span><span className="val">$37</span></div>
             <div className="stack-row"><span className="label">&#10003; Your Scent DNA Profile</span><span className="val">$27</span></div>
             <div className="stack-row"><span className="label">&#10003; The Dupe Lab: 10 Iconic Perfume Formulas</span><span className="val">$79</span></div>
