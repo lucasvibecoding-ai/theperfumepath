@@ -389,7 +389,7 @@ export default function Home() {
               <h3>Why $200 Perfumes Smell So Good (And How Yours Will Too)</h3>
               <div className="module-sub">The principles behind every great fragrance, broken down for beginners.</div>
               <div className="module-body">
-                <div className="module-img"><Image src="/bonus3_fresh.png" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
+                <div className="module-img"><Image src="/module1_new4.jpg" alt="Fragrance fundamentals" fill style={{ objectFit: 'cover' }} /></div>
                 <ul>
                   <li>&#10022; What makes a <strong>$200 perfume smell expensive</strong> and how to replicate it</li>
                   <li>&#10022; The <strong>fragrance pyramid</strong>: the structure behind every great scent</li>
