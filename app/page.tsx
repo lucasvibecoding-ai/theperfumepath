@@ -220,6 +220,11 @@ export default function Home() {
           .payment-method-btn { font-size: 13px; padding: 10px 12px; }
           #hero { width: 100% !important; margin-top: 16px; }
           .perfume-pic { width: 100% !important; }
+          .anyone-section { padding-top: 0px !important; }
+          .store-bought-section { padding-bottom: 40px !important; }
+          .impossible-section { padding-top: 24px !important; }
+          .whats-inside { font-size: 32px !important; }
+          .module-card h3, .bonus-card h3 { font-size: 24px !important; }
           .now-only { font-size: 36px !important; }
           .price-old { font-size: 28px !important; }
           .cta-btn { font-size: 1.3rem !important; }
@@ -302,7 +307,7 @@ export default function Home() {
           </section>
 
           {/* THE MOMENT IT CLICKS */}
-          <section style={{ padding: '64px 0 24px' }}>
+          <section className="impossible-section" style={{ padding: '64px 0 24px' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 44 }}>You might be thinking this is impossible.</h2>
             <p>Your own perfume? It sounds like something <strong>only professionals can pull off.</strong></p>
             <p>But what if I told you that <strong>you don&apos;t need lab equipment, expensive ingredients or years of practice.</strong></p>
@@ -333,7 +338,7 @@ export default function Home() {
               <p>That&apos;s it. Your nose is already good enough for that.</p>
           </section>
 
-          <section style={{ padding: '0 0 64px' }}>
+          <section className="store-bought-section" style={{ padding: '0 0 64px' }}>
               <h2 style={{ marginBottom: 44, textAlign: 'center' }}>&quot;Will it smell as good as store-bought? Will it last on my skin?&quot;</h2>
               <p><strong>Yes, and you&apos;ll understand exactly why.</strong></p>
               <p>Store-bought perfumes aren&apos;t magic. They follow the same principles you&apos;ll learn in this course: <strong>balance, layering, and concentration.</strong></p>
@@ -341,7 +346,7 @@ export default function Home() {
           </section>
 
           {/* ANYONE CAN LEARN */}
-          <section style={{ padding: '48px 0' }}>
+          <section className="anyone-section" style={{ padding: '48px 0' }}>
             <h2 className="bonsai-center" style={{ marginBottom: 64 }}>Anyone can make <span style={{ color: '#E8762B' }}>perfume</span>.</h2>
             <div style={{ maxWidth: 640, margin: '0 auto', fontSize: 20 }}>
               <p><span style={{ color: '#D4621A', fontWeight: 700 }}>&rarr; Even if you&apos;ve never blended anything before.</span> A simple step-by-step method that works with any ingredients, any skill level.</p>
@@ -377,7 +382,7 @@ export default function Home() {
               <Image className="hereswhatyouget-desktop" src="/hereiswhatyouget.jpg" alt="Here's what you get" width={800} height={400} sizes="700px" style={{ width: '100%', maxWidth: 700, height: 'auto', margin: '0 auto 24px' }} />
               <Image className="hereswhatyouget-mobile" src="/hereiswhatyouget_mobile.jpg" alt="Here's what you get" width={400} height={400} sizes="400px" style={{ width: '100%', maxWidth: 400, height: 'auto', margin: '0 auto 24px' }} />
             </div>
-            <h2 className="bonsai-center" style={{ marginTop: 86, marginBottom: 24 }}>&#10022; What&apos;s Inside &#10022;</h2>
+            <h2 className="bonsai-center whats-inside" style={{ marginTop: 86, marginBottom: 24 }}>&#10022; What&apos;s Inside &#10022;</h2>
 
             <div className="module-card">
               <div className="module-label">Module 1</div>
