@@ -16,6 +16,10 @@ const faqs = [
     a: "Yes. Module 2 walks you through exactly which oils to start with based on the scent profiles you're drawn to. It also includes a shopping guide with specific links so you know exactly where to buy everything and what to avoid.",
   },
   {
+    q: 'What ingredients do I need for my first perfume?',
+    a: "Everything you need costs under $30. A basic starter kit includes: 5-7 essential oils (lavender, vanilla, bergamot, sandalwood, cedarwood, ylang ylang, and lemon), a carrier oil like jojoba, small glass bottles, and a dropper. Module 2 covers exactly what to buy and where.",
+  },
+  {
     q: 'Can I make perfume in a small apartment with no special setup?',
     a: "Yes. All you need is a table, good ventilation (an open window works), and the ingredients. No lab, no special room, no expensive equipment. Most of our students blend at their kitchen table or desk.",
   },
